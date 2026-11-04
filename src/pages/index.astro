@@ -62,7 +62,7 @@ const featured = site.featuredPublications.map((f) => ({ ...byId(f.id), art: f.a
     </div>
   </section>
 
-  <section class="section cards" aria-label="Students, teaching, and personal life">
+  <section class="section cards" aria-label="Students and teaching">
     <div class="card" id="students">
       <h2>Students</h2>
       <ul>
@@ -78,9 +78,17 @@ const featured = site.featuredPublications.map((f) => ({ ...byId(f.id), art: f.a
         {site.teaching.map((c) => <li>{c.title} <span class="meta">{c.code}</span></li>)}
       </ul>
     </div>
-    <div class="card" id="personal">
-      <h2>Personal life</h2>
-      <p>{site.personal}</p>
+  </section>
+
+  <section class="section personal" id="personal" aria-labelledby="personal-h">
+    <div class="personal-text">
+      <h2 id="personal-h">Personal life</h2>
+      {site.personal.map((para) => <p>{para}</p>)}
     </div>
+    <ul class="cat-gallery" aria-label="Photos of Teemo and Melon">
+      {site.cats.map((cat) => (
+        <li><figure><img src={cat.src} alt={cat.alt} width={cat.w} height={cat.h} loading="lazy" decoding="async" /><figcaption>{cat.caption}</figcaption></figure></li>
+      ))}
+    </ul>
   </section>
 </Base>

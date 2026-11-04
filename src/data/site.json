@@ -37,24 +37,124 @@
     }
   ],
   "featuredPublications": [
-    { "id": "C49", "art": "game-chat-risk" },
-    { "id": "C42", "art": "anonymous-signup" },
-    { "id": "C47", "art": "llm-privacy-settings" },
-    { "id": "J36", "art": "forum-thread" },
-    { "id": "C48", "art": "baby-monitor" },
-    { "id": "J38", "art": "live-stream-slots" }
+    {
+      "id": "C49",
+      "art": "game-chat-risk"
+    },
+    {
+      "id": "C42",
+      "art": "anonymous-signup"
+    },
+    {
+      "id": "C47",
+      "art": "llm-privacy-settings"
+    },
+    {
+      "id": "J36",
+      "art": "forum-thread"
+    },
+    {
+      "id": "C48",
+      "art": "baby-monitor"
+    },
+    {
+      "id": "J38",
+      "art": "live-stream-slots"
+    }
   ],
   "students": [
-    { "name": "Qiurong Song", "status": "Ph.D. candidate", "url": "https://qiurongsong.github.io/" },
-    { "name": "Rie Helene (Lindy) Hernandez", "status": "Ph.D. candidate", "url": "https://www.lindyhernandez.com/" },
-    { "name": "Yunhan Liu", "status": "Ph.D. candidate", "url": "https://yunhan-liu.yzl6421.workers.dev/" },
-    { "name": "Yue You", "status": "Ph.D. 2024", "url": "" }
+    {
+      "name": "Qiurong Song",
+      "status": "Ph.D. candidate",
+      "url": "https://qiurongsong.github.io/"
+    },
+    {
+      "name": "Rie Helene (Lindy) Hernandez",
+      "status": "Ph.D. candidate",
+      "url": "https://www.lindyhernandez.com/"
+    },
+    {
+      "name": "Yunhan Liu",
+      "status": "Ph.D. candidate",
+      "url": "https://yunhan-liu.yzl6421.workers.dev/"
+    },
+    {
+      "name": "Yue You",
+      "status": "Ph.D. 2024",
+      "url": ""
+    }
   ],
   "teaching": [
-    { "title": "Methods for Studying Users", "code": "HCDD 364W" },
-    { "title": "User Experience Evaluation", "code": "IST 597" },
-    { "title": "Foundations of Human-Centered Design", "code": "IST 331" }
+    {
+      "title": "Methods for Studying Users",
+      "code": "HCDD 364W"
+    },
+    {
+      "title": "User Experience Evaluation",
+      "code": "IST 597"
+    },
+    {
+      "title": "Foundations of Human-Centered Design",
+      "code": "IST 331"
+    }
   ],
-  "personal": "I studied Chinese literature at Peking University (B.A.) and Beijing Normal University (M.A.), where my master’s research focused on the reproductive rights of intellectual women in Yan’an (1937–1947). That interest carried into my current work on the privacy, security, and safety of health technologies. I earned my Ph.D. in Information and Computer Science at UC Irvine. Outside work, I read detective and mystery novels, bake, craft, and hike, and I live with my cat, Melon. In loving memory of Teemo, who passed away in 2025.",
-  "lastUpdated": "November 2026"
+  "personal": [
+    "It has been quite a journey for me to become an HCI researcher. I have loved reading novels and poetry ever since I was a child, which motivated me to pursue an undergraduate degree in literature at Peking University. There, I received training in a variety of social sciences and humanities-related methods (e.g., ethnography) and theories, which have greatly benefited my current HCI research.",
+    "Later, I discovered my passion for understanding the reproductive rights of intellectual women during the Yan’an period (1937–1947) in China—a time when these rights were undermined and restricted in service to prevailing ideologies and revolution. This passion further motivated me to pursue a master’s degree under the supervision of Dr. Lianfen Yang at Beijing Normal University to explore this topic in depth. My longstanding interest in reproductive rights and privacy has ultimately led to one of my current research interests: privacy, security, and safety of health technologies.",
+    "After earning my master’s degree in literature, I wondered how I could apply my knowledge to real-world issues. That’s when I was introduced to HCI and decided to pursue a PhD in the field. I especially appreciate the openness and interdisciplinary nature of the HCI field.",
+    "In my spare time, I remain an avid reader. I have been especially drawn to detective and mystery novels. My favorite authors in this genre are Agatha Christie and Keigo Higashino. I also love baking—my favorite cake base to make and eat is chiffon cake, and my favorite sweet roll to bake is anpan. I enjoy making birthday cakes for my family, and I have recently started watching The Great British Bake Off, which I’m enjoying very much! Additionally, I love crafting, hiking, and much more!",
+    "Most importantly, I am a cat lover 🙂 My two cats, Teemo and Melon, were both adopted from the Irvine Animal Care Center. They bring me joy and peace. In loving memory of Teemo, who passed away in 2025."
+  ],
+  "lastUpdated": "November 2026",
+  "cats": [
+    {
+      "src": "/images/cats/teemo-and-melon.jpg",
+      "w": 750,
+      "h": 1000,
+      "alt": "Teemo resting on the top of a cat tree by a window, with Melon curled up in the hammock below",
+      "caption": "Teemo (top) and Melon"
+    },
+    {
+      "src": "/images/cats/melon-2.jpg",
+      "w": 1000,
+      "h": 667,
+      "alt": "Melon, a brown tabby and white cat with green eyes, lying on colorful blankets",
+      "caption": "Melon"
+    },
+    {
+      "src": "/images/cats/teemo-2.jpg",
+      "w": 1000,
+      "h": 668,
+      "alt": "Teemo, a long-haired cat with blue eyes, sitting in a cat bed",
+      "caption": "Teemo"
+    },
+    {
+      "src": "/images/cats/melon-1.jpg",
+      "w": 1000,
+      "h": 667,
+      "alt": "Melon looking up under a decorated Christmas tree",
+      "caption": "Melon"
+    },
+    {
+      "src": "/images/cats/teemo-1.jpg",
+      "w": 960,
+      "h": 640,
+      "alt": "Close-up of Teemo looking up",
+      "caption": "Teemo"
+    },
+    {
+      "src": "/images/cats/melon-3.jpg",
+      "w": 1000,
+      "h": 667,
+      "alt": "Melon resting its chin on the edge of a cardboard scratcher",
+      "caption": "Melon"
+    },
+    {
+      "src": "/images/cats/teemo-3.jpg",
+      "w": 750,
+      "h": 1000,
+      "alt": "Teemo lying on a fluffy white rug under a Christmas tree",
+      "caption": "Teemo"
+    }
+  ]
 }

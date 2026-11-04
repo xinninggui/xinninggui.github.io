@@ -101,3 +101,20 @@
 .walker-say { position: absolute; left: calc(100% + 14px); bottom: 26px; white-space: nowrap; font-family: "Shippori Mincho", Georgia, serif; font-style: italic; font-size: 16px; color: var(--soft); background: rgba(233, 228, 218, 0.85); padding: 2px 6px; border-radius: 3px; }
 @media (max-width: 720px) { .walker-say { font-size: 14px; bottom: 18px; left: calc(100% + 8px); } }
 .paw-note:not(.show) { position: fixed; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; padding: 0; border: 0; }
+
+/* Keyboard easter egg: Melon types */
+.melon-type { position: fixed; left: 50%; bottom: 18px; z-index: 40; display: flex; align-items: flex-end; gap: 14px; pointer-events: none; opacity: 0; transform: translate(-50%, 40px); transition: opacity .35s, transform .35s; }
+.melon-type.show { opacity: 1; transform: translate(-50%, 0); }
+.melon-type svg { width: 150px; height: auto; flex: none; }
+.mt-text { margin: 0 0 28px; padding: 8px 14px; background: #F4F0E8; border: 1px solid var(--line); border-radius: 4px; box-shadow: 0 8px 24px rgba(52, 49, 44, 0.10); font-family: "Libre Franklin", sans-serif; font-size: 17px; letter-spacing: 0.04em; color: var(--ink); white-space: nowrap; min-width: 9ch; }
+.mt-chars::after { content: "▍"; margin-left: 1px; color: var(--soft); animation: mt-caret .8s steps(1) infinite; }
+.melon-type.done .mt-chars::after { content: ""; }
+.mt-sign { margin-left: 10px; font-family: "Shippori Mincho", Georgia, serif; font-style: italic; font-size: 15px; color: var(--soft); opacity: 0; transition: opacity .4s; }
+.melon-type.done .mt-sign { opacity: 1; }
+.mt-paw { transform-box: fill-box; transform-origin: 50% 0; }
+.melon-type.show:not(.done) .mt-paw-a { animation: mt-tap .28s ease-in-out infinite alternate; }
+.melon-type.show:not(.done) .mt-paw-b { animation: mt-tap .28s ease-in-out .14s infinite alternate; }
+@keyframes mt-tap { from { transform: translateY(-3px); } to { transform: translateY(1px); } }
+@keyframes mt-caret { 50% { opacity: 0; } }
+@media (max-width: 720px) { .melon-type { gap: 8px; } .melon-type svg { width: 110px; } .mt-text { font-size: 15px; margin-bottom: 20px; } }
+@media (prefers-reduced-motion: reduce) { .melon-type { transition: none; } .mt-chars::after { animation: none; } }

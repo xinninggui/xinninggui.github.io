@@ -211,50 +211,61 @@
     }
   ],
   "service": {
-    "organizing": [
-      [
-        "Posters Co-Chair",
-        "CSCW 2026"
-      ],
-      [
-        "Late-Breaking Work Co-Chair",
-        "CHI 2025"
-      ],
-      [
-        "Posters Co-Chair",
-        "GROUP 2025"
-      ],
-      [
-        "Program Committee Co-Chair, Human Factors Track",
-        "IEEE ICHI 2024"
-      ],
-      [
-        "Publications Co-Chair",
-        "DIS 2023"
-      ],
-      [
-        "Senior Program Committee",
-        "CSCW 2026"
-      ],
-      [
-        "Associate Chair",
-        "CHI and CSCW (regularly)"
-      ]
-    ],
-    "editorial": [
-      [
-        "Associate Editor",
-        "Proceedings of the ACM on Human-Computer Interaction (CSCW)"
-      ],
-      [
-        "Associate Editor",
-        "Journal of Healthcare Informatics Research"
-      ],
-      [
-        "Guest Editor (past)",
-        "IEEE Transactions on Computational Social Systems"
-      ]
-    ],
-    "review": "Proposal reviewer and panelist for the National Science Foundation, the Austrian Science Fund, Mitacs, and CHANSE."
+    "groups": [
+      {
+        "title": "Conference roles",
+        "items": [
+          [
+            "CSCW 2026",
+            "Posters Co-Chair"
+          ],
+          [
+            "CSCW 2026",
+            "Senior Program Committee"
+          ],
+          [
+            "CHI 2025",
+            "Late-Breaking Work Co-Chair"
+          ],
+          [
+            "GROUP 2025",
+            "Posters Co-Chair"
+          ],
+          [
+            "ICHI 2024",
+            "Program Committee Co-Chair, Human Factors Track"
+          ],
+          [
+            "DIS 2023",
+            "Publications Co-Chair"
+          ],
+          [
+            "DIS 2023",
+            "Workshop organizer: Designing for and Reflecting upon Resilience in Health and Wellbeing"
+          ],
+          [
+            "CHI 2019",
+            "Workshop co-organizer: Unpacking the Infrastructuring Work of Patients and Caregivers around the World"
+          ]
+        ]
+      },
+      {
+        "title": "Editorial",
+        "items": [
+          [
+            "2026–present",
+            "Associate Editor, Proceedings of the ACM on Human-Computer Interaction (CSCW, Mixed Methods Track)"
+          ],
+          [
+            "2024–present",
+            "Associate Editor, Journal of Healthcare Informatics Research"
+          ],
+          [
+            "2022",
+            "Guest Editor, IEEE Transactions on Computational Social Systems (Special Issue)"
+          ]
+        ]
+      }
+    ]
   }
 }

@@ -133,9 +133,11 @@ const home = current === "home" ? "" : "/";
             p.style.bottom = (step % 2 ? 2 : 10) + "px";
             walk.appendChild(p); step++;
           }, 260);
+          // The note leaves with the cat; only the paw prints linger and fade.
+          setTimeout(() => note.classList.remove("show"), Math.max(0, ms - 300));
           anim.onfinish = () => {
             clearInterval(timer); walker.style.display = "none";
-            setTimeout(() => { note.classList.remove("show"); walk.querySelectorAll("span").forEach((p) => p.remove()); walking = false; }, 2400);
+            setTimeout(() => { walk.querySelectorAll("span").forEach((p) => p.remove()); walking = false; }, 2400);
           };
         };
         // Watch the section heading, not the whole section: on phones the section is taller than

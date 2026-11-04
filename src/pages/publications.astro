@@ -1,16 +1,13 @@
 ---
 import Base from "../layouts/Base.astro";
 import { allPublications, doiUrl, isFullPaper, typeLabels } from "../lib/pubs";
-import site from "../data/site.json";
 
 const years = [...new Set(allPublications.map((p) => p.year))].sort((a, b) => b - a);
-const fullCount = allPublications.filter(isFullPaper).length;
 ---
 
 <Base title="Publications" current="publications" description="Publications by Xinning Gui: journal articles, conference papers, posters, and workshop papers.">
   <div class="page-head">
     <h1>Publications</h1>
-    <p>{fullCount} journal articles and conference papers, plus posters and workshop papers. CSCW and CHI PLAY papers appear in Proceedings of the ACM on Human-Computer Interaction and are listed as journal articles. Also on <a class="text-link" href={site.links.scholar}>Google Scholar</a>.</p>
   </div>
 
   <form class="filters" id="filters" role="search" aria-label="Filter publications">

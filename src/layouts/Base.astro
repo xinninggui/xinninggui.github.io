@@ -16,7 +16,7 @@ interface Props {
 const { title, description = site.description, current = "home" } = Astro.props;
 const pageTitle = title ? `${title} — ${site.name}` : `${site.name} · Penn State`;
 const canonical = new URL(Astro.url.pathname, Astro.site).href;
-const home = current === "home" ? "" : "/";
+const home = Astro.url.pathname === "/" ? "" : "/";
 ---
 
 <!doctype html>

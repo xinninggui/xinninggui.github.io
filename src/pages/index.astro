@@ -27,6 +27,7 @@ const featured = site.featuredPublications.map((f) => ({ ...byId(f.id), art: f.a
   <section class="hero" aria-labelledby="name">
     <div class="hero-copy">
       <h1 id="name">Xinning<br />Gui</h1>
+      <p class="fields">{site.fields.join(" · ")}</p>
       <p class="summary">{site.summary}</p>
       <ul class="roles">{site.roles.map((role) => <li>{role}</li>)}</ul>
     </div>

@@ -225,3 +225,4 @@ html:not(.js) .chips { display: none; }
 .switch input:checked + .track::after { transform: translateX(18px); }
 .switch input:focus-visible + .track { outline: 3px solid var(--focus); outline-offset: 2px; }
 @media (prefers-reduced-motion: reduce) { .switch .track, .switch .track::after { transition: none; } }
+.hero .fields { margin: -6px 0 0; font-size: 15px; font-weight: 500; letter-spacing: 0.03em; color: var(--muted); }

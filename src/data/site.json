@@ -1,6 +1,12 @@
 {
   "name": "Xinning Gui",
   "summary": "I study how people navigate opaque, high-stakes platforms and data ecosystems that shape their health, privacy, and safety.",
+  "fields": [
+    "HCI",
+    "CSCW",
+    "Health informatics",
+    "Usable privacy and security"
+  ],
   "roles": [
     "Assistant Professor, College of Information Sciences and Technology, Penn State",
     "Co-director, Health and Play Lab"

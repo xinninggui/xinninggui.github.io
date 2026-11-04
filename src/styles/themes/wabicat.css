@@ -12,7 +12,7 @@
   .site-footer::after { right: 20px; top: 20px; width: 64px; height: 60px; }
   .site-footer > div { padding-right: 70px; }
 }
-.hero .roles li { text-wrap: balance; }
+.hero .roles li { text-wrap: pretty; }
 
 /* Cat photos as a small photo book: prints mounted on washi, staggered columns, vertical captions */
 .personal { gap: 64px; }

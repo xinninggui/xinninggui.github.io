@@ -21,7 +21,8 @@ export const byId = (id: string) => {
   return found;
 };
 
-export const doiUrl = (p: Publication) => (p.doi ? `https://doi.org/${p.doi}` : null);
+/** DOI link when there is one, otherwise the publisher or proceedings page. */
+export const doiUrl = (p: Publication) => (p.doi ? `https://doi.org/${p.doi}` : p.url ?? null);
 
 /** Short author list for cards: family names only. */
 export const surnames = (p: Publication) =>

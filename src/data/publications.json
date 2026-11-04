@@ -19,6 +19,7 @@
   "venue": "Proceedings of the ACM on Human-Computer Interaction",
   "details": "10, 7. Accepted July 2026",
   "doi": "10.1145/3831281",
+  "url": null,
   "award": null
  },
  {
@@ -36,6 +37,7 @@
   "venue": "Proceedings of the ACM on Human-Computer Interaction",
   "details": "10, 7. Accepted July 2026",
   "doi": "10.1145/3831286",
+  "url": null,
   "award": null
  },
  {
@@ -58,6 +60,7 @@
   "venue": "Proceedings of the ACM on Human-Computer Interaction",
   "details": "(CSCW 2026), 34 pages",
   "doi": "10.1145/3788059",
+  "url": null,
   "award": null
  },
  {
@@ -79,6 +82,7 @@
   "venue": "Computer Supported Cooperative Work",
   "details": "35, 1, Article 1 (35 pages)",
   "doi": "10.1007/s10606-026-09536-6",
+  "url": null,
   "award": null
  },
  {
@@ -101,6 +105,7 @@
   "venue": "Proceedings of the 2026 ACM SIGSAC Conference on Computer and Communications Security (CCS 2026)",
   "details": "Accepted",
   "doi": "10.1145/3830454.3846726",
+  "url": null,
   "award": null
  },
  {
@@ -123,6 +128,7 @@
   "venue": "Proceedings of the 2026 CHI Conference on Human Factors in Computing Systems (CHI 2026)",
   "details": "Barcelona, Spain (16 pages)",
   "doi": "10.1145/3772318.3791462",
+  "url": null,
   "award": null
  },
  {
@@ -142,6 +148,7 @@
   "venue": "Proceedings of the 2026 CHI Conference on Human Factors in Computing Systems (CHI 2026)",
   "details": "Barcelona, Spain (26 pages)",
   "doi": "10.1145/3772318.3791054",
+  "url": null,
   "award": null
  },
  {
@@ -162,6 +169,7 @@
   "venue": "Proceedings of the 2026 CHI Conference on Human Factors in Computing Systems (CHI 2026)",
   "details": "Barcelona, Spain (27 pages)",
   "doi": "10.1145/3772318.3791692",
+  "url": null,
   "award": null
  },
  {
@@ -183,6 +191,7 @@
   "venue": "Proceedings of the 2026 CHI Conference on Human Factors in Computing Systems (CHI 2026)",
   "details": "Barcelona, Spain (22 pages)",
   "doi": "10.1145/3772318.3790781",
+  "url": null,
   "award": null
  },
  {
@@ -210,6 +219,7 @@
   "venue": "Proceedings of the 2026 CHI Conference on Human Factors in Computing Systems (CHI 2026)",
   "details": "Barcelona, Spain (21 pages)",
   "doi": "10.1145/3772318.3791090",
+  "url": null,
   "award": null
  },
  {
@@ -231,6 +241,7 @@
   "venue": "Proceedings of the 35th USENIX Security Symposium (USENIX Security 2026)",
   "details": "Baltimore, MD, USA (20 pages)",
   "doi": null,
+  "url": "https://www.usenix.org/conference/usenixsecurity26/presentation/song-qiurong",
   "award": null
  },
  {
@@ -254,6 +265,7 @@
   "venue": "Proceedings of the 2026 IEEE Symposium on Security and Privacy (S&P 2026)",
   "details": "San Francisco, CA, USA, 3627–3636",
   "doi": "10.1109/SP63933.2026.00023",
+  "url": null,
   "award": null
  },
  {
@@ -274,6 +286,7 @@
   "venue": "Companion of the 2026 ACM Conference on Computer-Supported Cooperative Work and Social Computing (CSCW Companion ’26)",
   "details": "Salt Lake City, UT, USA, 10 pp. Accepted June 2026",
   "doi": "10.1145/3785651.3831509",
+  "url": null,
   "award": null
  },
  {
@@ -294,6 +307,7 @@
   "venue": "Undergraduate Research at the Capitol—Pennsylvania Poster Conference (URC-PA)",
   "details": "Harrisburg, PA, USA",
   "doi": null,
+  "url": null,
   "award": null
  },
  {
@@ -312,6 +326,7 @@
   "venue": "Proceedings of the ACM on Human-Computer Interaction",
   "details": "9, 6, Article GAMES031, 889–921. (CHI PLAY 2025)",
   "doi": "10.1145/3748626",
+  "url": null,
   "award": null
  },
  {
@@ -330,6 +345,7 @@
   "venue": "Proceedings of the ACM on Human-Computer Interaction",
   "details": "9, 6, Article GAMES015, 415–446. (CHI PLAY 2025) Honorable Mention Award",
   "doi": "10.1145/3748610",
+  "url": null,
   "award": "Best Paper Honorable Mention"
  },
  {
@@ -348,6 +364,7 @@
   "venue": "Proceedings of the ACM on Human-Computer Interaction",
   "details": "9, 6, Article GAMES021, 606–636. (CHI PLAY 2025)",
   "doi": "10.1145/3748616",
+  "url": null,
   "award": null
  },
  {
@@ -366,6 +383,7 @@
   "venue": "International Journal of Human–Computer Studies",
   "details": "203 (2025), 103555 (16 pages)",
   "doi": "10.1016/j.ijhcs.2025.103555",
+  "url": null,
   "award": null
  },
  {
@@ -384,6 +402,7 @@
   "venue": "Computer Supported Cooperative Work",
   "details": "34, 587–638",
   "doi": "10.1007/s10606-025-09519-z",
+  "url": null,
   "award": null
  },
  {
@@ -406,6 +425,7 @@
   "venue": "Proceedings of the Twenty-First Symposium on Usable Privacy and Security (SOUPS 2025)",
   "details": "Seattle, WA, USA, 515–534",
   "doi": null,
+  "url": "https://www.usenix.org/conference/soups2025/presentation/song",
   "award": null
  },
  {
@@ -430,6 +450,7 @@
   "venue": "Proceedings of the ACM SIGCHI Conference on Designing Interactive Systems (DIS 2025)",
   "details": "Funchal, Madeira, Portugal, 2847–2866",
   "doi": "10.1145/3715336.3735746",
+  "url": null,
   "award": null
  },
  {
@@ -449,6 +470,7 @@
   "venue": "Proceedings of the 24th ACM Interaction Design and Children Conference (IDC 2025)",
   "details": "Reykjavík, Iceland, 296–313",
   "doi": "10.1145/3713043.3728858",
+  "url": null,
   "award": null
  },
  {
@@ -472,6 +494,7 @@
   "venue": "Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (CHI 2025)",
   "details": "Yokohama, Japan, Article No. 240, 1–24",
   "doi": "10.1145/3706598.3713783",
+  "url": null,
   "award": null
  },
  {
@@ -490,6 +513,7 @@
   "venue": "Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (CHI 2025)",
   "details": "Yokohama, Japan, Article No. 376, 1–20",
   "doi": "10.1145/3706598.3713453",
+  "url": null,
   "award": null
  },
  {
@@ -509,6 +533,7 @@
   "venue": "Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (CHI 2025)",
   "details": "Yokohama, Japan, Article No. 471, 1–18. Honorable Mention Award",
   "doi": "10.1145/3706598.3713170",
+  "url": null,
   "award": "Best Paper Honorable Mention"
  },
  {
@@ -528,6 +553,7 @@
   "venue": "Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (CHI 2025)",
   "details": "Yokohama, Japan, Article No. 1041, 1–26",
   "doi": "10.1145/3706598.3713422",
+  "url": null,
   "award": null
  },
  {
@@ -545,6 +571,7 @@
   "venue": "Workshop “Extended Reality and Children: Risks, Opportunities, and Ethics” at the ACM Interaction Design and Children Conference (IDC 2025)",
   "details": "Reykjavík, Iceland",
   "doi": null,
+  "url": "https://jphourcade.com/workshops/idc25_xr_and_children/position_papers/XRChildren25_paper_3.pdf",
   "award": null
  },
  {
@@ -563,6 +590,7 @@
   "venue": "Proceedings of the ACM on Human-Computer Interaction",
   "details": "8, CHI PLAY, 1–31. (CHI PLAY 2024) Honorable Mention Award",
   "doi": "10.1145/3677076",
+  "url": null,
   "award": "Best Paper Honorable Mention"
  },
  {
@@ -583,6 +611,7 @@
   "venue": "Proceedings of the ACM on Human-Computer Interaction",
   "details": "(CSCW 2024), 8, CSCW1, 1–35",
   "doi": "10.1145/3641000",
+  "url": null,
   "award": null
  },
  {
@@ -601,6 +630,7 @@
   "venue": "Proceedings of the Twentieth Symposium on Usable Privacy and Security (SOUPS 2024)",
   "details": "Philadelphia, PA, USA, 315–332",
   "doi": null,
+  "url": "https://www.usenix.org/conference/soups2024/presentation/wu",
   "award": null
  },
  {
@@ -619,6 +649,7 @@
   "venue": "Proceedings of the ACM SIGCHI Conference on Designing Interactive Systems (DIS 2024)",
   "details": "Copenhagen, Denmark, 1842–1856",
   "doi": "10.1145/3643834.3660678",
+  "url": null,
   "award": null
  },
  {
@@ -637,6 +668,7 @@
   "venue": "Proceedings of the ACM SIGCHI Conference on Designing Interactive Systems (DIS 2024)",
   "details": "Copenhagen, Denmark, 1518–1532",
   "doi": "10.1145/3643834.3661565",
+  "url": null,
   "award": null
  },
  {
@@ -658,6 +690,7 @@
   "venue": "Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (CHI 2024)",
   "details": "Honolulu, HI, USA, Article No. 816, 1–21",
   "doi": "10.1145/3613904.3642384",
+  "url": null,
   "award": null
  },
  {
@@ -679,6 +712,7 @@
   "venue": "Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (CHI 2024)",
   "details": "Honolulu, HI, USA, Article No. 382, 1–20",
   "doi": "10.1145/3613904.3642151",
+  "url": null,
   "award": null
  },
  {
@@ -696,6 +730,7 @@
   "venue": "Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (CHI 2024)",
   "details": "Honolulu, HI, USA, Article No. 357, 1–17",
   "doi": "10.1145/3613904.3642768",
+  "url": null,
   "award": null
  },
  {
@@ -715,6 +750,7 @@
   "venue": "Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (CHI 2024)",
   "details": "Honolulu, HI, USA, Article No. 192, 1–18",
   "doi": "10.1145/3613904.3642675",
+  "url": null,
   "award": null
  },
  {
@@ -735,6 +771,7 @@
   "venue": "Workshop at the ACM CHI Conference on Human Factors in Computing Systems (CHI 2024)",
   "details": "Honolulu, HI, USA",
   "doi": null,
+  "url": null,
   "award": null
  },
  {
@@ -756,6 +793,7 @@
   "venue": "Workshop on Privacy Enhancing Technologies (PETS 2024 Workshop)",
   "details": "remotely",
   "doi": null,
+  "url": null,
   "award": null
  },
  {
@@ -773,6 +811,7 @@
   "venue": "Workshop “Novel Approaches for Understanding and Mitigating Emerging New Harms in Immersive and Embodied Virtual Spaces” at the ACM CHI Conference on Human Factors in Computing Systems (CHI 2024)",
   "details": "Honolulu, HI, USA",
   "doi": null,
+  "url": null,
   "award": null
  },
  {
@@ -795,6 +834,7 @@
   "venue": "ACM Transactions on Computer-Human Interaction",
   "details": "30, 4, 1–44",
   "doi": "10.1145/3589959",
+  "url": null,
   "award": null
  },
  {
@@ -802,7 +842,7 @@
   "type": "journal",
   "year": 2023,
   "short": "CSCW 2023",
-  "title": "How Users Experience Moderation?: A Systematic Literature Review",
+  "title": "How Do Users Experience Moderation?: A Systematic Literature Review",
   "authors": [
    "Renkai Ma",
    "Yue You",
@@ -814,7 +854,8 @@
   ],
   "venue": "Proceedings of the ACM on Human-Computer Interaction",
   "details": "(CSCW 2023), 7, CSCW2, 1–30",
-  "doi": null,
+  "doi": "10.1145/3610069",
+  "url": null,
   "award": null
  },
  {
@@ -833,6 +874,7 @@
   "venue": "Proceedings of the ACM on Human-Computer Interaction",
   "details": "(CSCW 2023), 7, CSCW1, 1–29",
   "doi": "10.1145/3579603",
+  "url": null,
   "award": null
  },
  {
@@ -849,6 +891,7 @@
   "venue": "Proceedings of the ACM SIGCHI Conference on Designing Interactive Systems (DIS 2023)",
   "details": "Pittsburgh, PA, USA, 175–188",
   "doi": "10.1145/3563657.3595960",
+  "url": null,
   "award": null
  },
  {
@@ -870,6 +913,7 @@
   "venue": "Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (CHI 2023)",
   "details": "Hamburg, Germany, Article No. 247, 1–15. Honorable Mention Award",
   "doi": "10.1145/3544548.3581082",
+  "url": null,
   "award": "Best Paper Honorable Mention"
  },
  {
@@ -887,6 +931,7 @@
   "venue": "Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (CHI 2023)",
   "details": "Hamburg, Germany, Article No. 242, 1–19",
   "doi": "10.1145/3544548.3581106",
+  "url": null,
   "award": null
  },
  {
@@ -907,6 +952,7 @@
   "venue": "International Journal of Human-Computer Studies",
   "details": "166 (2022), 102866 (52 pages)",
   "doi": "10.1016/j.ijhcs.2022.102866",
+  "url": null,
   "award": null
  },
  {
@@ -927,6 +973,7 @@
   "venue": "International Journal of Healthcare",
   "details": "8, 1, 36–50",
   "doi": "10.5430/ijh.v8n1p36",
+  "url": null,
   "award": null
  },
  {
@@ -944,6 +991,7 @@
   "venue": "Proceedings of the ACM on Human-Computer Interaction",
   "details": "(CSCW 2022), 6, CSCW2, 1–31",
   "doi": "10.1145/3555104",
+  "url": null,
   "award": null
  },
  {
@@ -961,6 +1009,7 @@
   "venue": "Proceedings of the ACM on Human-Computer Interaction",
   "details": "(CSCW 2022), 6, CSCW2, 1–28",
   "doi": "10.1145/3555541",
+  "url": null,
   "award": null
  },
  {
@@ -977,6 +1026,7 @@
   "venue": "Computer Supported Cooperative Work",
   "details": "31, 1, 79–109",
   "doi": "10.1007/s10606-021-09421-4",
+  "url": null,
   "award": null
  },
  {
@@ -996,6 +1046,7 @@
   "venue": "Proceedings of the American Medical Informatics Association Annual Symposium (AMIA 2022)",
   "details": "Washington, DC, USA, 1198–1207",
   "doi": null,
+  "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10148318/",
   "award": null
  },
  {
@@ -1016,6 +1067,7 @@
   "venue": "Proceedings of the 29th International Conference on Computational Linguistics (COLING 2022)",
   "details": "Gyeongju, Republic of Korea, 3550–3562",
   "doi": null,
+  "url": "https://aclanthology.org/2022.coling-1.313/",
   "award": null
  },
  {
@@ -1035,6 +1087,7 @@
   "venue": "Proceedings of the IEEE International Conference on Bioinformatics and Biomedicine (BIBM 2022)",
   "details": "Las Vegas, NV, USA & Changsha, Hunan, China, 948–953",
   "doi": "10.1109/bibm55620.2022.9995209",
+  "url": null,
   "award": null
  },
  {
@@ -1052,6 +1105,7 @@
   "venue": "Proceedings of the ACM on Human-Computer Interaction",
   "details": "(CSCW 2021), 5, CSCW2, 1–26",
   "doi": "10.1145/3479543",
+  "url": null,
   "award": null
  },
  {
@@ -1070,6 +1124,7 @@
   "venue": "Proceedings of the ACM on Human-Computer Interaction",
   "details": "(CSCW 2021), 5, CSCW2, 1–24",
   "doi": "10.1145/3476062",
+  "url": null,
   "award": null
  },
  {
@@ -1089,6 +1144,7 @@
   "venue": "International Journal of Human-Computer Studies",
   "details": "145 (2021), 102494 (43 pages)",
   "doi": "10.1016/j.ijhcs.2020.102494",
+  "url": null,
   "award": null
  },
  {
@@ -1109,6 +1165,7 @@
   "venue": "Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (CHI 2021)",
   "details": "Yokohama, Japan (virtual), Article No. 207, 1–16",
   "doi": "10.1145/3411764.3445657",
+  "url": null,
   "award": null
  },
  {
@@ -1130,6 +1187,7 @@
   "venue": "Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (CHI 2021)",
   "details": "Yokohama, Japan (virtual), Article No. 152, 1–17",
   "doi": "10.1145/3411764.3445101",
+  "url": null,
   "award": null
  },
  {
@@ -1149,6 +1207,7 @@
   "venue": "Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (CHI 2021)",
   "details": "Yokohama, Japan (virtual), Article No. 535, 1–13",
   "doi": "10.1145/3411764.3445763",
+  "url": null,
   "award": null
  },
  {
@@ -1164,7 +1223,8 @@
   "advisees": [],
   "venue": "Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (CHI 2021)",
   "details": "Yokohama, Japan (virtual), Article No. 437, 1–12",
-  "doi": null,
+  "doi": "10.1145/3411764.3445279",
+  "url": null,
   "award": null
  },
  {
@@ -1181,6 +1241,7 @@
   "venue": "Proceedings of the ACM on Human-Computer Interaction",
   "details": "(CSCW 2020), 4, CSCW2, 1–27",
   "doi": "10.1145/3415173",
+  "url": null,
   "award": null
  },
  {
@@ -1197,6 +1258,7 @@
   "venue": "Proceedings of the ACM on Human-Computer Interaction",
   "details": "(CSCW 2020), 4, CSCW2, 1–25",
   "doi": "10.1145/3415229",
+  "url": null,
   "award": null
  },
  {
@@ -1215,6 +1277,7 @@
   "venue": "Proceedings of the ACM on Human-Computer Interaction",
   "details": "(CSCW 2020), 4, CSCW2, 1–24",
   "doi": "10.1145/3415213",
+  "url": null,
   "award": null
  },
  {
@@ -1235,6 +1298,7 @@
   "venue": "JAMIA Open",
   "details": "3, 1, 53–61",
   "doi": "10.1093/jamiaopen/ooz051",
+  "url": null,
   "award": null
  },
  {
@@ -1253,6 +1317,7 @@
   "venue": "Proceedings of the American Medical Informatics Association Annual Symposium (AMIA 2020)",
   "details": "Virtual event, USA, 1354–1363",
   "doi": null,
+  "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8075525/",
   "award": null
  },
  {
@@ -1272,6 +1337,7 @@
   "venue": "Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (CHI 2020)",
   "details": "Honolulu, HI, USA (virtual), 1–13. Honorable Mention Award",
   "doi": "10.1145/3313831.3376699",
+  "url": null,
   "award": "Best Paper Honorable Mention"
  },
  {
@@ -1290,6 +1356,7 @@
   "venue": "Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (CHI 2020)",
   "details": "Honolulu, HI, USA (virtual), 1–13",
   "doi": "10.1145/3313831.3376594",
+  "url": null,
   "award": null
  },
  {
@@ -1309,6 +1376,7 @@
   "venue": "Proceedings of the ACM on Human-Computer Interaction",
   "details": "(CSCW 2019), 3, CSCW, 1–24",
   "doi": "10.1145/3359170",
+  "url": null,
   "award": null
  },
  {
@@ -1327,6 +1395,7 @@
   "venue": "Proceedings of the ACM on Human-Computer Interaction",
   "details": "(CSCW 2019), 3, CSCW, 1–22",
   "doi": "10.1145/3359166",
+  "url": null,
   "award": null
  },
  {
@@ -1343,6 +1412,7 @@
   "venue": "Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (CHI 2019)",
   "details": "Glasgow, UK, Paper No. 458, 1–14. Honorable Mention Award",
   "doi": "10.1145/3290605.3300688",
+  "url": null,
   "award": "Best Paper Honorable Mention"
  },
  {
@@ -1361,6 +1431,7 @@
   "venue": "Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (CHI 2019)",
   "details": "Glasgow, UK, Paper No. 481, 1–15",
   "doi": "10.1145/3290605.3300711",
+  "url": null,
   "award": null
  },
  {
@@ -1379,6 +1450,7 @@
   "venue": "17th World Congress on Medical and Health Informatics (MEDINFO 2019)",
   "details": "Lyon, France, 1874–1875",
   "doi": "10.3233/shti190691",
+  "url": null,
   "award": null
  },
  {
@@ -1395,7 +1467,8 @@
   "advisees": [],
   "venue": "Proceedings of the ACM on Human-Computer Interaction",
   "details": "(CSCW 2018), 2, CSCW, 1–26",
-  "doi": null,
+  "doi": "10.1145/3274330",
+  "url": null,
   "award": null
  },
  {
@@ -1414,7 +1487,8 @@
   "advisees": [],
   "venue": "Proceedings of the ACM on Human-Computer Interaction",
   "details": "(CSCW 2018), 2, CSCW, 1–21",
-  "doi": null,
+  "doi": "10.1145/3274377",
+  "url": null,
   "award": null
  },
  {
@@ -1434,7 +1508,8 @@
   "advisees": [],
   "venue": "Proceedings of the ACM on Human-Computer Interaction",
   "details": "(CSCW 2018), 2, CSCW, 1–22",
-  "doi": null,
+  "doi": "10.1145/3274385",
+  "url": null,
   "award": null
  },
  {
@@ -1450,7 +1525,8 @@
   "advisees": [],
   "venue": "Proceedings of the ACM on Human-Computer Interaction",
   "details": "(CSCW 2018), 2, CSCW, 1–25. Honorable Mention Award",
-  "doi": null,
+  "doi": "10.1145/3274362",
+  "url": null,
   "award": "Best Paper Honorable Mention"
  },
  {
@@ -1468,7 +1544,8 @@
   "advisees": [],
   "venue": "Proceedings of the EAI International Conference on Pervasive Computing Technologies for Healthcare (PervasiveHealth 2018)",
   "details": "New York, NY, USA, 45–54",
-  "doi": null,
+  "doi": "10.1145/3240925.3240969",
+  "url": null,
   "award": null
  },
  {
@@ -1489,7 +1566,8 @@
   "advisees": [],
   "venue": "Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (CHI 2018)",
   "details": "Montréal, Canada, Paper No. 214, 1–14",
-  "doi": null,
+  "doi": "10.1145/3173574.3173788",
+  "url": null,
   "award": null
  },
  {
@@ -1507,7 +1585,8 @@
   "advisees": [],
   "venue": "Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (CHI 2018)",
   "details": "Montréal, Canada, Paper No. 578, 1–14",
-  "doi": null,
+  "doi": "10.1145/3173574.3174152",
+  "url": null,
   "award": null
  },
  {
@@ -1526,7 +1605,8 @@
   "advisees": [],
   "venue": "Proceedings of the ACM on Human-Computer Interaction",
   "details": "(CSCW 2017), 1, CSCW, 1–19",
-  "doi": null,
+  "doi": "10.1145/3134685",
+  "url": null,
   "award": null
  },
  {
@@ -1544,7 +1624,8 @@
   "advisees": [],
   "venue": "Proceedings of the ACM on Human-Computer Interaction",
   "details": "(CSCW 2017), 1, CSCW, 1–21",
-  "doi": null,
+  "doi": "10.1145/3134696",
+  "url": null,
   "award": null
  },
  {
@@ -1562,7 +1643,8 @@
   "advisees": [],
   "venue": "Proceedings of the ACM on Human-Computer Interaction",
   "details": "(CSCW 2017), 1, CSCW, 1–17",
-  "doi": null,
+  "doi": "10.1145/3134697",
+  "url": null,
   "award": null
  },
  {
@@ -1580,7 +1662,8 @@
   "advisees": [],
   "venue": "Computer Supported Cooperative Work",
   "details": "26(4–6), 807–836",
-  "doi": null,
+  "doi": "10.1007/s10606-017-9284-y",
+  "url": null,
   "award": null
  },
  {
@@ -1602,6 +1685,7 @@
   "venue": "Proceedings of the American Medical Informatics Association Annual Symposium (AMIA 2017)",
   "details": "Washington, DC, USA, 820–829",
   "doi": null,
+  "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5977662/",
   "award": null
  },
  {
@@ -1618,7 +1702,8 @@
   "advisees": [],
   "venue": "Proceedings of the IFIP Conference on Human-Computer Interaction (INTERACT 2017)",
   "details": "Mumbai, India, 136–155",
-  "doi": null,
+  "doi": "10.1007/978-3-319-68059-0_9",
+  "url": null,
   "award": null
  },
  {
@@ -1636,7 +1721,8 @@
   "advisees": [],
   "venue": "Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (CHI 2017)",
   "details": "Denver, CO, USA, 4520–4533. Honorable Mention Award",
-  "doi": null,
+  "doi": "10.1145/3025453.3025891",
+  "url": null,
   "award": "Best Paper Honorable Mention"
  },
  {
@@ -1655,7 +1741,8 @@
   "advisees": [],
   "venue": "Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (CHI 2017)",
   "details": "Denver, CO, USA, 1647–1659",
-  "doi": null,
+  "doi": "10.1145/3025453.3025654",
+  "url": null,
   "award": null
  },
  {
@@ -1672,7 +1759,8 @@
   "advisees": [],
   "venue": "Proceedings of the Hawaii International Conference on System Sciences (HICSS 2017)",
   "details": "Hawaii, USA, 2332–2340",
-  "doi": null,
+  "doi": "10.24251/hicss.2017.282",
+  "url": null,
   "award": null
  },
  {
@@ -1688,7 +1776,8 @@
   "advisees": [],
   "venue": "Proceedings of the Hawaii International Conference on System Sciences (HICSS 2017)",
   "details": "Hawaii, USA, 2056–2064",
-  "doi": null,
+  "doi": "10.24251/hicss.2017.249",
+  "url": null,
   "award": null
  },
  {
@@ -1704,7 +1793,8 @@
   "advisees": [],
   "venue": "ACM Conference on Computer-Supported Cooperative Work and Social Computing (CSCW 2017) Companion",
   "details": "Portland, OR, USA",
-  "doi": null,
+  "doi": "10.1145/3022198.3026312",
+  "url": null,
   "award": null
  },
  {
@@ -1724,6 +1814,7 @@
   "venue": "AMIA Annual Symposium Workshop on Interactive Systems in Healthcare (WISH 2017)",
   "details": "Washington, DC, USA",
   "doi": null,
+  "url": null,
   "award": null
  },
  {
@@ -1738,7 +1829,8 @@
   "advisees": [],
   "venue": "ACM Conference on Computer-Supported Cooperative Work and Social Computing (CSCW 2017) Doctoral Colloquium",
   "details": "Portland, OR, USA",
-  "doi": null,
+  "doi": "10.1145/3022198.3024937",
+  "url": null,
   "award": null
  },
  {
@@ -1756,7 +1848,8 @@
   "advisees": [],
   "venue": "First Monday",
   "details": "21, 9",
-  "doi": null,
+  "doi": "10.5210/fm.v21i9.6813",
+  "url": null,
   "award": null
  },
  {
@@ -1773,7 +1866,8 @@
   "advisees": [],
   "venue": "Proceedings of the Annual Symposium on Computer-Human Interaction in Play (CHI PLAY 2016)",
   "details": "Austin, TX, USA, 4–9",
-  "doi": null,
+  "doi": "10.1145/2967934.2968078",
+  "url": null,
   "award": null
  },
  {
@@ -1789,7 +1883,8 @@
   "advisees": [],
   "venue": "First Monday",
   "details": "20, 8",
-  "doi": null,
+  "doi": "10.5210/fm.v20i8.6121",
+  "url": null,
   "award": null
  },
  {
@@ -1805,7 +1900,8 @@
   "advisees": [],
   "venue": "Proceedings of EnviroInfo 2015 and ICT4S 2015",
   "details": "Copenhagen, Denmark, 361–370",
-  "doi": null,
+  "doi": "10.2991/ict4s-env-15.2015.41",
+  "url": null,
   "award": null
  },
  {
@@ -1822,6 +1918,7 @@
   "venue": "International Conference on Informatics for Environmental Protection (EnviroInfo 2015) / International Conference on Information and Communication Technologies for Sustainability (ICT4S 2015)",
   "details": "Copenhagen, Denmark",
   "doi": null,
+  "url": null,
   "award": null
  },
  {
@@ -1837,7 +1934,8 @@
   "advisees": [],
   "venue": "Proceedings of the Annual Symposium on Computer-Human Interaction in Play (CHI PLAY 2014)",
   "details": "Toronto, Canada, 161–169",
-  "doi": null,
+  "doi": "10.1145/2658537.2658538",
+  "url": null,
   "award": null
  }
 ]

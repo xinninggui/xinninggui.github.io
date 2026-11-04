@@ -11,7 +11,7 @@ Xinning Gui's personal academic website, built with [Astro](https://astro.build)
 | Homepage drawings of the technologies studied | `src/components/Art.astro` |
 | Colors and layout | `src/styles/site.css` |
 
-Each publication has `type` (`journal`, `conference`, `poster`, `workshop`, `doctoral-colloquium`, `magazine`), `short` (venue label such as `CHI 2026`), the full `venue` and `details` as in the CV, an optional `doi`, and `award`. Only journal articles and conference papers count as full papers.
+Each publication has `type` (`journal`, `conference`, `poster`, `workshop`, `doctoral-colloquium`, `magazine`), `short` (venue label such as `CHI 2026`), the full `venue` and `details` as in the CV, an optional `doi` (or `url` for papers without a DOI, such as USENIX or ACL Anthology pages), and `award`. Only journal articles and conference papers count as full papers.
 
 ## Local preview
 

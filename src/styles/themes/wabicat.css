@@ -95,3 +95,5 @@
 .other-projects > h3 { font-family: "Shippori Mincho", Georgia, serif; font-size: 24px; letter-spacing: 0.01em; }
 @media (max-width: 720px) { .walker { width: 80px; height: 54px; } }
 @media (max-width: 400px) { .section-head h2, .personal-text h2 { font-size: 30px; gap: 12px; } .section-head h2::before, .personal-text h2::before { width: 56px; height: 20px; flex: none; } }
+.thread-panel { grid-template-columns: minmax(0, 4fr) minmax(0, 7fr); }
+@media (max-width: 760px) { .thread-panel { grid-template-columns: 1fr; } }

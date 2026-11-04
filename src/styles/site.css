@@ -200,7 +200,6 @@ h1, h2, h3 { margin: 0; }
 .thread-panel h3 { font-weight: 800; font-size: 26px; line-height: 1.2; letter-spacing: -0.015em; margin-bottom: 10px; }
 .thread-panel .thread-text > p:not(.selected-label) { margin: 0; font-size: 17px; color: var(--muted); }
 .thread-panel + .thread-panel { border-top: 1px solid var(--line); }
-html.js .thread-panel + .thread-panel { border-top: 0; }
 @media (max-width: 760px) { .thread-panel { grid-template-columns: 1fr; gap: 18px; } }
 
 .chips { display: flex; flex-wrap: wrap; gap: 8px; margin: -8px 0 24px; }
@@ -256,3 +255,5 @@ html:not(.js) .chips { display: none; }
 .other-projects h4 { margin: 0 0 8px; font-size: 17px; font-weight: 600; }
 .other-projects > ul > li > p { margin: 0 0 14px; font-size: 15px; line-height: 1.6; color: var(--muted); }
 .other-projects > ul > li > p.selected-label { margin: 0 0 8px; font-size: 13px; color: var(--soft); }
+.prospective { margin: -12px 0 28px; font-size: 15px; color: var(--muted); }
+.prospective a.inline { border-bottom: 1.5px solid currentColor; color: var(--ink); }

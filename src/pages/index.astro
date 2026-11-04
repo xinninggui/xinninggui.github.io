@@ -37,16 +37,11 @@ const featured = site.featuredPublications.map((f) => ({ ...byId(f.id), art: f.a
     <div class="section-head"><h2 id="research-h">Research</h2></div>
     <div class="panel">
       <ClayCat />
-      <div class="segmented" role="tablist" aria-label="Research threads" data-tabs>
-        {site.threads.map((thread, i) => (
-          <button type="button" role="tab" id={`tab-${thread.id}`} aria-controls={`panel-${thread.id}`} aria-selected={i === 0 ? "true" : "false"} tabindex={i === 0 ? 0 : -1}>{thread.short}</button>
-        ))}
-      </div>
       {site.threads.map((thread) => (
-        <article class="thread-panel" role="tabpanel" id={`panel-${thread.id}`} aria-labelledby={`tab-${thread.id}`} tabindex="0">
+        <article class="thread-panel" id={`panel-${thread.id}`} aria-labelledby={`t-${thread.id}`}>
           <div class="tile" style={`background:${thread.tint}`}><Art name={thread.art} /></div>
           <div class="thread-text">
-            <h3>{thread.title}</h3>
+            <h3 id={`t-${thread.id}`}>{thread.title}</h3>
             <p>{thread.text}</p>
             <p class="selected-label">Selected papers</p>
             <ul class="selected">
@@ -111,6 +106,7 @@ const featured = site.featuredPublications.map((f) => ({ ...byId(f.id), art: f.a
       <h2 id="students-h">Students</h2>
       <p class="head-note">With <a class="inline" href="https://yubokou.github.io/">Dr. Yubo Kou</a>, I co-direct the <a class="inline" href={site.links.lab}>Health and Play Lab</a>.</p>
     </div>
+    <p class="prospective">Interested in joining? Please read the <a class="inline" href="https://healthandplaylab.github.io/contact/#join">Health and Play Lab’s notes for prospective students</a> before getting in touch.</p>
     <ul class="student-grid">
       {site.students.map((s) => (
         <li class="student">
@@ -145,32 +141,4 @@ const featured = site.featuredPublications.map((f) => ({ ...byId(f.id), art: f.a
     </div>
   </section>
 
-  <script is:inline>
-    (() => {
-      // Research: tabs styled as a segmented control (arrow keys move between threads).
-      const tablist = document.querySelector("[data-tabs]");
-      if (tablist) {
-        const tabs = [...tablist.querySelectorAll('[role="tab"]')];
-        const select = (tab) => {
-          tabs.forEach((t) => {
-            const on = t === tab;
-            t.setAttribute("aria-selected", on ? "true" : "false");
-            t.tabIndex = on ? 0 : -1;
-            document.getElementById(t.getAttribute("aria-controls")).hidden = !on;
-          });
-        };
-        tabs.forEach((t, i) => {
-          t.addEventListener("click", () => select(t));
-          t.addEventListener("keydown", (e) => {
-            const d = e.key === "ArrowRight" ? 1 : e.key === "ArrowLeft" ? -1 : 0;
-            if (!d) return;
-            const next = tabs[(i + d + tabs.length) % tabs.length];
-            select(next);
-            next.focus();
-          });
-        });
-        select(tabs[0]);
-      }
-    })();
-  </script>
 </Base>

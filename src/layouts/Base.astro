@@ -69,7 +69,22 @@ const home = current === "home" ? "" : "/";
         <span class="enso-z" aria-hidden="true"><i>z</i><i>z</i><i>z</i></span>
       </footer>
     </div>
-    <div class="paw-walk" aria-hidden="true"></div>
+    <div class="paw-walk" aria-hidden="true">
+      <div class="walker">
+        <svg viewBox="0 0 120 80">
+          <path class="w-tail" d="M90 40 C108 36 112 16 104 6" fill="none" stroke="#8E735A" stroke-width="6" stroke-linecap="round"/>
+          <g class="w-legs-b"><rect x="44" y="48" width="7" height="24" rx="3.5" fill="#7E6550"/><rect x="44" y="66" width="7" height="6" rx="3" fill="#F4F0E8"/><rect x="80" y="48" width="7" height="24" rx="3.5" fill="#7E6550"/><rect x="80" y="66" width="7" height="6" rx="3" fill="#F4F0E8"/></g>
+          <g class="w-body">
+            <ellipse cx="64" cy="42" rx="32" ry="15" fill="#B59A7E"/>
+            <path d="M58 30 q3 6 0 11 M68 29 q3 6 0 11 M78 31 q3 6 0 10" stroke="#9A7F64" stroke-width="3" fill="none" stroke-linecap="round"/>
+            <path d="M14 22 L16 2 L29 14 Z M33 14 L45 1 L48 22 Z" fill="#8E735A" stroke="#8E735A" stroke-width="2" stroke-linejoin="round"/>
+            <circle cx="31" cy="28" r="17" fill="#8E735A"/>
+            <circle cx="22" cy="27" r="2" fill="#2F2A25"/>
+          </g>
+          <g class="w-legs-a"><rect x="36" y="48" width="7" height="24" rx="3.5" fill="#8E735A"/><rect x="36" y="66" width="7" height="6" rx="3" fill="#F4F0E8"/><rect x="88" y="48" width="7" height="24" rx="3.5" fill="#8E735A"/><rect x="88" y="66" width="7" height="6" rx="3" fill="#F4F0E8"/></g>
+        </svg>
+      </div>
+    </div>
     <p class="paw-note" role="status" aria-live="polite"></p>
     <script is:inline>
       (() => {
@@ -97,20 +112,32 @@ const home = current === "home" ? "" : "/";
         // and again whenever someone mashes the keyboard (as Melon does).
         const walk = document.querySelector(".paw-walk"), note = document.querySelector(".paw-note");
         let walking = false;
+        const walker = walk.querySelector(".walker");
         const pawWalk = (message) => {
           if (walking) return;
           walking = true;
-          const reduce = matchMedia("(prefers-reduced-motion: reduce)").matches;
-          const steps = reduce ? 0 : Math.ceil(innerWidth / 70) + 2;
-          walk.innerHTML = "";
-          for (let i = 0; i < steps; i++) {
-            const p = document.createElement("span");
-            p.style.left = (i * 70 - 40) + "px"; p.style.bottom = (i % 2 ? 26 : 8) + "px"; p.style.animationDelay = (i * 0.12) + "s";
-            walk.appendChild(p);
-          }
           note.textContent = message;
           note.classList.add("show");
-          setTimeout(() => { note.classList.remove("show"); walk.innerHTML = ""; walking = false; }, Math.max(3200, steps * 120 + 1600));
+          const reduce = matchMedia("(prefers-reduced-motion: reduce)").matches;
+          if (reduce) { setTimeout(() => { note.classList.remove("show"); walking = false; }, 3200); return; }
+          // A small cat walks in from the right and out on the left; paw prints appear where it stepped and fade.
+          const w = walker.offsetWidth, ms = Math.max(4200, innerWidth * 6);
+          walk.querySelectorAll("span").forEach((p) => p.remove());
+          walker.style.display = "block";
+          const anim = walker.animate([{ transform: `translateX(${innerWidth + 10}px)` }, { transform: `translateX(${-w - 20}px)` }], { duration: ms, easing: "linear" });
+          let step = 0;
+          const timer = setInterval(() => {
+            const x = walker.getBoundingClientRect().left;
+            if (x < -w) return;
+            const p = document.createElement("span");
+            p.style.left = (x + w * (step % 2 ? 0.32 : 0.7)) + "px";
+            p.style.bottom = (step % 2 ? 2 : 10) + "px";
+            walk.appendChild(p); step++;
+          }, 260);
+          anim.onfinish = () => {
+            clearInterval(timer); walker.style.display = "none";
+            setTimeout(() => { note.classList.remove("show"); walk.querySelectorAll("span").forEach((p) => p.remove()); walking = false; }, 2400);
+          };
         };
         // Watch the section heading, not the whole section: on phones the section is taller than
         // the screen, so a share-of-section threshold would never be reached.

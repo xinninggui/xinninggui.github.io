@@ -68,6 +68,7 @@ const featured = site.featuredPublications.map((f) => ({ ...byId(f.id), art: f.a
           <li>
             <h4>{op.title}</h4>
             <p>{op.text}</p>
+            <p class="selected-label">Selected papers</p>
             <ul class="selected">
               {op.papers.map((id) => {
                 const p = byId(id);

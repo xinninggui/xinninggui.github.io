@@ -255,3 +255,4 @@ html:not(.js) .chips { display: none; }
 .other-projects > ul > li { border-top: 1px solid var(--line); padding-top: 18px; }
 .other-projects h4 { margin: 0 0 8px; font-size: 17px; font-weight: 600; }
 .other-projects > ul > li > p { margin: 0 0 14px; font-size: 15px; line-height: 1.6; color: var(--muted); }
+.other-projects > ul > li > p.selected-label { margin: 0 0 8px; font-size: 13px; color: var(--soft); }

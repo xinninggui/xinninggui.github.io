@@ -57,11 +57,14 @@
 @keyframes cc-say { 0% { opacity: 0; transform: translateY(6px); } 15% { opacity: 1; transform: none; } 75% { opacity: 1; } 100% { opacity: 0; transform: translateY(-6px); } }
 
 /* Footer ensō cat: little z's drift up on hover */
-.enso-z { position: absolute; right: 52px; top: 8px; width: 40px; height: 40px; pointer-events: none; font-family: "Shippori Mincho", Georgia, serif; color: var(--soft); }
+.enso-z { position: absolute; right: 74px; top: -4px; width: 40px; height: 40px; pointer-events: none; font-family: "Shippori Mincho", Georgia, serif; color: var(--soft); }
 .enso-z i { position: absolute; right: 0; bottom: 0; font-style: normal; font-size: 13px; opacity: 0; }
-.site-footer:hover .enso-z i { animation: z-drift 2.4s ease-out infinite; }
-.site-footer:hover .enso-z i:nth-child(2) { animation-delay: .8s; font-size: 15px; }
-.site-footer:hover .enso-z i:nth-child(3) { animation-delay: 1.6s; font-size: 17px; }
+/* The ensō cat sleeps: it breathes slowly and z's drift up, all the time */
+.site-footer::after { transform-origin: 50% 100%; animation: enso-breathe 4.2s ease-in-out infinite; }
+@keyframes enso-breathe { 0%, 100% { transform: scale(1, 1); } 50% { transform: scale(1.035, 1.05); } }
+.enso-z i { animation: z-drift 3.6s ease-out infinite; }
+.enso-z i:nth-child(2) { animation-delay: 1.2s; font-size: 15px; }
+.enso-z i:nth-child(3) { animation-delay: 2.4s; font-size: 17px; }
 @keyframes z-drift { 0% { opacity: 0; transform: translate(0, 0); } 20% { opacity: .9; } 100% { opacity: 0; transform: translate(14px, -28px); } }
 
 /* Keyboard easter egg */
@@ -82,11 +85,12 @@
 .paw-note { position: fixed; left: 50%; bottom: 112px; transform: translate(-50%, 8px); margin: 0; padding: 10px 18px; background: #F2EEE6; color: var(--ink); border: 1px solid var(--line); border-radius: 4px; font-size: 14px; box-shadow: 0 8px 24px rgba(52, 49, 44, 0.10); opacity: 0; pointer-events: none; transition: opacity .3s, transform .3s; z-index: 41; }
 .paw-note.show { opacity: 1; transform: translate(-50%, 0); }
 @media (prefers-reduced-motion: reduce) {
-  .clay-cat:hover .cc-tail, .clay-cat.petted .cc-ears, .site-footer:hover .enso-z i { animation: none; }
+  .clay-cat:hover .cc-tail, .clay-cat.petted .cc-ears, .enso-z i, .site-footer::after { animation: none; }
+  .enso-z i:nth-child(1) { opacity: .7; }
   .clay-cat.petted .cc-say { animation: none; opacity: 1; }
   .paw-note { transition: none; }
 }
-@media (max-width: 720px) { .clay-cat { right: 16px; top: -64px; width: 56px; height: 64px; } .enso-z { right: 26px; top: 0; } }
+@media (max-width: 720px) { .clay-cat { right: 16px; top: -64px; width: 56px; height: 64px; } .enso-z { right: 40px; top: -88px; } }
 .clay-cat:focus-visible { outline: 2px dashed var(--soft); outline-offset: 4px; border-radius: 8px; }
 .other-projects > h3 { font-family: "Shippori Mincho", Georgia, serif; font-size: 24px; letter-spacing: 0.01em; }
 @media (max-width: 720px) { .walker { width: 80px; height: 54px; } }

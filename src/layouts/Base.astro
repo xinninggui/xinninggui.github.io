@@ -66,8 +66,11 @@ const home = current === "home" ? "" : "/";
           <li><a class="to-top" href="#top">Back to top ↑</a></li>
         </ul>
         <p class="updated">Last updated {site.lastUpdated}</p>
+        <span class="enso-z" aria-hidden="true"><i>z</i><i>z</i><i>z</i></span>
       </footer>
     </div>
+    <div class="paw-walk" aria-hidden="true"></div>
+    <p class="paw-note" role="status" aria-live="polite"></p>
     <script is:inline>
       (() => {
         const header = document.querySelector(".site-header");
@@ -79,6 +82,39 @@ const home = current === "home" ? "" : "/";
         const setOpen = (open) => { toggle.setAttribute("aria-expanded", String(open)); header.classList.toggle("menu-open", open); };
         toggle.addEventListener("click", () => setOpen(toggle.getAttribute("aria-expanded") !== "true"));
         header.querySelectorAll("nav a").forEach((a) => a.addEventListener("click", () => setOpen(false)));
+        // Clay cat: each pat gets a different small reply.
+        const cat = document.querySelector(".clay-cat");
+        if (cat) {
+          const says = ["mrrp", "prrr…", "mew", "…", "purr"];
+          let n = 0;
+          cat.addEventListener("click", () => {
+            const say = cat.querySelector(".cc-say");
+            say.textContent = says[n++ % says.length];
+            cat.classList.remove("petted"); void cat.offsetWidth; cat.classList.add("petted");
+          });
+        }
+        // Easter egg: mash the keyboard (outside a text field) and Melon walks across it, as she does.
+        const walk = document.querySelector(".paw-walk"), note = document.querySelector(".paw-note");
+        let presses = [], walking = false;
+        document.addEventListener("keydown", (e) => {
+          const t = e.target;
+          if (walking || e.metaKey || e.ctrlKey || e.altKey || e.key.length !== 1 || (t.closest && t.closest("input, textarea, select, [contenteditable]"))) return;
+          const now = Date.now();
+          presses = presses.filter((p) => now - p < 1200); presses.push(now);
+          if (presses.length < 7) return;
+          presses = []; walking = true;
+          const reduce = matchMedia("(prefers-reduced-motion: reduce)").matches;
+          const steps = reduce ? 0 : Math.ceil(innerWidth / 70) + 2;
+          walk.innerHTML = "";
+          for (let i = 0; i < steps; i++) {
+            const p = document.createElement("span");
+            p.style.left = (i * 70 - 40) + "px"; p.style.bottom = (i % 2 ? 26 : 8) + "px"; p.style.animationDelay = (i * 0.12) + "s";
+            walk.appendChild(p);
+          }
+          note.textContent = "Melon just walked across the keyboard.";
+          note.classList.add("show");
+          setTimeout(() => { note.classList.remove("show"); walk.innerHTML = ""; walking = false; }, Math.max(3200, steps * 120 + 1600));
+        });
         document.addEventListener("keydown", (e) => { if (e.key === "Escape" && header.classList.contains("menu-open")) { setOpen(false); toggle.focus(); } });
       })();
     </script>

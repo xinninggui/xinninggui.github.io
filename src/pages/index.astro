@@ -1,6 +1,7 @@
 ---
 import Base from "../layouts/Base.astro";
 import Art from "../components/Art.astro";
+import ClayCat from "../components/ClayCat.astro";
 import site from "../data/site.json";
 import { byId, doiUrl, surnames } from "../lib/pubs";
 
@@ -35,6 +36,7 @@ const featured = site.featuredPublications.map((f) => ({ ...byId(f.id), art: f.a
   <section class="section" id="research" aria-labelledby="research-h">
     <div class="section-head"><h2 id="research-h">Research</h2></div>
     <div class="panel">
+      <ClayCat />
       <div class="segmented" role="tablist" aria-label="Research threads" data-tabs>
         {site.threads.map((thread, i) => (
           <button type="button" role="tab" id={`tab-${thread.id}`} aria-controls={`panel-${thread.id}`} aria-selected={i === 0 ? "true" : "false"} tabindex={i === 0 ? 0 : -1}>{thread.short}</button>

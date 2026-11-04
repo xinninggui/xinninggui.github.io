@@ -94,7 +94,6 @@ const featured = site.featuredPublications.map((f) => ({ ...byId(f.id), art: f.a
     </div>
   </section>
 
-
   <section class="section personal" id="personal" aria-labelledby="personal-h">
     <div class="personal-text">
       <h2 id="personal-h">Personal life</h2>
@@ -107,10 +106,4 @@ const featured = site.featuredPublications.map((f) => ({ ...byId(f.id), art: f.a
     </ul>
   </section>
 
-  <section class="section" id="teaching" aria-labelledby="teaching-h">
-    <div class="section-head"><h2 id="teaching-h">Teaching</h2></div>
-    <ul class="course-list">
-      {site.teaching.map((c) => <li><span class="course-code">{c.code}</span><span class="course-title">{c.title}</span></li>)}
-    </ul>
-  </section>
 </Base>

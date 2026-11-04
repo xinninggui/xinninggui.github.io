@@ -97,3 +97,7 @@
 @media (max-width: 400px) { .section-head h2, .personal-text h2 { font-size: 30px; gap: 12px; } .section-head h2::before, .personal-text h2::before { width: 56px; height: 20px; flex: none; } }
 .thread-panel { grid-template-columns: minmax(0, 4fr) minmax(0, 7fr); }
 @media (max-width: 760px) { .thread-panel { grid-template-columns: 1fr; } }
+/* The message trails behind the walking cat */
+.walker-say { position: absolute; left: calc(100% + 14px); bottom: 26px; white-space: nowrap; font-family: "Shippori Mincho", Georgia, serif; font-style: italic; font-size: 16px; color: var(--soft); background: rgba(233, 228, 218, 0.85); padding: 2px 6px; border-radius: 3px; }
+@media (max-width: 720px) { .walker-say { font-size: 14px; bottom: 18px; left: calc(100% + 8px); } }
+.paw-note:not(.show) { position: fixed; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; padding: 0; border: 0; }

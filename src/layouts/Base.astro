@@ -45,6 +45,7 @@ const home = current === "home" ? "" : "/";
             <li><a href={`${home}#research`}>Research</a></li>
             <li><a href="/publications/" aria-current={current === "publications" ? "page" : undefined}>Publications</a></li>
             <li><a href={`${home}#students`}>Students</a></li>
+            <li><a href={`${home}#service`}>Service</a></li>
             <li><a href={`${home}#personal`}>Personal life</a></li>
             <li><a href={`${home}#contact`}>Contact</a></li>
           </ul>
@@ -71,6 +72,7 @@ const home = current === "home" ? "" : "/";
     </div>
     <div class="paw-walk" aria-hidden="true">
       <div class="walker">
+        <small class="walker-say"></small>
         <svg viewBox="0 0 120 80">
           <path class="w-tail" d="M90 40 C108 36 112 16 104 6" fill="none" stroke="#8E735A" stroke-width="6" stroke-linecap="round"/>
           <g class="w-legs-b"><rect x="44" y="48" width="7" height="24" rx="3.5" fill="#7E6550"/><rect x="44" y="66" width="7" height="6" rx="3" fill="#F4F0E8"/><rect x="80" y="48" width="7" height="24" rx="3.5" fill="#7E6550"/><rect x="80" y="66" width="7" height="6" rx="3" fill="#F4F0E8"/></g>
@@ -112,18 +114,24 @@ const home = current === "home" ? "" : "/";
         const walk = document.querySelector(".paw-walk"), note = document.querySelector(".paw-note");
         let walking = false;
         const walker = walk.querySelector(".walker");
+        const say = walker.querySelector(".walker-say");
         const pawWalk = (message) => {
           if (walking) return;
           walking = true;
-          note.textContent = message;
-          note.classList.add("show");
+          note.textContent = message; // announced to screen readers
           const reduce = matchMedia("(prefers-reduced-motion: reduce)").matches;
-          if (reduce) { setTimeout(() => { note.classList.remove("show"); walking = false; }, 3200); return; }
-          // A small cat walks in from the right and out on the left; paw prints appear where it stepped and fade.
-          const w = walker.offsetWidth, ms = Math.max(4200, innerWidth * 6);
-          walk.querySelectorAll("span").forEach((p) => p.remove());
+          if (reduce) {
+            note.classList.add("show");
+            setTimeout(() => { note.classList.remove("show"); walking = false; }, 3200);
+            return;
+          }
+          // A small cat walks in from the right and out on the left with its message trailing behind it;
+          // paw prints appear where it stepped and fade.
+          say.textContent = message;
           walker.style.display = "block";
-          const anim = walker.animate([{ transform: `translateX(${innerWidth + 10}px)` }, { transform: `translateX(${-w - 20}px)` }], { duration: ms, easing: "linear" });
+          const w = walker.offsetWidth, trail = say.offsetWidth + 24, ms = Math.max(4800, innerWidth * 6.5);
+          walk.querySelectorAll(":scope > span").forEach((p) => p.remove());
+          const anim = walker.animate([{ transform: `translateX(${innerWidth + 10}px)` }, { transform: `translateX(${-w - trail - 20}px)` }], { duration: ms, easing: "linear" });
           let step = 0;
           const timer = setInterval(() => {
             const x = walker.getBoundingClientRect().left;
@@ -133,11 +141,9 @@ const home = current === "home" ? "" : "/";
             p.style.bottom = (step % 2 ? 2 : 10) + "px";
             walk.appendChild(p); step++;
           }, 260);
-          // The note leaves with the cat; only the paw prints linger and fade.
-          setTimeout(() => note.classList.remove("show"), Math.max(0, ms - 300));
           anim.onfinish = () => {
             clearInterval(timer); walker.style.display = "none";
-            setTimeout(() => { walk.querySelectorAll("span").forEach((p) => p.remove()); walking = false; }, 2400);
+            setTimeout(() => { walk.querySelectorAll(":scope > span").forEach((p) => p.remove()); walking = false; }, 2400);
           };
         };
         // Watch the section heading, not the whole section: on phones the section is taller than

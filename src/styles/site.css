@@ -265,3 +265,6 @@ html:not(.js) .chips { display: none; }
 .service-cols li { display: grid; grid-template-columns: minmax(0, 1fr); padding: 10px 0; border-bottom: 1px solid var(--line); font-size: 15px; line-height: 1.45; }
 .svc-venue { font-size: 13px; font-weight: 600; color: var(--soft); letter-spacing: 0.02em; }
 .svc-note { margin: 16px 0 0; font-size: 15px; line-height: 1.6; color: var(--muted); }
+.students-intro { margin: -8px 0 32px; max-width: 860px; font-size: 16px; line-height: 1.65; color: var(--muted); }
+.students-intro p { margin: 0; }
+.students-intro a.inline { border-bottom: 1.5px solid currentColor; color: var(--ink); }

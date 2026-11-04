@@ -104,9 +104,11 @@ const featured = site.featuredPublications.map((f) => ({ ...byId(f.id), art: f.a
   <section class="section" id="students" aria-labelledby="students-h">
     <div class="section-head">
       <h2 id="students-h">Students</h2>
-      <p class="head-note">With <a class="inline" href="https://yubokou.github.io/">Dr. Yubo Kou</a>, I co-direct the <a class="inline" href={site.links.lab}>Health and Play Lab</a>.</p>
     </div>
-    <p class="prospective">Interested in joining? Please read the <a class="inline" href="https://healthandplaylab.github.io/contact/#join">Health and Play Lab’s notes for prospective students</a> before getting in touch.</p>
+    <div class="students-intro">
+      <p>With <a class="inline" href="https://yubokou.github.io/">Dr. Yubo Kou</a>, I co-direct the <a class="inline" href={site.links.lab}>Health and Play Lab</a>.</p>
+      <p>Interested in joining? Please read the <a class="inline" href="https://healthandplaylab.github.io/contact/#join">lab’s notes for prospective students</a> before getting in touch.</p>
+    </div>
     <ul class="student-grid">
       {site.students.map((s) => (
         <li class="student">

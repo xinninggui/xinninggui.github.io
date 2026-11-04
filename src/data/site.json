@@ -21,20 +21,6 @@
   },
   "threads": [
     {
-      "id": "ai",
-      "title": "Human-centered AI for health and wellbeing",
-      "text": "How people use AI symptom checkers and LLM chatbots, and how explanations shape trust in their advice.",
-      "art": "symptom-checker",
-      "tint": "#EEE6D6",
-      "papers": [
-        "C47",
-        "C37",
-        "J27",
-        "C21"
-      ],
-      "short": "AI for health"
-    },
-    {
       "id": "privacy",
       "title": "Health data privacy in expansive data ecosystems",
       "text": "How people make sense of and protect sensitive health data as it moves across apps, platforms, third parties, and changing legal regimes, from reproductive health tracking to connected devices in the home, and how to make privacy protections and anonymity usable.",
@@ -61,6 +47,19 @@
         "J36"
       ],
       "short": "Youth digital safety"
+    },
+    {
+      "id": "ai",
+      "title": "Human-centered AI for health and wellbeing",
+      "text": "How people use AI symptom checkers and LLM chatbots, and how explanations shape trust in their advice.",
+      "art": "symptom-checker",
+      "tint": "#EEE6D6",
+      "papers": [
+        "C37",
+        "J27",
+        "C21"
+      ],
+      "short": "AI for health"
     }
   ],
   "featuredPublications": [

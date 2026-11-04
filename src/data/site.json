@@ -66,22 +66,34 @@
     {
       "name": "Qiurong Song",
       "status": "Ph.D. candidate",
-      "url": "https://qiurongsong.github.io/"
+      "since": "2022",
+      "url": "https://qiurongsong.github.io/",
+      "photo": "/images/students/qiurong-song.jpg",
+      "focus": "Privacy and security risks of everyday technologies for at-risk users, such as people using period and fertility tracking apps, children, and content creators."
     },
     {
       "name": "Rie Helene (Lindy) Hernandez",
       "status": "Ph.D. candidate",
-      "url": "https://www.lindyhernandez.com/"
+      "since": "2022",
+      "url": "https://www.lindyhernandez.com/",
+      "photo": "/images/students/lindy-hernandez.jpg",
+      "focus": "Gig workers’ self-tracking practices and how to design for them."
     },
     {
       "name": "Yunhan Liu",
       "status": "Ph.D. candidate",
-      "url": "https://yunhan-liu.yzl6421.workers.dev/"
+      "since": "2024",
+      "url": "https://yunhan-liu.yzl6421.workers.dev/",
+      "photo": "/images/students/yunhan-liu.jpg",
+      "focus": "Gambling and simulated gambling risks in young people’s digital environments."
     },
     {
       "name": "Yue You",
       "status": "Ph.D. 2024",
-      "url": ""
+      "since": "2019",
+      "url": "",
+      "photo": "",
+      "focus": "Dissertation: Evaluating and Designing Symptom Checkers: A User-Centered Approach."
     }
   ],
   "teaching": [

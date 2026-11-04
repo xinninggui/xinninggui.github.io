@@ -18,7 +18,7 @@
 }
 
 * { box-sizing: border-box; }
-html { scroll-behavior: smooth; scroll-padding-top: 24px; }
+html { scroll-behavior: smooth; scroll-padding-top: 96px; }
 @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
 body {
   margin: 0;
@@ -42,7 +42,8 @@ h1, h2, h3 { margin: 0; }
 .wrap { max-width: 1280px; margin: 0 auto; padding: 0 40px; }
 
 /* Header */
-.site-header { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 12px 24px; padding: 22px 0; }
+.site-header { position: sticky; top: 0; z-index: 20; display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 4px 24px; padding: 14px 40px; margin: 0 -40px; background: rgba(238, 235, 229, 0.94); backdrop-filter: blur(8px); -webkit-backdrop-filter: blur(8px); border-bottom: 1px solid transparent; }
+.site-header.scrolled { border-bottom-color: var(--line); }
 .brand { font-weight: 800; font-size: 19px; letter-spacing: -0.01em; padding: 6px 0; }
 .site-header ul { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: 4px 22px; }
 .site-header nav a { display: inline-block; padding: 8px 0; font-weight: 600; font-size: 15px; }
@@ -99,6 +100,19 @@ h1, h2, h3 { margin: 0; }
 .card a.inline, .footer-links a { border-bottom: 2px solid currentColor; }
 .card li a.inline { display: inline-block; padding: 2px 0; }
 
+/* Students */
+.head-note { margin: 0; font-size: 15px; color: var(--muted); }
+.head-note a.inline { border-bottom: 2px solid currentColor; }
+.student-grid { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 240px), 1fr)); gap: 28px 20px; }
+.student { display: flex; flex-direction: column; gap: 6px; }
+.student img, .student-initials { display: block; width: 100%; height: auto; aspect-ratio: 4 / 5; object-fit: cover; object-position: center 25%; border-radius: 20px; margin-bottom: 10px; }
+.student-initials { display: flex; align-items: center; justify-content: center; background: var(--pink-panel); color: var(--label-red); font-weight: 800; font-size: 44px; letter-spacing: -0.02em; }
+.student h3 { font-weight: 800; font-size: 19px; line-height: 1.25; }
+.student h3 a.inline { border-bottom: 2px solid currentColor; display: inline; }
+.student .meta { margin: 0; font-size: 14px; color: var(--soft); }
+.student .focus { margin: 4px 0 0; font-size: 15px; line-height: 1.5; color: var(--muted); }
+.teaching-card { max-width: 640px; }
+
 /* Personal life */
 .personal { display: grid; grid-template-columns: minmax(0, 5fr) minmax(0, 6fr); gap: 48px; align-items: start; }
 .personal-text h2 { font-weight: 800; font-size: 40px; letter-spacing: -0.03em; margin-bottom: 20px; }
@@ -119,6 +133,7 @@ h1, h2, h3 { margin: 0; }
 .footer-links a { display: inline-block; padding: 4px 0; }
 .footer-links { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: 10px 22px; font-weight: 600; font-size: 15px; }
 .footer-links a:hover { color: var(--ink); }
+.to-top { font-weight: 600; font-size: 15px; border-bottom: 2px solid currentColor; }
 .updated { flex-basis: 100%; margin: 4px 0 0; font-size: 13px; color: var(--ink); }
 
 /* Publications page */
@@ -154,6 +169,11 @@ h1, h2, h3 { margin: 0; }
 
 @media (max-width: 720px) {
   .wrap { padding: 0 18px; }
+  html { scroll-padding-top: 110px; }
+  .site-header { padding: 10px 18px; margin: 0 -18px; }
+  .site-header nav { width: 100%; overflow-x: auto; }
+  .site-header ul { flex-wrap: nowrap; gap: 18px; }
+  .site-header nav a { white-space: nowrap; padding: 10px 0; }
   .section { padding-bottom: 64px; }
   .section-head h2 { font-size: 32px; }
   .hero { padding: 16px 0 64px; gap: 36px; }

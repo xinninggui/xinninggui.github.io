@@ -35,7 +35,7 @@ const home = current === "home" ? "" : "/";
   <body>
     <a class="skip" href="#main">Skip to content</a>
     <div class="wrap">
-      <header class="site-header">
+      <header class="site-header" id="top">
         <a class="brand" href="/">{site.name}</a>
         <nav aria-label="Main">
           <ul>
@@ -60,9 +60,18 @@ const home = current === "home" ? "" : "/";
           {site.links.cv && <li><a href={site.links.cv}>CV</a></li>}
           <li><a href={site.links.scholar}>Google Scholar</a></li>
           <li><a href={site.links.lab}>Health and Play Lab</a></li>
+          <li><a class="to-top" href="#top">Back to top ↑</a></li>
         </ul>
         <p class="updated">Last updated {site.lastUpdated}</p>
       </footer>
     </div>
+    <script is:inline>
+      (() => {
+        const header = document.querySelector(".site-header");
+        const update = () => header.classList.toggle("scrolled", window.scrollY > 8);
+        update();
+        window.addEventListener("scroll", update, { passive: true });
+      })();
+    </script>
   </body>
 </html>

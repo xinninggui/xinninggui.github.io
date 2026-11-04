@@ -30,6 +30,7 @@ const home = current === "home" ? "" : "/";
     <meta property="og:description" content={description} />
     <meta property="og:image" content={new URL("/images/xinning-gui.jpg", Astro.site).href} />
     <meta name="theme-color" content="#EEEBE5" />
+    <script is:inline>document.documentElement.classList.add("js");</script>
     <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
   </head>
   <body>

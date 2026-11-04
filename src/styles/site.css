@@ -34,6 +34,7 @@ a:hover { color: var(--label-blue); }
 :focus-visible { outline: 3px solid var(--focus); outline-offset: 3px; border-radius: 4px; }
 img { max-width: 100%; }
 h1, h2, h3 { margin: 0; }
+[hidden] { display: none !important; }
 
 .skip { position: absolute; left: -999px; top: 8px; background: var(--ink); color: #fff; padding: 10px 14px; border-radius: 8px; z-index: 10; }
 .skip:focus { left: 8px; color: #fff; }
@@ -74,7 +75,7 @@ h1, h2, h3 { margin: 0; }
 .thread { display: flex; flex-direction: column; gap: 16px; }
 .thread h3 { font-weight: 800; font-size: 21px; line-height: 1.2; margin-bottom: 6px; }
 .thread p { margin: 0; font-size: 16px; color: var(--muted); }
-.thread .selected-label { margin: 16px 0 8px; font-size: 13px; font-weight: 600; color: var(--soft); }
+.selected-label { margin: 16px 0 8px; font-size: 13px; font-weight: 600; color: var(--soft); }
 .selected { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 10px; }
 .selected li { display: flex; flex-direction: column; gap: 1px; font-size: 15px; line-height: 1.4; font-weight: 600; }
 .selected a { text-decoration: underline; text-decoration-color: #C9C2B6; text-underline-offset: 3px; }
@@ -188,3 +189,39 @@ h1, h2, h3 { margin: 0; }
   .site-footer { padding: 32px 24px; }
   .year-group { grid-template-columns: 1fr; gap: 12px; }
 }
+
+/* Settings-panel language, borrowed from the health and privacy apps this research studies */
+.panel { background: var(--card); border-radius: 26px; padding: 14px; }
+.segmented { display: flex; flex-wrap: wrap; gap: 4px; padding: 4px; border-radius: 16px; background: var(--bg); margin-bottom: 14px; }
+.segmented button { flex: 1 1 160px; min-height: 44px; border: 0; border-radius: 12px; background: transparent; font: inherit; font-size: 15px; font-weight: 600; color: var(--muted); cursor: pointer; padding: 8px 14px; }
+.segmented button:hover { color: var(--ink); }
+.segmented button[aria-selected="true"] { background: var(--card); color: var(--ink); box-shadow: 0 1px 3px rgba(47, 46, 43, 0.16); }
+.thread-panel { display: grid; grid-template-columns: minmax(0, 5fr) minmax(0, 6fr); gap: 32px; padding: 10px; align-items: start; }
+.thread-panel h3 { font-weight: 800; font-size: 26px; line-height: 1.2; letter-spacing: -0.015em; margin-bottom: 10px; }
+.thread-panel .thread-text > p:not(.selected-label) { margin: 0; font-size: 17px; color: var(--muted); }
+.thread-panel + .thread-panel { border-top: 1px solid var(--line); }
+html.js .thread-panel + .thread-panel { border-top: 0; }
+@media (max-width: 760px) { .thread-panel { grid-template-columns: 1fr; gap: 18px; } }
+
+.chips { display: flex; flex-wrap: wrap; gap: 8px; margin: -8px 0 24px; }
+.chips button { min-height: 40px; padding: 6px 16px; border-radius: 999px; border: 1px solid #BDB6AA; background: transparent; font: inherit; font-size: 14px; font-weight: 600; color: var(--muted); cursor: pointer; }
+.chips button:hover { border-color: var(--ink); color: var(--ink); }
+.chips button[aria-pressed="true"] { background: var(--ink); border-color: var(--ink); color: #fff; }
+html:not(.js) .chips { display: none; }
+
+/* Publication filters as settings controls */
+.type-chips { border: 0; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: 6px; align-items: center; flex: 1 1 100%; }
+.type-chips legend { float: left; margin-right: 8px; font-size: 13px; font-weight: 600; color: var(--muted); }
+.chip { position: relative; display: inline-flex; flex: 0 0 auto !important; }
+.chip input { position: absolute; opacity: 0; inset: 0; margin: 0; cursor: pointer; }
+.chip span { display: inline-flex; align-items: center; min-height: 40px; padding: 6px 16px; border-radius: 999px; border: 1px solid #BDB6AA; font-size: 14px; font-weight: 600; color: var(--muted); }
+.chip input:checked + span { background: var(--ink); border-color: var(--ink); color: #fff; }
+.chip input:focus-visible + span { outline: 3px solid var(--focus); outline-offset: 2px; }
+.switch { position: relative; display: inline-flex !important; flex-direction: row !important; align-items: center; gap: 10px !important; flex: 0 0 auto !important; font-size: 14px !important; color: var(--ink) !important; cursor: pointer; min-height: 44px; }
+.switch input { position: absolute; z-index: 1; opacity: 0; width: 44px; height: 26px; margin: 0; cursor: pointer; }
+.switch .track { position: relative; width: 44px; height: 26px; border-radius: 999px; background: #C9C2B6; transition: background .15s; }
+.switch .track::after { content: ""; position: absolute; top: 3px; left: 3px; width: 20px; height: 20px; border-radius: 50%; background: #fff; box-shadow: 0 1px 2px rgba(0,0,0,.2); transition: transform .15s; }
+.switch input:checked + .track { background: #6E8A75; }
+.switch input:checked + .track::after { transform: translateX(18px); }
+.switch input:focus-visible + .track { outline: 3px solid var(--focus); outline-offset: 2px; }
+@media (prefers-reduced-motion: reduce) { .switch .track, .switch .track::after { transition: none; } }

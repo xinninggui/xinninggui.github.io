@@ -14,21 +14,13 @@ const years = [...new Set(allPublications.map((p) => p.year))].sort((a, b) => b 
     <label class="grow">Search
       <input type="search" name="q" placeholder="Title, author, venue, or year" autocomplete="off" />
     </label>
-    <label>Type
-      <select name="type">
-        <option value="">All types</option>
-        <option value="full">Full papers (journal and conference)</option>
-        <option value="journal">Journal articles</option>
-        <option value="conference">Conference papers</option>
-        <option value="short">Posters, workshop papers, and other</option>
-      </select>
-    </label>
-    <label class="check"><span>Awards</span>
-      <select name="award">
-        <option value="">All</option>
-        <option value="yes">Best Paper Honorable Mentions</option>
-      </select>
-    </label>
+    <fieldset class="type-chips">
+      <legend>Type</legend>
+      {[["", "All"], ["full", "Full papers"], ["journal", "Journal"], ["conference", "Conference"], ["short", "Posters & workshops"]].map(([v, label], i) => (
+        <label class="chip"><input type="radio" name="type" value={v} checked={i === 0} /><span>{label}</span></label>
+      ))}
+    </fieldset>
+    <label class="switch"><input type="checkbox" name="award" role="switch" /><span class="track" aria-hidden="true"></span><span>Award papers only</span></label>
     <button type="reset">Reset</button>
   </form>
   <p class="count" id="count" role="status" aria-live="polite">{allPublications.length} publications</p>
@@ -75,7 +67,7 @@ const years = [...new Set(allPublications.map((p) => p.year))].sort((a, b) => b 
       const apply = () => {
         const words = norm(form.q.value).split(/\s+/).filter(Boolean);
         const type = form.type.value;
-        const award = form.award.value;
+        const award = form.award.checked;
         let n = 0;
         entries.forEach((e) => {
           const ok = words.every((w) => e.dataset.n.includes(w)) &&

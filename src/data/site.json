@@ -25,7 +25,8 @@
         "C37",
         "J27",
         "C21"
-      ]
+      ],
+      "short": "AI for health"
     },
     {
       "id": "privacy",
@@ -38,7 +39,8 @@
         "C38",
         "J28",
         "C31"
-      ]
+      ],
+      "short": "Health data privacy"
     },
     {
       "id": "youth",
@@ -51,7 +53,8 @@
         "J38",
         "C44",
         "J36"
-      ]
+      ],
+      "short": "Youth digital safety"
     }
   ],
   "featuredPublications": [

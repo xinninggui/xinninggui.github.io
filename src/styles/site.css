@@ -74,6 +74,12 @@ h1, h2, h3 { margin: 0; }
 .thread { display: flex; flex-direction: column; gap: 16px; }
 .thread h3 { font-weight: 800; font-size: 21px; line-height: 1.2; margin-bottom: 6px; }
 .thread p { margin: 0; font-size: 16px; color: var(--muted); }
+.thread .selected-label { margin: 16px 0 8px; font-size: 13px; font-weight: 600; color: var(--soft); }
+.selected { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 10px; }
+.selected li { display: flex; flex-direction: column; gap: 1px; font-size: 15px; line-height: 1.4; font-weight: 600; }
+.selected a { text-decoration: underline; text-decoration-color: #C9C2B6; text-underline-offset: 3px; }
+.selected a:hover { text-decoration-color: currentColor; }
+.sel-venue { font-size: 12px; font-weight: 600; color: var(--soft); }
 
 /* Featured publications */
 .pub-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 340px), 1fr)); gap: 36px 20px; }

@@ -19,21 +19,39 @@
       "title": "Human-centered AI for health and wellbeing",
       "text": "How people use AI symptom checkers and LLM chatbots, and how explanations shape trust in their advice.",
       "art": "symptom-checker",
-      "tint": "#EEE6D6"
+      "tint": "#EEE6D6",
+      "papers": [
+        "C47",
+        "C37",
+        "J27",
+        "C21"
+      ]
     },
     {
       "id": "privacy",
       "title": "Health data privacy in expansive data ecosystems",
       "text": "Period and fertility tracking after Roe v. Wade: what users fear, what apps promise, and whether anonymity features work.",
       "art": "period-tracker",
-      "tint": "#DDE1E6"
+      "tint": "#DDE1E6",
+      "papers": [
+        "C42",
+        "C38",
+        "J28",
+        "C31"
+      ]
     },
     {
       "id": "youth",
       "title": "Youth digital safety and psychosocial wellbeing",
       "text": "Gambling-like design in games and streams, and how children and teens assess and cope with risks on platforms like Roblox.",
       "art": "prize-wheel",
-      "tint": "#EBDDD7"
+      "tint": "#EBDDD7",
+      "papers": [
+        "C49",
+        "J38",
+        "C44",
+        "J36"
+      ]
     }
   ],
   "featuredPublications": [
@@ -42,24 +60,24 @@
       "art": "game-chat-risk"
     },
     {
-      "id": "C42",
-      "art": "anonymous-signup"
+      "id": "J38",
+      "art": "live-stream-slots"
     },
     {
       "id": "C47",
       "art": "llm-privacy-settings"
     },
     {
-      "id": "J36",
-      "art": "forum-thread"
-    },
-    {
       "id": "C48",
       "art": "baby-monitor"
     },
     {
-      "id": "J38",
-      "art": "live-stream-slots"
+      "id": "J36",
+      "art": "forum-thread"
+    },
+    {
+      "id": "C42",
+      "art": "anonymous-signup"
     }
   ],
   "students": [

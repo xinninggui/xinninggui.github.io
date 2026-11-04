@@ -112,11 +112,13 @@ const home = current === "home" ? "" : "/";
           note.classList.add("show");
           setTimeout(() => { note.classList.remove("show"); walk.innerHTML = ""; walking = false; }, Math.max(3200, steps * 120 + 1600));
         };
-        const personal = document.getElementById("personal");
+        // Watch the section heading, not the whole section: on phones the section is taller than
+        // the screen, so a share-of-section threshold would never be reached.
+        const personal = document.getElementById("personal-h");
         if (personal && "IntersectionObserver" in window) {
           const io = new IntersectionObserver((entries) => {
             if (entries.some((e) => e.isIntersecting)) { io.disconnect(); setTimeout(() => pawWalk("Melon just walked by."), 400); }
-          }, { threshold: 0.25 });
+          }, { threshold: 1, rootMargin: "0px 0px -20% 0px" });
           io.observe(personal);
         }
         let presses = [];

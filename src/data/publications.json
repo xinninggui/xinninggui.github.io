@@ -18,7 +18,7 @@
     ],
     "venue": "Proceedings of the 2026 ACM SIGSAC Conference on Computer and Communications Security (CCS 2026)",
     "details": "Accepted",
-    "doi": "10.1145/3830454.3846726",
+    "doi": null,
     "url": null,
     "award": null
   },
@@ -81,7 +81,7 @@
       "Qiurong Song"
     ],
     "venue": "Proceedings of the ACM on Human-Computer Interaction",
-    "details": "(CSCW 2026), 34 pages",
+    "details": "10, 2 (CSCW 2026), Article CSCW023, 34 pages",
     "doi": "10.1145/3788059",
     "url": null,
     "award": null
@@ -239,7 +239,7 @@
       "Rie Helene (Lindy) Hernandez"
     ],
     "venue": "Proceedings of the 35th USENIX Security Symposium (USENIX Security 2026)",
-    "details": "Baltimore, MD, USA (20 pages)",
+    "details": "Baltimore, MD, USA, 6721–6740",
     "doi": null,
     "url": "https://www.usenix.org/conference/usenixsecurity26/presentation/song-qiurong",
     "award": null
@@ -263,7 +263,7 @@
       "Rie Helene (Lindy) Hernandez"
     ],
     "venue": "Proceedings of the 2026 IEEE Symposium on Security and Privacy (S&P 2026)",
-    "details": "San Francisco, CA, USA, 3627–3636",
+    "details": "San Francisco, CA, USA, 3627–3646",
     "doi": "10.1109/SP63933.2026.00023",
     "url": null,
     "award": null
@@ -284,7 +284,7 @@
       "Qiurong Song"
     ],
     "venue": "Companion of the 2026 ACM Conference on Computer-Supported Cooperative Work and Social Computing (CSCW Companion ’26)",
-    "details": "Salt Lake City, UT, USA, 10 pp. Accepted June 2026",
+    "details": "Salt Lake City, UT, USA, 169–175",
     "doi": "10.1145/3785651.3831509",
     "url": null,
     "award": null
@@ -400,7 +400,7 @@
     ],
     "advisees": [],
     "venue": "Computer Supported Cooperative Work",
-    "details": "34, 587–638",
+    "details": "34, 2, 587–638",
     "doi": "10.1007/s10606-025-09519-z",
     "url": null,
     "award": null
@@ -1215,7 +1215,7 @@
     "type": "conference",
     "year": 2021,
     "short": "CHI 2021",
-    "title": "Flag and Flaggability in Automated Moderation",
+    "title": "Flag and Flaggability in Automated Moderation: The Case of Reporting Toxic Behavior in an Online Game Community",
     "authors": [
       "Yubo Kou",
       "Xinning Gui"
@@ -1330,8 +1330,8 @@
       "Xianghua Ding",
       "Xinning Gui",
       "Xiaojuan Ma",
-      "Yunan Chen",
-      "Zhaofei Ding"
+      "Zhaofei Ding",
+      "Yunan Chen"
     ],
     "advisees": [],
     "venue": "Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (CHI 2020)",
@@ -1364,7 +1364,7 @@
     "type": "journal",
     "year": 2019,
     "short": "CSCW 2019",
-    "title": "Culturally-Embedded Visual Literacy: A Study of Impression Management via Emoticon,\\allowbreak Emoji,\\allowbreak Sticker, and Meme on Social Media\\allowbreak in China",
+    "title": "Culturally-Embedded Visual Literacy: A Study of Impression Management via Emoticon, Emoji, Sticker, and Meme on Social Media in China",
     "authors": [
       "Yuan Wang",
       "Yukun Li",
@@ -1476,7 +1476,7 @@
     "type": "journal",
     "year": 2018,
     "short": "CSCW 2018",
-    "title": "When SNS Privacy Settings Become Granular: Investigating Users’ Choices, Rationales and Influences on Their Social Experience",
+    "title": "When SNS Privacy Settings Become Granular: Investigating Users’ Choices, Rationales, and Influences on Their Social Experience",
     "authors": [
       "Yao Li",
       "Xinning Gui",
@@ -1792,7 +1792,7 @@
     ],
     "advisees": [],
     "venue": "ACM Conference on Computer-Supported Cooperative Work and Social Computing (CSCW 2017) Companion",
-    "details": "Portland, OR, USA",
+    "details": "Portland, OR, USA, 223–226",
     "doi": "10.1145/3022198.3026312",
     "url": null,
     "award": null
@@ -1828,7 +1828,7 @@
     ],
     "advisees": [],
     "venue": "ACM Conference on Computer-Supported Cooperative Work and Social Computing (CSCW 2017) Doctoral Colloquium",
-    "details": "Portland, OR, USA",
+    "details": "Portland, OR, USA, 73–76",
     "doi": "10.1145/3022198.3024937",
     "url": null,
     "award": null

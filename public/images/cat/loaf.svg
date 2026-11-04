@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 84">
+  <!-- the same cat curled up asleep -->
+  <path d="M160 70 C196 70 196 40 176 34" stroke="#9C7A5B" stroke-width="12" fill="none" stroke-linecap="round"/>
+  <ellipse cx="108" cy="54" rx="66" ry="28" fill="#9C7A5B"/>
+  <path d="M90 30 q4 12 0 22 M110 27 q4 12 0 24 M130 30 q4 12 0 22 M150 36 q3 10 0 18" stroke="#6B513E" stroke-width="5" fill="none" stroke-linecap="round"/>
+  <path d="M30 34 L34 8 L52 24 Z" fill="#9C7A5B"/><path d="M70 30 L68 6 L52 22 Z" fill="#9C7A5B"/>
+  <path d="M36 28 L38 15 L47 24 Z" fill="#E9B9AF"/><path d="M65 26 L64 14 L56 22 Z" fill="#E9B9AF"/>
+  <ellipse cx="50" cy="48" rx="30" ry="25" fill="#9C7A5B"/>
+  <path d="M50 34 C42 42 34 54 36 62 C40 72 62 72 66 62 C66 54 58 42 50 34 Z" fill="#FBF7F0"/>
+  <path d="M36 46 q6 5 12 0 M54 46 q6 5 12 0" stroke="#2F2A25" stroke-width="2.6" fill="none" stroke-linecap="round"/>
+  <path d="M46 56 h8 l-4 5 Z" fill="#E0A49A"/>
+  <ellipse cx="78" cy="74" rx="16" ry="8" fill="#FBF7F0"/>
+  <path d="M176 18 h8 l-8 9 h8 M188 4 h6 l-6 7 h6" stroke="#8C7B6A" stroke-width="2.4" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

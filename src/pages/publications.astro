@@ -22,7 +22,6 @@ const years = [...new Set(allPublications.map((p) => p.year))].sort((a, b) => b 
         <label class="chip"><input type="radio" name="type" value={v} checked={i === 0} /><span>{label}</span></label>
       ))}
     </fieldset>
-    <label class="switch"><input type="checkbox" name="award" role="switch" /><span class="track" aria-hidden="true"></span><span>Award papers only</span></label>
     <button type="reset">Reset</button>
   </form>
   <p class="count" id="count" role="status" aria-live="polite">{allPublications.length} publications</p>
@@ -36,7 +35,7 @@ const years = [...new Set(allPublications.map((p) => p.year))].sort((a, b) => b 
             const url = doiUrl(p);
             const full = isFullPaper(p);
             return (
-              <li class="entry" data-type={p.type} data-full={full ? "yes" : "no"} data-award={p.award ? "yes" : "no"}
+              <li class="entry" data-type={p.type} data-full={full ? "yes" : "no"}
                 data-search={`${p.title} ${p.authors.join(" ")} ${p.short} ${p.venue} ${p.year}`.toLowerCase()}>
                 <div class="tags">
                   <span class="tag">{p.short}</span>
@@ -69,12 +68,10 @@ const years = [...new Set(allPublications.map((p) => p.year))].sort((a, b) => b 
       const apply = () => {
         const words = norm(form.q.value).split(/\s+/).filter(Boolean);
         const type = form.type.value;
-        const award = form.award.checked;
         let n = 0;
         entries.forEach((e) => {
           const ok = words.every((w) => e.dataset.n.includes(w)) &&
-            (!type || (type === "full" ? e.dataset.full === "yes" : type === "short" ? e.dataset.full === "no" : e.dataset.type === type)) &&
-            (!award || e.dataset.award === "yes");
+            (!type || (type === "full" ? e.dataset.full === "yes" : type === "short" ? e.dataset.full === "no" : e.dataset.type === type));
           e.hidden = !ok;
           if (ok) n++;
         });

@@ -93,16 +93,13 @@ const home = current === "home" ? "" : "/";
             cat.classList.remove("petted"); void cat.offsetWidth; cat.classList.add("petted");
           });
         }
-        // Easter egg: mash the keyboard (outside a text field) and Melon walks across it, as she does.
+        // Melon's paw prints: they cross the screen once when a visitor reaches Personal life,
+        // and again whenever someone mashes the keyboard (as Melon does).
         const walk = document.querySelector(".paw-walk"), note = document.querySelector(".paw-note");
-        let presses = [], walking = false;
-        document.addEventListener("keydown", (e) => {
-          const t = e.target;
-          if (walking || e.metaKey || e.ctrlKey || e.altKey || e.key.length !== 1 || (t.closest && t.closest("input, textarea, select, [contenteditable]"))) return;
-          const now = Date.now();
-          presses = presses.filter((p) => now - p < 1200); presses.push(now);
-          if (presses.length < 7) return;
-          presses = []; walking = true;
+        let walking = false;
+        const pawWalk = (message) => {
+          if (walking) return;
+          walking = true;
           const reduce = matchMedia("(prefers-reduced-motion: reduce)").matches;
           const steps = reduce ? 0 : Math.ceil(innerWidth / 70) + 2;
           walk.innerHTML = "";
@@ -111,9 +108,26 @@ const home = current === "home" ? "" : "/";
             p.style.left = (i * 70 - 40) + "px"; p.style.bottom = (i % 2 ? 26 : 8) + "px"; p.style.animationDelay = (i * 0.12) + "s";
             walk.appendChild(p);
           }
-          note.textContent = "Melon just walked across the keyboard.";
+          note.textContent = message;
           note.classList.add("show");
           setTimeout(() => { note.classList.remove("show"); walk.innerHTML = ""; walking = false; }, Math.max(3200, steps * 120 + 1600));
+        };
+        const personal = document.getElementById("personal");
+        if (personal && "IntersectionObserver" in window) {
+          const io = new IntersectionObserver((entries) => {
+            if (entries.some((e) => e.isIntersecting)) { io.disconnect(); setTimeout(() => pawWalk("Melon just walked by."), 400); }
+          }, { threshold: 0.25 });
+          io.observe(personal);
+        }
+        let presses = [];
+        document.addEventListener("keydown", (e) => {
+          const t = e.target;
+          if (walking || e.metaKey || e.ctrlKey || e.altKey || e.key.length !== 1 || (t.closest && t.closest("input, textarea, select, [contenteditable]"))) return;
+          const now = Date.now();
+          presses = presses.filter((p) => now - p < 1200); presses.push(now);
+          if (presses.length < 7) return;
+          presses = [];
+          pawWalk("Melon just walked across the keyboard.");
         });
         document.addEventListener("keydown", (e) => { if (e.key === "Escape" && header.classList.contains("menu-open")) { setOpen(false); toggle.focus(); } });
       })();

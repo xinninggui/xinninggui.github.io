@@ -1,0 +1,86 @@
+---
+import Base from "../layouts/Base.astro";
+import Art from "../components/Art.astro";
+import site from "../data/site.json";
+import { byId, doiUrl, surnames } from "../lib/pubs";
+
+const threadOf: Record<string, string> = {
+  "game-chat-risk": "youth",
+  "anonymous-signup": "privacy",
+  "llm-privacy-settings": "ai",
+  "forum-thread": "youth",
+  "baby-monitor": "privacy",
+  "live-stream-slots": "youth",
+};
+const featured = site.featuredPublications.map((f) => ({ ...byId(f.id), art: f.art, thread: threadOf[f.art] ?? "ai" }));
+---
+
+<Base>
+  <section class="hero" aria-labelledby="name">
+    <div class="hero-copy">
+      <h1 id="name">Xinning<br />Gui</h1>
+      <p class="summary">{site.summary}</p>
+      <ul class="roles">{site.roles.map((role) => <li>{role}</li>)}</ul>
+    </div>
+    <div class="portrait">
+      <img src="/images/xinning-gui.jpg" alt="Portrait of Xinning Gui" width="700" height="875" />
+    </div>
+  </section>
+
+  <section class="section" id="research" aria-labelledby="research-h">
+    <div class="section-head"><h2 id="research-h">Research</h2></div>
+    <div class="grid-3">
+      {site.threads.map((thread) => (
+        <article class="thread">
+          <div class="tile" style={`background:${thread.tint}`}><Art name={thread.art} /></div>
+          <div>
+            <h3>{thread.title}</h3>
+            <p>{thread.text}</p>
+          </div>
+        </article>
+      ))}
+    </div>
+  </section>
+
+  <section class="section" aria-labelledby="recent-h">
+    <div class="section-head">
+      <h2 id="recent-h">Recent publications</h2>
+      <a class="text-link" href="/publications/">All publications</a>
+    </div>
+    <div class="pub-grid">
+      {featured.map((p) => {
+        const url = doiUrl(p);
+        return (
+          <article class="pub-card">
+            <div class="tile-white"><Art name={p.art} /></div>
+            <p class={`venue venue-${p.thread}`}>{p.short}</p>
+            <h3>{url ? <a href={url}>{p.title}</a> : p.title}</h3>
+            <p class="authors">{surnames(p)}</p>
+          </article>
+        );
+      })}
+    </div>
+  </section>
+
+  <section class="section cards" aria-label="Students, teaching, and personal life">
+    <div class="card" id="students">
+      <h2>Students</h2>
+      <ul>
+        {site.students.map((s) => (
+          <li>{s.url ? <a class="inline" href={s.url}>{s.name}</a> : s.name} <span class="meta">{s.status}</span></li>
+        ))}
+      </ul>
+      <p class="note">With Yubo Kou, I co-direct the <a class="inline" href={site.links.lab}>Health and Play Lab</a>.</p>
+    </div>
+    <div class="card" id="teaching">
+      <h2>Teaching</h2>
+      <ul>
+        {site.teaching.map((c) => <li>{c.title} <span class="meta">{c.code}</span></li>)}
+      </ul>
+    </div>
+    <div class="card" id="personal">
+      <h2>Personal life</h2>
+      <p>{site.personal}</p>
+    </div>
+  </section>
+</Base>

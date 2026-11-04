@@ -1,0 +1,165 @@
+---
+// Flat drawings of the technologies each study looks at. Decorative: the text beside each drawing carries the meaning.
+interface Props {
+  name: string;
+}
+const { name } = Astro.props;
+---
+{name === "symptom-checker" && (
+<svg aria-hidden="true" viewBox="0 0 320 240" class="art">
+<rect x="104" y="18" width="112" height="222" rx="18" fill="#2F2E2B"></rect>
+<rect x="112" y="32" width="96" height="208" rx="10" fill="#FFFFFF"></rect>
+<rect x="148" y="46" width="52" height="20" rx="10" fill="#D6BA82"></rect>
+<rect x="156" y="54" width="36" height="4" rx="2" fill="#2F2E2B"></rect>
+<rect x="120" y="76" width="70" height="34" rx="10" fill="#EFEDE8"></rect>
+<rect x="128" y="84" width="52" height="4" rx="2" fill="#8A857D"></rect>
+<rect x="128" y="93" width="40" height="4" rx="2" fill="#8A857D"></rect>
+<rect x="120" y="116" width="40" height="16" rx="8" fill="#7F90A8"></rect>
+<text x="140" y="127" text-anchor="middle" font-family="Libre Franklin, Arial, sans-serif" font-size="9" font-weight="700" fill="#FFFFFF">Why?</text>
+<rect x="120" y="140" width="78" height="44" rx="10" fill="#EFEDE8"></rect>
+<rect x="128" y="149" width="60" height="4" rx="2" fill="#8A857D"></rect>
+<rect x="128" y="158" width="56" height="4" rx="2" fill="#8A857D"></rect>
+<rect x="128" y="167" width="34" height="4" rx="2" fill="#8A857D"></rect>
+<circle cx="236" cy="70" r="22" fill="#C99A72"></circle>
+<rect x="232" y="58" width="8" height="24" rx="2" fill="#FFFFFF"></rect>
+<rect x="224" y="66" width="24" height="8" rx="2" fill="#FFFFFF"></rect>
+</svg>
+)}
+{name === "period-tracker" && (
+<svg aria-hidden="true" viewBox="0 0 320 240" class="art">
+<rect x="104" y="18" width="112" height="222" rx="18" fill="#2F2E2B"></rect>
+<rect x="112" y="32" width="96" height="208" rx="10" fill="#FFFFFF"></rect>
+<rect x="112" y="32" width="96" height="26" rx="10" fill="#D9B8B2"></rect>
+<g fill="#E9E6E0">
+<circle cx="126" cy="74" r="5"></circle><circle cx="140" cy="74" r="5"></circle><circle cx="154" cy="74" r="5"></circle><circle cx="168" cy="74" r="5"></circle><circle cx="182" cy="74" r="5"></circle><circle cx="196" cy="74" r="5"></circle>
+<circle cx="126" cy="90" r="5"></circle><circle cx="182" cy="90" r="5"></circle><circle cx="196" cy="90" r="5"></circle>
+<circle cx="126" cy="106" r="5"></circle><circle cx="140" cy="106" r="5"></circle><circle cx="154" cy="106" r="5"></circle><circle cx="168" cy="106" r="5"></circle><circle cx="182" cy="106" r="5"></circle><circle cx="196" cy="106" r="5"></circle>
+</g>
+<g fill="#B98D90"><circle cx="140" cy="90" r="5"></circle><circle cx="154" cy="90" r="5"></circle><circle cx="168" cy="90" r="5"></circle></g>
+<rect x="120" y="130" width="80" height="1" fill="#E9E6E0"></rect>
+<rect x="120" y="146" width="44" height="5" rx="2.5" fill="#2F2E2B"></rect>
+<rect x="120" y="156" width="34" height="4" rx="2" fill="#8A857D"></rect>
+<rect x="172" y="144" width="28" height="16" rx="8" fill="#7F90A8"></rect>
+<circle cx="192" cy="152" r="6" fill="#FFFFFF"></circle>
+<path d="M 236 64 a 22 22 0 0 1 44 0 v 14 h -44 z" fill="#7F90A8"></path>
+<rect x="230" y="76" width="56" height="44" rx="8" fill="#D9B8B2"></rect>
+<circle cx="258" cy="96" r="6" fill="#2F2E2B"></circle>
+<rect x="255" y="96" width="6" height="12" rx="3" fill="#2F2E2B"></rect>
+</svg>
+)}
+{name === "prize-wheel" && (
+<svg aria-hidden="true" viewBox="0 0 320 240" class="art">
+<rect x="44" y="36" width="232" height="150" rx="14" fill="#2F2E2B"></rect>
+<rect x="54" y="46" width="212" height="130" rx="6" fill="#CFDADC"></rect>
+<rect x="54" y="140" width="212" height="36" fill="#8FA391"></rect>
+<g transform="translate(160 104)">
+<path d="M 0 0 L 0 -46 A 46 46 0 0 1 46 0 Z" fill="#C08377"></path>
+<path d="M 0 0 L 46 0 A 46 46 0 0 1 0 46 Z" fill="#D6BA82"></path>
+<path d="M 0 0 L 0 46 A 46 46 0 0 1 -46 0 Z" fill="#7F90A8"></path>
+<path d="M 0 0 L -46 0 A 46 46 0 0 1 0 -46 Z" fill="#FFFFFF"></path>
+<circle r="9" fill="#2F2E2B"></circle>
+</g>
+<path d="M 152 50 L 168 50 L 160 64 Z" fill="#2F2E2B"></path>
+<rect x="210" y="146" width="46" height="22" rx="11" fill="#C08377"></rect>
+<text x="233" y="161" text-anchor="middle" font-family="Libre Franklin, Arial, sans-serif" font-size="10" font-weight="800" fill="#FFFFFF">SPIN</text>
+<rect x="64" y="126" width="14" height="14" fill="#D6BA82"></rect>
+<rect x="66" y="140" width="10" height="16" fill="#7F90A8"></rect>
+<rect x="140" y="196" width="40" height="14" rx="3" fill="#2F2E2B"></rect>
+<rect x="120" y="210" width="80" height="8" rx="4" fill="#2F2E2B"></rect>
+</svg>
+)}
+{name === "game-chat-risk" && (
+<svg aria-hidden="true" viewBox="0 0 240 180" class="art">
+<rect x="70" y="34" width="36" height="36" rx="4" fill="#D6BA82"></rect>
+<rect x="80" y="46" width="5" height="6" fill="#2F2E2B"></rect><rect x="92" y="46" width="5" height="6" fill="#2F2E2B"></rect>
+<rect x="64" y="72" width="48" height="44" rx="4" fill="#7F90A8"></rect>
+<rect x="70" y="116" width="16" height="30" fill="#8FA391"></rect><rect x="90" y="116" width="16" height="30" fill="#8FA391"></rect>
+<rect x="124" y="30" width="86" height="40" rx="10" fill="#EFEDE8"></rect>
+<path d="M 132 70 L 124 82 L 144 70 Z" fill="#EFEDE8"></path>
+<text x="167" y="47" text-anchor="middle" font-family="Libre Franklin, Arial, sans-serif" font-size="10" font-weight="700" fill="#2F2E2B">Free coins!</text>
+<text x="167" y="61" text-anchor="middle" font-family="Libre Franklin, Arial, sans-serif" font-size="9" fill="#7F90A8">Click this link</text>
+<path d="M 176 96 L 196 130 L 156 130 Z" fill="#C08377"></path>
+<rect x="174" y="106" width="4" height="13" rx="2" fill="#FFFFFF"></rect><circle cx="176" cy="124" r="2.4" fill="#FFFFFF"></circle>
+</svg>
+)}
+{name === "anonymous-signup" && (
+<svg aria-hidden="true" viewBox="0 0 240 180" class="art">
+<rect x="78" y="14" width="84" height="166" rx="14" fill="#2F2E2B"></rect>
+<rect x="85" y="26" width="70" height="154" rx="8" fill="#FFFFFF"></rect>
+<rect x="93" y="44" width="54" height="12" rx="4" fill="#EFEDE8"></rect>
+<rect x="93" y="62" width="54" height="12" rx="4" fill="#EFEDE8"></rect>
+<rect x="93" y="84" width="54" height="14" rx="7" fill="#2F2E2B"></rect>
+<rect x="93" y="106" width="54" height="16" rx="8" fill="#7F90A8"></rect>
+<path d="M 104 114 q 4 -6 9 0 q 3 3 6 0 q 5 -6 9 0 q -4 7 -9 3 q -3 -2 -6 0 q -5 4 -9 -3 Z" fill="#FFFFFF"></path>
+<rect x="132" y="112" width="10" height="4" rx="2" fill="#FFFFFF"></rect>
+<path d="M 186 56 a 18 18 0 0 1 36 0 v 10 h -36 z" fill="#D9B8B2"></path>
+<rect x="180" y="64" width="48" height="38" rx="7" fill="#B98D90"></rect>
+<circle cx="204" cy="81" r="5" fill="#FFFFFF"></circle>
+</svg>
+)}
+{name === "llm-privacy-settings" && (
+<svg aria-hidden="true" viewBox="0 0 240 180" class="art">
+<rect x="22" y="26" width="196" height="132" rx="12" fill="#EFEDE8"></rect>
+<rect x="22" y="26" width="196" height="20" rx="12" fill="#2F2E2B"></rect>
+<circle cx="36" cy="36" r="3.5" fill="#C08377"></circle><circle cx="47" cy="36" r="3.5" fill="#D6BA82"></circle><circle cx="58" cy="36" r="3.5" fill="#8FA391"></circle>
+<rect x="34" y="58" width="80" height="18" rx="9" fill="#FFFFFF"></rect>
+<rect x="64" y="84" width="60" height="18" rx="9" fill="#D6BA82"></rect>
+<rect x="34" y="110" width="90" height="30" rx="10" fill="#FFFFFF"></rect>
+<rect x="136" y="54" width="70" height="92" rx="8" fill="#FFFFFF"></rect>
+<rect x="144" y="64" width="40" height="5" rx="2.5" fill="#2F2E2B"></rect>
+<rect x="144" y="82" width="30" height="4" rx="2" fill="#8A857D"></rect>
+<rect x="178" y="78" width="20" height="12" rx="6" fill="#C9C5BE"></rect><circle cx="184" cy="84" r="4.5" fill="#FFFFFF"></circle>
+<rect x="144" y="100" width="30" height="4" rx="2" fill="#8A857D"></rect>
+<rect x="178" y="96" width="20" height="12" rx="6" fill="#7F90A8"></rect><circle cx="192" cy="102" r="4.5" fill="#FFFFFF"></circle>
+<rect x="144" y="118" width="30" height="4" rx="2" fill="#8A857D"></rect>
+<rect x="144" y="128" width="46" height="10" rx="5" fill="#C08377"></rect>
+</svg>
+)}
+{name === "forum-thread" && (
+<svg aria-hidden="true" viewBox="0 0 240 180" class="art">
+<rect x="34" y="22" width="172" height="62" rx="10" fill="#EFEDE8"></rect>
+<path d="M 52 40 l 9 -10 l 9 10 z" fill="#C08377"></path>
+<text x="61" y="55" text-anchor="middle" font-family="Libre Franklin, Arial, sans-serif" font-size="10" font-weight="800" fill="#2F2E2B">412</text>
+<path d="M 52 62 l 9 10 l 9 -10 z" fill="#C9C5BE"></path>
+<rect x="82" y="34" width="108" height="6" rx="3" fill="#2F2E2B"></rect>
+<rect x="82" y="48" width="96" height="4" rx="2" fill="#8A857D"></rect>
+<rect x="82" y="58" width="70" height="4" rx="2" fill="#8A857D"></rect>
+<rect x="54" y="94" width="152" height="34" rx="10" fill="#EFEDE8"></rect>
+<rect x="66" y="105" width="110" height="4" rx="2" fill="#8A857D"></rect><rect x="66" y="114" width="80" height="4" rx="2" fill="#8A857D"></rect>
+<rect x="74" y="136" width="132" height="30" rx="10" fill="#EFEDE8"></rect>
+<rect x="86" y="146" width="90" height="4" rx="2" fill="#8A857D"></rect><rect x="86" y="155" width="60" height="4" rx="2" fill="#8A857D"></rect>
+<rect x="44" y="94" width="2" height="72" fill="#C9C5BE"></rect>
+<circle cx="190" cy="104" r="12" fill="#D6BA82"></circle><text x="190" y="108" text-anchor="middle" font-family="Libre Franklin, Arial, sans-serif" font-size="11" font-weight="800" fill="#2F2E2B">$</text>
+</svg>
+)}
+{name === "baby-monitor" && (
+<svg aria-hidden="true" viewBox="0 0 240 180" class="art">
+<rect x="46" y="58" width="64" height="74" rx="20" fill="#EFEDE8"></rect>
+<circle cx="78" cy="88" r="16" fill="#2F2E2B"></circle><circle cx="78" cy="88" r="7" fill="#7F90A8"></circle>
+<rect x="58" y="132" width="40" height="10" rx="4" fill="#C9C5BE"></rect>
+<rect x="94" y="30" width="4" height="30" rx="2" fill="#8A857D"></rect><circle cx="96" cy="30" r="5" fill="#C08377"></circle>
+<path d="M 120 88 q 10 -10 20 0" fill="none" stroke="#C9C5BE" stroke-width="4" stroke-linecap="round"></path>
+<path d="M 114 82 q 16 -18 32 0" fill="none" stroke="#C9C5BE" stroke-width="4" stroke-linecap="round"></path>
+<rect x="156" y="44" width="54" height="104" rx="10" fill="#2F2E2B"></rect>
+<rect x="161" y="54" width="44" height="84" rx="5" fill="#E6D8D2"></rect>
+<rect x="166" y="96" width="34" height="26" rx="4" fill="#FFFFFF"></rect>
+<g fill="#D9B8B2"><rect x="170" y="96" width="3" height="26"></rect><rect x="178" y="96" width="3" height="26"></rect><rect x="186" y="96" width="3" height="26"></rect><rect x="194" y="96" width="3" height="26"></rect></g>
+<circle cx="183" cy="76" r="8" fill="#D6BA82"></circle>
+</svg>
+)}
+{name === "live-stream-slots" && (
+<svg aria-hidden="true" viewBox="0 0 240 180" class="art">
+<rect x="20" y="30" width="146" height="100" rx="8" fill="#2F2E2B"></rect>
+<rect x="28" y="38" width="38" height="14" rx="3" fill="#C08377"></rect>
+<text x="47" y="49" text-anchor="middle" font-family="Libre Franklin, Arial, sans-serif" font-size="9" font-weight="800" fill="#FFFFFF">LIVE</text>
+<rect x="46" y="62" width="94" height="50" rx="8" fill="#D6BA82"></rect>
+<rect x="54" y="70" width="24" height="34" rx="4" fill="#FFFFFF"></rect><rect x="81" y="70" width="24" height="34" rx="4" fill="#FFFFFF"></rect><rect x="108" y="70" width="24" height="34" rx="4" fill="#FFFFFF"></rect>
+<text x="66" y="94" text-anchor="middle" font-family="Libre Franklin, Arial, sans-serif" font-size="18" font-weight="900" fill="#C08377">7</text>
+<text x="93" y="94" text-anchor="middle" font-family="Libre Franklin, Arial, sans-serif" font-size="18" font-weight="900" fill="#C08377">7</text>
+<text x="120" y="94" text-anchor="middle" font-family="Libre Franklin, Arial, sans-serif" font-size="18" font-weight="900" fill="#7F90A8">3</text>
+<rect x="172" y="30" width="48" height="100" rx="8" fill="#EFEDE8"></rect>
+<rect x="178" y="40" width="34" height="4" rx="2" fill="#8A857D"></rect><rect x="178" y="52" width="26" height="4" rx="2" fill="#8A857D"></rect><rect x="178" y="64" width="36" height="4" rx="2" fill="#8A857D"></rect><rect x="178" y="76" width="22" height="4" rx="2" fill="#8A857D"></rect>
+<rect x="178" y="108" width="36" height="14" rx="7" fill="#7F90A8"></rect>
+<rect x="20" y="138" width="146" height="6" rx="3" fill="#EFEDE8"></rect><rect x="20" y="138" width="60" height="6" rx="3" fill="#C08377"></rect>
+</svg>
+)}

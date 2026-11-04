@@ -1,0 +1,60 @@
+{
+  "name": "Xinning Gui",
+  "summary": "I study how people navigate opaque, high-stakes platforms and data ecosystems that shape their health, privacy, and safety.",
+  "roles": [
+    "Assistant Professor, College of Information Sciences and Technology, Penn State",
+    "Co-director, Health and Play Lab"
+  ],
+  "description": "Xinning Gui is an Assistant Professor at Penn State's College of Information Sciences and Technology, studying human-centered AI for health, health data privacy, and youth digital safety.",
+  "email": "xinninggui@psu.edu",
+  "office": "E304B Westgate Building, University Park, PA 16802",
+  "links": {
+    "scholar": "https://scholar.google.com/citations?hl=en&user=vuRGn_kAAAAJ&view_op=list_works&sortby=pubdate",
+    "lab": "https://healthandplaylab.github.io/",
+    "cv": ""
+  },
+  "threads": [
+    {
+      "id": "ai",
+      "title": "Human-centered AI for health and wellbeing",
+      "text": "How people use AI symptom checkers and LLM chatbots, and how explanations shape trust in their advice.",
+      "art": "symptom-checker",
+      "tint": "#EEE6D6"
+    },
+    {
+      "id": "privacy",
+      "title": "Health data privacy in expansive data ecosystems",
+      "text": "Period and fertility tracking after Roe v. Wade: what users fear, what apps promise, and whether anonymity features work.",
+      "art": "period-tracker",
+      "tint": "#DDE1E6"
+    },
+    {
+      "id": "youth",
+      "title": "Youth digital safety and psychosocial wellbeing",
+      "text": "Gambling-like design in games and streams, and how children and teens assess and cope with risks on platforms like Roblox.",
+      "art": "prize-wheel",
+      "tint": "#EBDDD7"
+    }
+  ],
+  "featuredPublications": [
+    { "id": "C49", "art": "game-chat-risk" },
+    { "id": "C42", "art": "anonymous-signup" },
+    { "id": "C47", "art": "llm-privacy-settings" },
+    { "id": "J36", "art": "forum-thread" },
+    { "id": "C48", "art": "baby-monitor" },
+    { "id": "J38", "art": "live-stream-slots" }
+  ],
+  "students": [
+    { "name": "Qiurong Song", "status": "Ph.D. candidate", "url": "https://qiurongsong.github.io/" },
+    { "name": "Rie Helene (Lindy) Hernandez", "status": "Ph.D. candidate", "url": "" },
+    { "name": "Yunhan Liu", "status": "Ph.D. candidate", "url": "" },
+    { "name": "Yue You", "status": "Ph.D. 2024", "url": "" }
+  ],
+  "teaching": [
+    { "title": "Methods for Studying Users", "code": "HCDD 364W" },
+    { "title": "User Experience Evaluation", "code": "IST 597" },
+    { "title": "Foundations of Human-Centered Design", "code": "IST 331" }
+  ],
+  "personal": "I studied Chinese literature at Peking University (B.A.) and Beijing Normal University (M.A.), where my master’s research focused on the reproductive rights of intellectual women in Yan’an (1937–1947). That interest carried into my current work on the privacy, security, and safety of health technologies. I earned my Ph.D. in Information and Computer Science at UC Irvine. Outside work, I read detective and mystery novels, bake, craft, and hike, and I live with two cats, Teemo and Melon.",
+  "lastUpdated": "November 2026"
+}

@@ -1,0 +1,68 @@
+---
+import "@fontsource/libre-franklin/400.css";
+import "@fontsource/libre-franklin/500.css";
+import "@fontsource/libre-franklin/600.css";
+import "@fontsource/libre-franklin/800.css";
+import "@fontsource/libre-franklin/900.css";
+import "../styles/site.css";
+import site from "../data/site.json";
+
+interface Props {
+  title?: string;
+  description?: string;
+  current?: "home" | "publications";
+}
+const { title, description = site.description, current = "home" } = Astro.props;
+const pageTitle = title ? `${title} — ${site.name}` : `${site.name} · Penn State`;
+const canonical = new URL(Astro.url.pathname, Astro.site).href;
+const home = current === "home" ? "" : "/";
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{pageTitle}</title>
+    <meta name="description" content={description} />
+    <link rel="canonical" href={canonical} />
+    <meta property="og:title" content={pageTitle} />
+    <meta property="og:description" content={description} />
+    <meta property="og:image" content={new URL("/images/xinning-gui.jpg", Astro.site).href} />
+    <meta name="theme-color" content="#EEEBE5" />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+  </head>
+  <body>
+    <a class="skip" href="#main">Skip to content</a>
+    <div class="wrap">
+      <header class="site-header">
+        <a class="brand" href="/">{site.name}</a>
+        <nav aria-label="Main">
+          <ul>
+            <li><a href={`${home}#research`}>Research</a></li>
+            <li><a href="/publications/" aria-current={current === "publications" ? "page" : undefined}>Publications</a></li>
+            <li><a href={`${home}#students`}>Students</a></li>
+            <li><a href={`${home}#teaching`}>Teaching</a></li>
+            <li><a href={`${home}#contact`}>Contact</a></li>
+          </ul>
+        </nav>
+      </header>
+      <main id="main">
+        <slot />
+      </main>
+      <footer class="site-footer" id="contact">
+        <div>
+          <h2>Contact</h2>
+          <a class="email" href={`mailto:${site.email}`}>{site.email}</a>
+          <p>{site.office}</p>
+        </div>
+        <ul class="footer-links">
+          {site.links.cv && <li><a href={site.links.cv}>CV</a></li>}
+          <li><a href={site.links.scholar}>Google Scholar</a></li>
+          <li><a href={site.links.lab}>Health and Play Lab</a></li>
+        </ul>
+      </footer>
+      <p class="updated">Last updated {site.lastUpdated}</p>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,1843 @@
+[
+ {
+  "id": "J38",
+  "type": "journal",
+  "year": 2026,
+  "short": "CHI PLAY 2026",
+  "title": "From Stream to Stake: Gamblification Practices and User Perceptions on Twitch",
+  "authors": [
+   "Yunhan Liu",
+   "Sam Moradzadeh",
+   "Qiurong Song",
+   "Yubo Kou",
+   "Xinning Gui"
+  ],
+  "advisees": [
+   "Yunhan Liu",
+   "Qiurong Song"
+  ],
+  "venue": "Proceedings of the ACM on Human-Computer Interaction",
+  "details": "10, 7. Accepted July 2026",
+  "doi": "10.1145/3831281",
+  "award": null
+ },
+ {
+  "id": "J37",
+  "type": "journal",
+  "year": 2026,
+  "short": "CHI PLAY 2026",
+  "title": "Gaming Together on Discord: Teen Gamer’s Cross-Platform Practices",
+  "authors": [
+   "Elena Koung",
+   "Xinning Gui",
+   "Yubo Kou"
+  ],
+  "advisees": [],
+  "venue": "Proceedings of the ACM on Human-Computer Interaction",
+  "details": "10, 7. Accepted July 2026",
+  "doi": "10.1145/3831286",
+  "award": null
+ },
+ {
+  "id": "J36",
+  "type": "journal",
+  "year": 2026,
+  "short": "CSCW 2026",
+  "title": "“I usually profit because I know when to stop”: Understanding Teenagers’ Risk Perception and Mitigation Strategies of Gambling from Reddit",
+  "authors": [
+   "Yunhan Liu",
+   "Elena Koung",
+   "Qiurong Song",
+   "Yubo Kou",
+   "Xinning Gui"
+  ],
+  "advisees": [
+   "Yunhan Liu",
+   "Qiurong Song"
+  ],
+  "venue": "Proceedings of the ACM on Human-Computer Interaction",
+  "details": "(CSCW 2026), 34 pages",
+  "doi": "10.1145/3788059",
+  "award": null
+ },
+ {
+  "id": "J35",
+  "type": "journal",
+  "year": 2026,
+  "short": "CSCW Journal 2026",
+  "title": "Making the Gig Economy Infrastructure Work: Gig Drivers’ Adaptive, Algorithmic, and Social Knowledge Practices",
+  "authors": [
+   "Rie Helene (Lindy) Hernandez",
+   "Qiurong Song",
+   "Yubo Kou",
+   "Xinning Gui"
+  ],
+  "advisees": [
+   "Rie Helene (Lindy) Hernandez",
+   "Qiurong Song"
+  ],
+  "venue": "Computer Supported Cooperative Work",
+  "details": "35, 1, Article 1 (35 pages)",
+  "doi": "10.1007/s10606-026-09536-6",
+  "award": null
+ },
+ {
+  "id": "C49",
+  "type": "conference",
+  "year": 2026,
+  "short": "CCS 2026",
+  "title": "How Children Assess Digital Safety Risk in Gaming Platforms: A Case Study of Roblox",
+  "authors": [
+   "Zinan Zhang",
+   "Qiurong Song",
+   "Xinning Gui",
+   "Junnan Yu",
+   "Sunhye Bai",
+   "Yubo Kou"
+  ],
+  "advisees": [
+   "Qiurong Song"
+  ],
+  "venue": "Proceedings of the 2026 ACM SIGSAC Conference on Computer and Communications Security (CCS 2026)",
+  "details": "Accepted",
+  "doi": "10.1145/3830454.3846726",
+  "award": null
+ },
+ {
+  "id": "C48",
+  "type": "conference",
+  "year": 2026,
+  "short": "CHI 2026",
+  "title": "Surveillance as Care: Configuring Baby Monitors in the Home",
+  "authors": [
+   "Qiurong Song",
+   "Yunhan Liu",
+   "Zinan Zhang",
+   "Yubo Kou",
+   "Xinning Gui"
+  ],
+  "advisees": [
+   "Qiurong Song",
+   "Yunhan Liu"
+  ],
+  "venue": "Proceedings of the 2026 CHI Conference on Human Factors in Computing Systems (CHI 2026)",
+  "details": "Barcelona, Spain (16 pages)",
+  "doi": "10.1145/3772318.3791462",
+  "award": null
+ },
+ {
+  "id": "C47",
+  "type": "conference",
+  "year": 2026,
+  "short": "CHI 2026",
+  "title": "Privacy Control in Conversational LLM Platforms: A Walkthrough Study",
+  "authors": [
+   "Zhuoyang Li",
+   "Yanlai Wu",
+   "Yao Li",
+   "Xinning Gui",
+   "Yuhan Luo"
+  ],
+  "advisees": [],
+  "venue": "Proceedings of the 2026 CHI Conference on Human Factors in Computing Systems (CHI 2026)",
+  "details": "Barcelona, Spain (26 pages)",
+  "doi": "10.1145/3772318.3791054",
+  "award": null
+ },
+ {
+  "id": "C46",
+  "type": "conference",
+  "year": 2026,
+  "short": "CHI 2026",
+  "title": "Why Creators Break Rules: Quantitative Evidence on Moral Disengagement and Self-Control",
+  "authors": [
+   "Yao Li",
+   "Rie Helene (Lindy) Hernandez",
+   "Xinning Gui",
+   "Yubo Kou"
+  ],
+  "advisees": [
+   "Rie Helene (Lindy) Hernandez"
+  ],
+  "venue": "Proceedings of the 2026 CHI Conference on Human Factors in Computing Systems (CHI 2026)",
+  "details": "Barcelona, Spain (27 pages)",
+  "doi": "10.1145/3772318.3791692",
+  "award": null
+ },
+ {
+  "id": "C45",
+  "type": "conference",
+  "year": 2026,
+  "short": "CHI 2026",
+  "title": "Teen Vigilance: Navigating Risky Social Interactions on Discord",
+  "authors": [
+   "Elena Koung",
+   "Yunhan Liu",
+   "Zinan Zhang",
+   "Xinning Gui",
+   "Yubo Kou"
+  ],
+  "advisees": [
+   "Yunhan Liu"
+  ],
+  "venue": "Proceedings of the 2026 CHI Conference on Human Factors in Computing Systems (CHI 2026)",
+  "details": "Barcelona, Spain (22 pages)",
+  "doi": "10.1145/3772318.3790781",
+  "award": null
+ },
+ {
+  "id": "C44",
+  "type": "conference",
+  "year": 2026,
+  "short": "CHI 2026",
+  "title": "Player Safety by Design: Co-Designing Child-Centered Safety Mechanisms with Children",
+  "authors": [
+   "Zinan Zhang",
+   "Qiurong Song",
+   "Rie Helene (Lindy) Hernandez",
+   "Yunhan Liu",
+   "Elena Koung",
+   "Junnan Yu",
+   "Sunhye Bai",
+   "Yubo Kou",
+   "Xinning Gui"
+  ],
+  "advisees": [
+   "Qiurong Song",
+   "Rie Helene (Lindy) Hernandez",
+   "Yunhan Liu"
+  ],
+  "venue": "Proceedings of the 2026 CHI Conference on Human Factors in Computing Systems (CHI 2026)",
+  "details": "Barcelona, Spain (21 pages)",
+  "doi": "10.1145/3772318.3791090",
+  "award": null
+ },
+ {
+  "id": "C43",
+  "type": "conference",
+  "year": 2026,
+  "short": "USENIX Security 2026",
+  "title": "Digital Risks and Coping Practices among Roblox Game Creators",
+  "authors": [
+   "Qiurong Song",
+   "Rie Helene (Lindy) Hernandez",
+   "Xinning Gui",
+   "Yubo Kou"
+  ],
+  "advisees": [
+   "Qiurong Song",
+   "Rie Helene (Lindy) Hernandez"
+  ],
+  "venue": "Proceedings of the 35th USENIX Security Symposium (USENIX Security 2026)",
+  "details": "Baltimore, MD, USA (20 pages)",
+  "doi": null,
+  "award": null
+ },
+ {
+  "id": "C42",
+  "type": "conference",
+  "year": 2026,
+  "short": "IEEE S&P 2026",
+  "title": "Usable Anonymity in Reproductive Health Privacy",
+  "authors": [
+   "Qiurong Song",
+   "Yanlai Wu",
+   "Rie Helene (Lindy) Hernandez",
+   "Yao Li",
+   "Yubo Kou",
+   "Xinning Gui"
+  ],
+  "advisees": [
+   "Qiurong Song",
+   "Rie Helene (Lindy) Hernandez"
+  ],
+  "venue": "Proceedings of the 2026 IEEE Symposium on Security and Privacy (S&P 2026)",
+  "details": "San Francisco, CA, USA, 3627–3636",
+  "doi": "10.1109/SP63933.2026.00023",
+  "award": null
+ },
+ {
+  "id": "P11",
+  "type": "poster",
+  "year": 2026,
+  "short": "CSCW Companion 2026",
+  "title": "Surfacing Risky Game Design: A Multistakeholder Taxonomy for Understanding Safety Risks on Roblox",
+  "authors": [
+   "Zinan Zhang",
+   "Qiurong Song",
+   "Xinning Gui",
+   "Yubo Kou"
+  ],
+  "advisees": [
+   "Qiurong Song"
+  ],
+  "venue": "Companion of the 2026 ACM Conference on Computer-Supported Cooperative Work and Social Computing (CSCW Companion ’26)",
+  "details": "Salt Lake City, UT, USA, 10 pp. Accepted June 2026",
+  "doi": "10.1145/3785651.3831509",
+  "award": null
+ },
+ {
+  "id": "P10",
+  "type": "poster",
+  "year": 2026,
+  "short": "URC-PA 2026",
+  "title": "AI Safety in Children’s Games: Evaluating Chatbots in Roblox",
+  "authors": [
+   "Jessica Gravel",
+   "Lindy Hernandez",
+   "Yubo Kou",
+   "Xinning Gui"
+  ],
+  "advisees": [
+   "Lindy Hernandez"
+  ],
+  "venue": "Undergraduate Research at the Capitol—Pennsylvania Poster Conference (URC-PA)",
+  "details": "Harrisburg, PA, USA",
+  "doi": null,
+  "award": null
+ },
+ {
+  "id": "J34",
+  "type": "journal",
+  "year": 2025,
+  "short": "CHI PLAY 2025",
+  "title": "More Than Just Microtransactions: Predatory Monetization in User-Generated Games",
+  "authors": [
+   "Zinan Zhang",
+   "Sam Moradzadeh",
+   "Xinning Gui",
+   "Yubo Kou"
+  ],
+  "advisees": [],
+  "venue": "Proceedings of the ACM on Human-Computer Interaction",
+  "details": "9, 6, Article GAMES031, 889–921. (CHI PLAY 2025)",
+  "doi": "10.1145/3748626",
+  "award": null
+ },
+ {
+  "id": "J33",
+  "type": "journal",
+  "year": 2025,
+  "short": "CHI PLAY 2025",
+  "title": "Gendered Toxicity in Competitive Gaming: Women’s Perceptions and Responses",
+  "authors": [
+   "Elena Koung",
+   "Zinan Zhang",
+   "Xinning Gui",
+   "Yubo Kou"
+  ],
+  "advisees": [],
+  "venue": "Proceedings of the ACM on Human-Computer Interaction",
+  "details": "9, 6, Article GAMES015, 415–446. (CHI PLAY 2025) Honorable Mention Award",
+  "doi": "10.1145/3748610",
+  "award": "Best Paper Honorable Mention"
+ },
+ {
+  "id": "J32",
+  "type": "journal",
+  "year": 2025,
+  "short": "CHI PLAY 2025",
+  "title": "Fake Game but Real Play: Exploring Player Motivations and Coping Strategies with Fake Games",
+  "authors": [
+   "Sam Moradzadeh",
+   "Jeffrey Seihoon Oh",
+   "Xinning Gui",
+   "Yubo Kou"
+  ],
+  "advisees": [],
+  "venue": "Proceedings of the ACM on Human-Computer Interaction",
+  "details": "9, 6, Article GAMES021, 606–636. (CHI PLAY 2025)",
+  "doi": "10.1145/3748616",
+  "award": null
+ },
+ {
+  "id": "J31",
+  "type": "journal",
+  "year": 2025,
+  "short": "IJHCS 2025",
+  "title": "“This is Human Intelligence Debugging Artificial Intelligence”: Examining How People Prompt GPT in Seeking Mental Health Support",
+  "authors": [
+   "Zhuoyang Li",
+   "Zihao Zhu",
+   "Xinning Gui",
+   "Yuhan Luo"
+  ],
+  "advisees": [],
+  "venue": "International Journal of Human–Computer Studies",
+  "details": "203 (2025), 103555 (16 pages)",
+  "doi": "10.1016/j.ijhcs.2025.103555",
+  "award": null
+ },
+ {
+  "id": "J30",
+  "type": "journal",
+  "year": 2025,
+  "short": "CSCW Journal 2025",
+  "title": "The State of Video Game Research in Computer-Supported Cooperative Work – A Systematic Literature Review",
+  "authors": [
+   "Sam Moradzadeh",
+   "Zinan Zhang",
+   "Xinning Gui",
+   "Yubo Kou"
+  ],
+  "advisees": [],
+  "venue": "Computer Supported Cooperative Work",
+  "details": "34, 587–638",
+  "doi": "10.1007/s10606-025-09519-z",
+  "award": null
+ },
+ {
+  "id": "C41",
+  "type": "conference",
+  "year": 2025,
+  "short": "SOUPS 2025",
+  "title": "How Predatory Monetization Designs Manifest in Child-Friendly Video Games",
+  "authors": [
+   "Qiurong Song",
+   "Zinan Zhang",
+   "Rie Helene (Lindy) Hernandez",
+   "Xinning Gui",
+   "Yubo Kou"
+  ],
+  "advisees": [
+   "Qiurong Song",
+   "Rie Helene (Lindy) Hernandez"
+  ],
+  "venue": "Proceedings of the Twenty-First Symposium on Usable Privacy and Security (SOUPS 2025)",
+  "details": "Seattle, WA, USA, 515–534",
+  "doi": null,
+  "award": null
+ },
+ {
+  "id": "C40",
+  "type": "conference",
+  "year": 2025,
+  "short": "DIS 2025",
+  "title": "Reflecting Upon the Unintended Consequences of Personal Informatics Systems: A Systematic Review of Empirical Studies",
+  "authors": [
+   "Yuhan Luo",
+   "Xinning Gui",
+   "Xianghua (Sharon) Ding",
+   "Xi Zheng",
+   "Rie Helene (Lindy) Hernandez",
+   "Zhuoyang Li",
+   "Qiurong Song"
+  ],
+  "advisees": [
+   "Rie Helene (Lindy) Hernandez",
+   "Qiurong Song"
+  ],
+  "venue": "Proceedings of the ACM SIGCHI Conference on Designing Interactive Systems (DIS 2025)",
+  "details": "Funchal, Madeira, Portugal, 2847–2866",
+  "doi": "10.1145/3715336.3735746",
+  "award": null
+ },
+ {
+  "id": "C39",
+  "type": "conference",
+  "year": 2025,
+  "short": "IDC 2025",
+  "title": "Dangerous Playgrounds: Child Players’ Encounters with Design-Mediated Risks on User Generated Game Platforms and Their Safety Practices",
+  "authors": [
+   "Zinan Zhang",
+   "Xinning Gui",
+   "Junnan Yu",
+   "Sunhye Bai",
+   "Yubo Kou"
+  ],
+  "advisees": [],
+  "venue": "Proceedings of the 24th ACM Interaction Design and Children Conference (IDC 2025)",
+  "details": "Reykjavík, Iceland, 296–313",
+  "doi": "10.1145/3713043.3728858",
+  "award": null
+ },
+ {
+  "id": "C38",
+  "type": "conference",
+  "year": 2025,
+  "short": "CHI 2025",
+  "title": "Understanding Users’ Perception of Personally Identifiable Information",
+  "authors": [
+   "Qiurong Song",
+   "Yanlai Wu",
+   "Rie Helene (Lindy) Hernandez",
+   "Yao Li",
+   "Yubo Kou",
+   "Xinning Gui"
+  ],
+  "advisees": [
+   "Qiurong Song",
+   "Rie Helene (Lindy) Hernandez"
+  ],
+  "venue": "Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (CHI 2025)",
+  "details": "Yokohama, Japan, Article No. 240, 1–24",
+  "doi": "10.1145/3706598.3713783",
+  "award": null
+ },
+ {
+  "id": "C37",
+  "type": "conference",
+  "year": 2025,
+  "short": "CHI 2025",
+  "title": "Customizing Emotional Support: How Do Individuals Construct and Interact With LLM-Powered Chatbots",
+  "authors": [
+   "Xi Zheng",
+   "Zhuoyang Li",
+   "Xinning Gui",
+   "Yuhan Luo"
+  ],
+  "advisees": [],
+  "venue": "Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (CHI 2025)",
+  "details": "Yokohama, Japan, Article No. 376, 1–20",
+  "doi": "10.1145/3706598.3713453",
+  "award": null
+ },
+ {
+  "id": "C36",
+  "type": "conference",
+  "year": 2025,
+  "short": "CHI 2025",
+  "title": "“The System is Made to Inherently Push Child Gambling in my Opinion”: Child Safety, Monetization, and Moderation on Roblox",
+  "authors": [
+   "Yubo Kou",
+   "Rie Helene (Lindy) Hernandez",
+   "Xinning Gui"
+  ],
+  "advisees": [
+   "Rie Helene (Lindy) Hernandez"
+  ],
+  "venue": "Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (CHI 2025)",
+  "details": "Yokohama, Japan, Article No. 471, 1–18. Honorable Mention Award",
+  "doi": "10.1145/3706598.3713170",
+  "award": "Best Paper Honorable Mention"
+ },
+ {
+  "id": "C35",
+  "type": "conference",
+  "year": 2025,
+  "short": "CHI 2025",
+  "title": "Weighing Benefits and Harms: Parental Mediation on Social Video Platforms",
+  "authors": [
+   "Renkai Ma",
+   "Yao Li",
+   "Sunhye Bai",
+   "Yubo Kou",
+   "Xinning Gui"
+  ],
+  "advisees": [],
+  "venue": "Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (CHI 2025)",
+  "details": "Yokohama, Japan, Article No. 1041, 1–26",
+  "doi": "10.1145/3706598.3713422",
+  "award": null
+ },
+ {
+  "id": "P9",
+  "type": "workshop",
+  "year": 2025,
+  "short": "IDC 2025 Workshop",
+  "title": "Children’s Online Safety Risks and Ethical Considerations in XR Games",
+  "authors": [
+   "Zinan Zhang",
+   "Xinning Gui",
+   "Yubo Kou"
+  ],
+  "advisees": [],
+  "venue": "Workshop “Extended Reality and Children: Risks, Opportunities, and Ethics” at the ACM Interaction Design and Children Conference (IDC 2025)",
+  "details": "Reykjavík, Iceland",
+  "doi": null,
+  "award": null
+ },
+ {
+  "id": "J29",
+  "type": "journal",
+  "year": 2024,
+  "short": "CHI PLAY 2024",
+  "title": "Harmful Design in User-Generated Games and its Ethical and Governance Challenges: An Investigation of Design Co-Ideation of Game Creators on Roblox",
+  "authors": [
+   "Zinan Zhang",
+   "Sam Moradzadeh",
+   "Xinning Gui",
+   "Yubo Kou"
+  ],
+  "advisees": [],
+  "venue": "Proceedings of the ACM on Human-Computer Interaction",
+  "details": "8, CHI PLAY, 1–31. (CHI PLAY 2024) Honorable Mention Award",
+  "doi": "10.1145/3677076",
+  "award": "Best Paper Honorable Mention"
+ },
+ {
+  "id": "J28",
+  "type": "journal",
+  "year": 2024,
+  "short": "CSCW 2024",
+  "title": "Collective Privacy Sensemaking on Social Media about Period and Fertility Tracking post Roe v. Wade",
+  "authors": [
+   "Qiurong Song",
+   "Renkai Ma",
+   "Yubo Kou",
+   "Xinning Gui"
+  ],
+  "advisees": [
+   "Qiurong Song"
+  ],
+  "venue": "Proceedings of the ACM on Human-Computer Interaction",
+  "details": "(CSCW 2024), 8, CSCW1, 1–35",
+  "doi": "10.1145/3641000",
+  "award": null
+ },
+ {
+  "id": "C34",
+  "type": "conference",
+  "year": 2024,
+  "short": "SOUPS 2024",
+  "title": "Designing the Informing Process with Streamers and Bystanders in Live Streaming",
+  "authors": [
+   "Yanlai Wu",
+   "Xinning Gui",
+   "Yuhan Luo",
+   "Yao Li"
+  ],
+  "advisees": [],
+  "venue": "Proceedings of the Twentieth Symposium on Usable Privacy and Security (SOUPS 2024)",
+  "details": "Philadelphia, PA, USA, 315–332",
+  "doi": null,
+  "award": null
+ },
+ {
+  "id": "C33",
+  "type": "conference",
+  "year": 2024,
+  "short": "DIS 2024",
+  "title": "The Ecology of Harmful Design: Risk and Safety of Game Making on a Metaverse Platform",
+  "authors": [
+   "Yubo Kou",
+   "Yingfan Zhou",
+   "Zinan Zhang",
+   "Xinning Gui"
+  ],
+  "advisees": [],
+  "venue": "Proceedings of the ACM SIGCHI Conference on Designing Interactive Systems (DIS 2024)",
+  "details": "Copenhagen, Denmark, 1842–1856",
+  "doi": "10.1145/3643834.3660678",
+  "award": null
+ },
+ {
+  "id": "C32",
+  "type": "conference",
+  "year": 2024,
+  "short": "DIS 2024",
+  "title": "Labeling in the Dark: Exploring Content Creators’ and Consumers’ Experiences with Content Classification for Child Safety on YouTube",
+  "authors": [
+   "Renkai Ma",
+   "Zinan Zhang",
+   "Xinning Gui",
+   "Yubo Kou"
+  ],
+  "advisees": [],
+  "venue": "Proceedings of the ACM SIGCHI Conference on Designing Interactive Systems (DIS 2024)",
+  "details": "Copenhagen, Denmark, 1518–1532",
+  "doi": "10.1145/3643834.3661565",
+  "award": null
+ },
+ {
+  "id": "C31",
+  "type": "conference",
+  "year": 2024,
+  "short": "CHI 2024",
+  "title": "“Our Users’ Privacy is Paramount to Us”: A Discourse Analysis of How Period and Fertility Tracking App Companies Address the Roe v Wade Overturn",
+  "authors": [
+   "Qiurong Song",
+   "Rie Helene (Lindy) Hernandez",
+   "Yubo Kou",
+   "Xinning Gui"
+  ],
+  "advisees": [
+   "Qiurong Song",
+   "Rie Helene (Lindy) Hernandez"
+  ],
+  "venue": "Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (CHI 2024)",
+  "details": "Honolulu, HI, USA, Article No. 816, 1–21",
+  "doi": "10.1145/3613904.3642384",
+  "award": null
+ },
+ {
+  "id": "C30",
+  "type": "conference",
+  "year": 2024,
+  "short": "CHI 2024",
+  "title": "“At the end of the day, I am accountable”: Gig Workers’ Self-Tracking for Multi-Dimensional Accountability Management",
+  "authors": [
+   "Rie Helene (Lindy) Hernandez",
+   "Qiurong Song",
+   "Yubo Kou",
+   "Xinning Gui"
+  ],
+  "advisees": [
+   "Rie Helene (Lindy) Hernandez",
+   "Qiurong Song"
+  ],
+  "venue": "Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (CHI 2024)",
+  "details": "Honolulu, HI, USA, Article No. 382, 1–20",
+  "doi": "10.1145/3613904.3642151",
+  "award": null
+ },
+ {
+  "id": "C29",
+  "type": "conference",
+  "year": 2024,
+  "short": "CHI 2024",
+  "title": "Trading as Gambling: Social Investing and Financial Risks on the r/WallStreetBets subreddit",
+  "authors": [
+   "Yubo Kou",
+   "Sam Moradzadeh",
+   "Xinning Gui"
+  ],
+  "advisees": [],
+  "venue": "Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (CHI 2024)",
+  "details": "Honolulu, HI, USA, Article No. 357, 1–17",
+  "doi": "10.1145/3613904.3642768",
+  "award": null
+ },
+ {
+  "id": "C28",
+  "type": "conference",
+  "year": 2024,
+  "short": "CHI 2024",
+  "title": "Community Begins Where Moderation Ends: Peer Support and Its Implications for Community-Based Rehabilitation",
+  "authors": [
+   "Yubo Kou",
+   "Renkai Ma",
+   "Zinan Zhang",
+   "Yingfan Zhou",
+   "Xinning Gui"
+  ],
+  "advisees": [],
+  "venue": "Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (CHI 2024)",
+  "details": "Honolulu, HI, USA, Article No. 192, 1–18",
+  "doi": "10.1145/3613904.3642675",
+  "award": null
+ },
+ {
+  "id": "P8",
+  "type": "workshop",
+  "year": 2024,
+  "short": "CHI 2024 Workshop",
+  "title": "Collective Privacy Sensemaking on Social Media about Period and Fertility Tracking post Roe v. Wade",
+  "authors": [
+   "Qiurong Song",
+   "Renkai Ma",
+   "Yubo Kou",
+   "Xinning Gui"
+  ],
+  "advisees": [
+   "Qiurong Song"
+  ],
+  "venue": "Workshop at the ACM CHI Conference on Human Factors in Computing Systems (CHI 2024)",
+  "details": "Honolulu, HI, USA",
+  "doi": null,
+  "award": null
+ },
+ {
+  "id": "P7",
+  "type": "workshop",
+  "year": 2024,
+  "short": "PETS Workshop 2024",
+  "title": "“Our Users’ Privacy is Paramount to Us”: A Discourse Analysis of How Period and Fertility Tracking App Companies Address the Roe v. Wade Overturn",
+  "authors": [
+   "Qiurong Song",
+   "Rie Helene (Lindy) Hernandez",
+   "Yubo Kou",
+   "Xinning Gui"
+  ],
+  "advisees": [
+   "Qiurong Song",
+   "Rie Helene (Lindy) Hernandez"
+  ],
+  "venue": "Workshop on Privacy Enhancing Technologies (PETS 2024 Workshop)",
+  "details": "remotely",
+  "doi": null,
+  "award": null
+ },
+ {
+  "id": "P6",
+  "type": "workshop",
+  "year": 2024,
+  "short": "CHI 2024 Workshop",
+  "title": "Understanding and Mitigating Harmful Design in User-Generated Virtual Worlds",
+  "authors": [
+   "Zinan Zhang",
+   "Xinning Gui",
+   "Yubo Kou"
+  ],
+  "advisees": [],
+  "venue": "Workshop “Novel Approaches for Understanding and Mitigating Emerging New Harms in Immersive and Embodied Virtual Spaces” at the ACM CHI Conference on Human Factors in Computing Systems (CHI 2024)",
+  "details": "Honolulu, HI, USA",
+  "doi": null,
+  "award": null
+ },
+ {
+  "id": "J27",
+  "type": "journal",
+  "year": 2023,
+  "short": "TOCHI 2023",
+  "title": "Beyond Self-diagnosis: How a Chatbot-based Symptom Checker Should Respond",
+  "authors": [
+   "Yue You",
+   "Chun-Hua Tsai",
+   "Yao Li",
+   "Fenglong Ma",
+   "Christopher Heron",
+   "Xinning Gui"
+  ],
+  "advisees": [
+   "Yue You"
+  ],
+  "venue": "ACM Transactions on Computer-Human Interaction",
+  "details": "30, 4, 1–44",
+  "doi": "10.1145/3589959",
+  "award": null
+ },
+ {
+  "id": "J26",
+  "type": "journal",
+  "year": 2023,
+  "short": "CSCW 2023",
+  "title": "How Users Experience Moderation?: A Systematic Literature Review",
+  "authors": [
+   "Renkai Ma",
+   "Yue You",
+   "Xinning Gui",
+   "Yubo Kou"
+  ],
+  "advisees": [
+   "Yue You"
+  ],
+  "venue": "Proceedings of the ACM on Human-Computer Interaction",
+  "details": "(CSCW 2023), 7, CSCW2, 1–30",
+  "doi": null,
+  "award": null
+ },
+ {
+  "id": "J25",
+  "type": "journal",
+  "year": 2023,
+  "short": "CSCW 2023",
+  "title": "Do Streamers Care about Bystanders’ Privacy? An Examination of Live Streamers’ Considerations and Strategies for Bystanders’ Privacy Management",
+  "authors": [
+   "Yanlai Wu",
+   "Xinning Gui",
+   "Pamela J. Wisniewski",
+   "Yao Li"
+  ],
+  "advisees": [],
+  "venue": "Proceedings of the ACM on Human-Computer Interaction",
+  "details": "(CSCW 2023), 7, CSCW1, 1–29",
+  "doi": "10.1145/3579603",
+  "award": null
+ },
+ {
+  "id": "C27",
+  "type": "conference",
+  "year": 2023,
+  "short": "DIS 2023",
+  "title": "Harmful Design in the Metaverse and How to Mitigate it: A Case Study of User-Generated Virtual Worlds on Roblox",
+  "authors": [
+   "Yubo Kou",
+   "Xinning Gui"
+  ],
+  "advisees": [],
+  "venue": "Proceedings of the ACM SIGCHI Conference on Designing Interactive Systems (DIS 2023)",
+  "details": "Pittsburgh, PA, USA, 175–188",
+  "doi": "10.1145/3563657.3595960",
+  "award": null
+ },
+ {
+  "id": "C26",
+  "type": "conference",
+  "year": 2023,
+  "short": "CHI 2023",
+  "title": "AutoML in The Wild: Obstacles, Workarounds, and Expectations",
+  "authors": [
+   "Yuan Sun",
+   "Qiurong Song",
+   "Xinning Gui",
+   "Fenglong Ma",
+   "Ting Wang"
+  ],
+  "advisees": [
+   "Qiurong Song"
+  ],
+  "venue": "Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (CHI 2023)",
+  "details": "Hamburg, Germany, Article No. 247, 1–15. Honorable Mention Award",
+  "doi": "10.1145/3544548.3581082",
+  "award": "Best Paper Honorable Mention"
+ },
+ {
+  "id": "C25",
+  "type": "conference",
+  "year": 2023,
+  "short": "CHI 2023",
+  "title": "Multi-Platform Content Creation: The Configuration of Creator Ecology through Platform Prioritization, Content Synchronization, and Audience Management",
+  "authors": [
+   "Renkai Ma",
+   "Xinning Gui",
+   "Yubo Kou"
+  ],
+  "advisees": [],
+  "venue": "Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (CHI 2023)",
+  "details": "Hamburg, Germany, Article No. 242, 1–19",
+  "doi": "10.1145/3544548.3581106",
+  "award": null
+ },
+ {
+  "id": "J24",
+  "type": "journal",
+  "year": 2022,
+  "short": "IJHCS 2022",
+  "title": "Designing Intelligent Self-Checkup Based Technologies for Everyday Healthy Living",
+  "authors": [
+   "Yanqi Jiang",
+   "Xianghua Ding",
+   "Di Liu",
+   "Xinning Gui",
+   "Wenqiang Zhang",
+   "Wei Zhang"
+  ],
+  "advisees": [],
+  "venue": "International Journal of Human-Computer Studies",
+  "details": "166 (2022), 102866 (52 pages)",
+  "doi": "10.1016/j.ijhcs.2022.102866",
+  "award": null
+ },
+ {
+  "id": "J23",
+  "type": "journal",
+  "year": 2022,
+  "short": "Int. J. Healthcare 2022",
+  "title": "Challenges and patient strategies in seeking health services for chronic stroke: A qualitative study",
+  "authors": [
+   "Yu Chen",
+   "Sun Young Park",
+   "Xinning Gui",
+   "Steven C. Cramer",
+   "Kai Zheng",
+   "Yunan Chen"
+  ],
+  "advisees": [],
+  "venue": "International Journal of Healthcare",
+  "details": "8, 1, 36–50",
+  "doi": "10.5430/ijh.v8n1p36",
+  "award": null
+ },
+ {
+  "id": "J22",
+  "type": "journal",
+  "year": 2022,
+  "short": "CSCW 2022",
+  "title": "“I Am Concerned, But...”: Streamers’ Privacy Concerns and Strategies in Live Streaming Information Disclosure",
+  "authors": [
+   "Yanlai Wu",
+   "Yao Li",
+   "Xinning Gui"
+  ],
+  "advisees": [],
+  "venue": "Proceedings of the ACM on Human-Computer Interaction",
+  "details": "(CSCW 2022), 6, CSCW2, 1–31",
+  "doi": "10.1145/3555104",
+  "award": null
+ },
+ {
+  "id": "J21",
+  "type": "journal",
+  "year": 2022,
+  "short": "CSCW 2022",
+  "title": "Esports Governance: An Analysis of Rule Enforcement in League of Legends",
+  "authors": [
+   "Renkai Ma",
+   "Xinning Gui",
+   "Yubo Kou"
+  ],
+  "advisees": [],
+  "venue": "Proceedings of the ACM on Human-Computer Interaction",
+  "details": "(CSCW 2022), 6, CSCW2, 1–28",
+  "doi": "10.1145/3555541",
+  "award": null
+ },
+ {
+  "id": "J20",
+  "type": "journal",
+  "year": 2022,
+  "short": "CSCW Journal 2022",
+  "title": "Examining Co-Owners’ Privacy Consideration in Collaborative Photo Sharing",
+  "authors": [
+   "Yao Li",
+   "Xinning Gui"
+  ],
+  "advisees": [],
+  "venue": "Computer Supported Cooperative Work",
+  "details": "31, 1, 79–109",
+  "doi": "10.1007/s10606-021-09421-4",
+  "award": null
+ },
+ {
+  "id": "C24",
+  "type": "conference",
+  "year": 2022,
+  "short": "AMIA 2022",
+  "title": "User Experience of Symptom Checkers: A Systematic Review",
+  "authors": [
+   "Yue You",
+   "Renkai Ma",
+   "Xinning Gui"
+  ],
+  "advisees": [
+   "Yue You"
+  ],
+  "venue": "Proceedings of the American Medical Informatics Association Annual Symposium (AMIA 2022)",
+  "details": "Washington, DC, USA, 1198–1207",
+  "doi": null,
+  "award": null
+ },
+ {
+  "id": "C23",
+  "type": "conference",
+  "year": 2022,
+  "short": "COLING 2022",
+  "title": "Benchmarking Automated Clinical Language Simplification: Dataset, Algorithm, and Evaluation",
+  "authors": [
+   "Junyu Luo",
+   "Junxian Lin",
+   "Chi Lin",
+   "Cao Xiao",
+   "Xinning Gui",
+   "Fenglong Ma"
+  ],
+  "advisees": [],
+  "venue": "Proceedings of the 29th International Conference on Computational Linguistics (COLING 2022)",
+  "details": "Gyeongju, Republic of Korea, 3550–3562",
+  "doi": null,
+  "award": null
+ },
+ {
+  "id": "C22",
+  "type": "conference",
+  "year": 2022,
+  "short": "BIBM 2022",
+  "title": "AUTOMED: Automated Medical Risk Predictive Modeling on Electronic Health Records",
+  "authors": [
+   "Suhan Cui",
+   "Jiaqi Wang",
+   "Xinning Gui",
+   "Ting Wang",
+   "Fenglong Ma"
+  ],
+  "advisees": [],
+  "venue": "Proceedings of the IEEE International Conference on Bioinformatics and Biomedicine (BIBM 2022)",
+  "details": "Las Vegas, NV, USA & Changsha, Hunan, China, 948–953",
+  "doi": "10.1109/bibm55620.2022.9995209",
+  "award": null
+ },
+ {
+  "id": "J19",
+  "type": "journal",
+  "year": 2021,
+  "short": "CSCW 2021",
+  "title": "Teacher-Guardian Collaboration for Emergency Remote Learning in the COVID-19 Crisis",
+  "authors": [
+   "Xinning Gui",
+   "Yao Li",
+   "Yanlai Wu"
+  ],
+  "advisees": [],
+  "venue": "Proceedings of the ACM on Human-Computer Interaction",
+  "details": "(CSCW 2021), 5, CSCW2, 1–26",
+  "doi": "10.1145/3479543",
+  "award": null
+ },
+ {
+  "id": "J18",
+  "type": "journal",
+  "year": 2021,
+  "short": "CSCW 2021",
+  "title": "With Help from Afar: Cross-Local Communication in an Online COVID-19 Pandemic Community",
+  "authors": [
+   "Chun-Hua Tsai",
+   "Xinning Gui",
+   "Yubo Kou",
+   "John M. Carroll"
+  ],
+  "advisees": [],
+  "venue": "Proceedings of the ACM on Human-Computer Interaction",
+  "details": "(CSCW 2021), 5, CSCW2, 1–24",
+  "doi": "10.1145/3476062",
+  "award": null
+ },
+ {
+  "id": "J17",
+  "type": "journal",
+  "year": 2021,
+  "short": "IJHCS 2021",
+  "title": "Managing Healthcare Conflicts When Living With Multiple Chronic Conditions",
+  "authors": [
+   "Clara Caldeira",
+   "Xinning Gui",
+   "Tera L. Reynolds",
+   "Matthew Bietz",
+   "Yunan Chen"
+  ],
+  "advisees": [],
+  "venue": "International Journal of Human-Computer Studies",
+  "details": "145 (2021), 102494 (43 pages)",
+  "doi": "10.1016/j.ijhcs.2020.102494",
+  "award": null
+ },
+ {
+  "id": "C21",
+  "type": "conference",
+  "year": 2021,
+  "short": "CHI 2021",
+  "title": "The Medical Authority of AI: A Study of AI-enabled Consumer-Facing Health Technology",
+  "authors": [
+   "Yue You",
+   "Yubo Kou",
+   "Xianghua Ding",
+   "Xinning Gui"
+  ],
+  "advisees": [
+   "Yue You"
+  ],
+  "venue": "Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (CHI 2021)",
+  "details": "Yokohama, Japan (virtual), Article No. 207, 1–16",
+  "doi": "10.1145/3411764.3445657",
+  "award": null
+ },
+ {
+  "id": "C20",
+  "type": "conference",
+  "year": 2021,
+  "short": "CHI 2021",
+  "title": "Exploring and Promoting Diagnostic Transparency and Explainability in Online Symptom Checkers",
+  "authors": [
+   "Chun-Hua Tsai",
+   "Yue You",
+   "Xinning Gui",
+   "Yubo Kou",
+   "John M. Carroll"
+  ],
+  "advisees": [
+   "Yue You"
+  ],
+  "venue": "Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (CHI 2021)",
+  "details": "Yokohama, Japan (virtual), Article No. 152, 1–17",
+  "doi": "10.1145/3411764.3445101",
+  "award": null
+ },
+ {
+  "id": "C19",
+  "type": "conference",
+  "year": 2021,
+  "short": "CHI 2021",
+  "title": "Data Engagement Reconsidered: A Study of Automatic Stress Tracking Technology in Use",
+  "authors": [
+   "Xianghua Ding",
+   "Shuhan Wei",
+   "Xinning Gui",
+   "Ning Gu",
+   "Peng Zhang"
+  ],
+  "advisees": [],
+  "venue": "Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (CHI 2021)",
+  "details": "Yokohama, Japan (virtual), Article No. 535, 1–13",
+  "doi": "10.1145/3411764.3445763",
+  "award": null
+ },
+ {
+  "id": "C18",
+  "type": "conference",
+  "year": 2021,
+  "short": "CHI 2021",
+  "title": "Flag and Flaggability in Automated Moderation",
+  "authors": [
+   "Yubo Kou",
+   "Xinning Gui"
+  ],
+  "advisees": [],
+  "venue": "Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (CHI 2021)",
+  "details": "Yokohama, Japan (virtual), Article No. 437, 1–12",
+  "doi": null,
+  "award": null
+ },
+ {
+  "id": "J16",
+  "type": "journal",
+  "year": 2020,
+  "short": "CSCW 2020",
+  "title": "Mediating Community-AI Interaction through Situated Explanation: The Case of AI-Led Moderation",
+  "authors": [
+   "Yubo Kou",
+   "Xinning Gui"
+  ],
+  "advisees": [],
+  "venue": "Proceedings of the ACM on Human-Computer Interaction",
+  "details": "(CSCW 2020), 4, CSCW2, 1–27",
+  "doi": "10.1145/3415173",
+  "award": null
+ },
+ {
+  "id": "J15",
+  "type": "journal",
+  "year": 2020,
+  "short": "CSCW 2020",
+  "title": "Emotion Regulation in eSports Gaming: A Qualitative Study of League of Legends",
+  "authors": [
+   "Yubo Kou",
+   "Xinning Gui"
+  ],
+  "advisees": [],
+  "venue": "Proceedings of the ACM on Human-Computer Interaction",
+  "details": "(CSCW 2020), 4, CSCW2, 1–25",
+  "doi": "10.1145/3415229",
+  "award": null
+ },
+ {
+  "id": "J14",
+  "type": "journal",
+  "year": 2020,
+  "short": "CSCW 2020",
+  "title": "Mobile Collocated Gaming: Collaborative Play and Meaning-Making on a University Campus",
+  "authors": [
+   "Xun Zhang",
+   "Xinning Gui",
+   "Yubo Kou",
+   "Yukun Li"
+  ],
+  "advisees": [],
+  "venue": "Proceedings of the ACM on Human-Computer Interaction",
+  "details": "(CSCW 2020), 4, CSCW2, 1–24",
+  "doi": "10.1145/3415213",
+  "award": null
+ },
+ {
+  "id": "J13",
+  "type": "journal",
+  "year": 2020,
+  "short": "JAMIA Open 2020",
+  "title": "Physician Champions’ Perspectives and Practices on Electronic Health Records Implementation: Challenges and Strategies",
+  "authors": [
+   "Xinning Gui",
+   "Yunan Chen",
+   "Xiaomu Zhou",
+   "Tera L. Reynolds",
+   "Kai Zheng",
+   "David A. Hanauer"
+  ],
+  "advisees": [],
+  "venue": "JAMIA Open",
+  "details": "3, 1, 53–61",
+  "doi": "10.1093/jamiaopen/ooz051",
+  "award": null
+ },
+ {
+  "id": "C17",
+  "type": "conference",
+  "year": 2020,
+  "short": "AMIA 2020",
+  "title": "Self-Diagnosis through AI-enabled Chatbot-based Symptom Checkers: User Experiences and Design Considerations",
+  "authors": [
+   "Yue You",
+   "Xinning Gui"
+  ],
+  "advisees": [
+   "Yue You"
+  ],
+  "venue": "Proceedings of the American Medical Informatics Association Annual Symposium (AMIA 2020)",
+  "details": "Virtual event, USA, 1354–1363",
+  "doi": null,
+  "award": null
+ },
+ {
+  "id": "C16",
+  "type": "conference",
+  "year": 2020,
+  "short": "CHI 2020",
+  "title": "Getting the Healthcare We Want: The Use of Online “Ask the Doctor” Platforms in Practice",
+  "authors": [
+   "Xianghua Ding",
+   "Xinning Gui",
+   "Xiaojuan Ma",
+   "Yunan Chen",
+   "Zhaofei Ding"
+  ],
+  "advisees": [],
+  "venue": "Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (CHI 2020)",
+  "details": "Honolulu, HI, USA (virtual), 1–13. Honorable Mention Award",
+  "doi": "10.1145/3313831.3376699",
+  "award": "Best Paper Honorable Mention"
+ },
+ {
+  "id": "C15",
+  "type": "conference",
+  "year": 2020,
+  "short": "CHI 2020",
+  "title": "Prehabilitation: Care Challenges and Technological Opportunities",
+  "authors": [
+   "Haining Zhu",
+   "Zachary J. Moffa",
+   "Xinning Gui",
+   "John M. Carroll"
+  ],
+  "advisees": [],
+  "venue": "Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (CHI 2020)",
+  "details": "Honolulu, HI, USA (virtual), 1–13",
+  "doi": "10.1145/3313831.3376594",
+  "award": null
+ },
+ {
+  "id": "J12",
+  "type": "journal",
+  "year": 2019,
+  "short": "CSCW 2019",
+  "title": "Culturally-Embedded Visual Literacy: A Study of Impression Management via Emoticon,\\allowbreak Emoji,\\allowbreak Sticker, and Meme on Social Media\\allowbreak in China",
+  "authors": [
+   "Yuan Wang",
+   "Yukun Li",
+   "Xinning Gui",
+   "Yubo Kou",
+   "Fenglian Liu"
+  ],
+  "advisees": [],
+  "venue": "Proceedings of the ACM on Human-Computer Interaction",
+  "details": "(CSCW 2019), 3, CSCW, 1–24",
+  "doi": "10.1145/3359170",
+  "award": null
+ },
+ {
+  "id": "J11",
+  "type": "journal",
+  "year": 2019,
+  "short": "CSCW 2019",
+  "title": "Live Streaming as Co-Performance: Dynamics between Center and Periphery in Theatrical Engagement",
+  "authors": [
+   "Jie Li",
+   "Xinning Gui",
+   "Yubo Kou",
+   "Yukun Li"
+  ],
+  "advisees": [],
+  "venue": "Proceedings of the ACM on Human-Computer Interaction",
+  "details": "(CSCW 2019), 3, CSCW, 1–22",
+  "doi": "10.1145/3359166",
+  "award": null
+ },
+ {
+  "id": "C14",
+  "type": "conference",
+  "year": 2019,
+  "short": "CHI 2019",
+  "title": "Making Healthcare Infrastructure Work: Unpacking the Infrastructuring Work of Individuals",
+  "authors": [
+   "Xinning Gui",
+   "Yunan Chen"
+  ],
+  "advisees": [],
+  "venue": "Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (CHI 2019)",
+  "details": "Glasgow, UK, Paper No. 458, 1–14. Honorable Mention Award",
+  "doi": "10.1145/3290605.3300688",
+  "award": "Best Paper Honorable Mention"
+ },
+ {
+  "id": "C13",
+  "type": "conference",
+  "year": 2019,
+  "short": "CHI 2019",
+  "title": "Turn to the Self in Human-Computer Interaction: Care of the Self in Negotiating the Human-Technology Relationship",
+  "authors": [
+   "Yubo Kou",
+   "Xinning Gui",
+   "Yunan Chen",
+   "Bonnie Nardi"
+  ],
+  "advisees": [],
+  "venue": "Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (CHI 2019)",
+  "details": "Glasgow, UK, Paper No. 481, 1–15",
+  "doi": "10.1145/3290605.3300711",
+  "award": null
+ },
+ {
+  "id": "P5",
+  "type": "poster",
+  "year": 2019,
+  "short": "MEDINFO 2019",
+  "title": "Understanding U.S. Adults’ Zika Virus Risk Perceptions and Mitigation Behaviors to Improve Technology-Supported Risk Communication",
+  "authors": [
+   "Tera L. Reynolds",
+   "Xinning Gui",
+   "Yunan Chen",
+   "Kai Zheng"
+  ],
+  "advisees": [],
+  "venue": "17th World Congress on Medical and Health Informatics (MEDINFO 2019)",
+  "details": "Lyon, France, 1874–1875",
+  "doi": "10.3233/shti190691",
+  "award": null
+ },
+ {
+  "id": "J10",
+  "type": "journal",
+  "year": 2018,
+  "short": "CSCW 2018",
+  "title": "Navigating the Healthcare Service “Black Box”: Individual Competence and Fragmented System",
+  "authors": [
+   "Xinning Gui",
+   "Yunan Chen",
+   "Kathleen Pine"
+  ],
+  "advisees": [],
+  "venue": "Proceedings of the ACM on Human-Computer Interaction",
+  "details": "(CSCW 2018), 2, CSCW, 1–26",
+  "doi": null,
+  "award": null
+ },
+ {
+  "id": "J9",
+  "type": "journal",
+  "year": 2018,
+  "short": "CSCW 2018",
+  "title": "When SNS Privacy Settings Become Granular: Investigating Users’ Choices, Rationales and Influences on Their Social Experience",
+  "authors": [
+   "Yao Li",
+   "Xinning Gui",
+   "Yunan Chen",
+   "Heng Xu",
+   "Alfred Kobsa"
+  ],
+  "advisees": [],
+  "venue": "Proceedings of the ACM on Human-Computer Interaction",
+  "details": "(CSCW 2018), 2, CSCW, 1–21",
+  "doi": null,
+  "award": null
+ },
+ {
+  "id": "J8",
+  "type": "journal",
+  "year": 2018,
+  "short": "CSCW 2018",
+  "title": "Professional Medical Advice at Your Fingertips: An Empirical Study of an Online “Ask the Doctor” Platform",
+  "authors": [
+   "Xiaojuan Ma",
+   "Xinning Gui",
+   "Jiayue Fan",
+   "Mingqian Zhao",
+   "Yunan Chen",
+   "Kai Zheng"
+  ],
+  "advisees": [],
+  "venue": "Proceedings of the ACM on Human-Computer Interaction",
+  "details": "(CSCW 2018), 2, CSCW, 1–22",
+  "doi": null,
+  "award": null
+ },
+ {
+  "id": "J7",
+  "type": "journal",
+  "year": 2018,
+  "short": "CSCW 2018",
+  "title": "Entangled with Numbers: Quantified Self and Others in a Team-Based Online Game",
+  "authors": [
+   "Yubo Kou",
+   "Xinning Gui"
+  ],
+  "advisees": [],
+  "venue": "Proceedings of the ACM on Human-Computer Interaction",
+  "details": "(CSCW 2018), 2, CSCW, 1–25. Honorable Mention Award",
+  "doi": null,
+  "award": "Best Paper Honorable Mention"
+ },
+ {
+  "id": "C12",
+  "type": "conference",
+  "year": 2018,
+  "short": "PervasiveHealth 2018",
+  "title": "New to a Country: Barriers for International Students to Access Health Services and Opportunities for Design",
+  "authors": [
+   "Charlotte Tang",
+   "Xinning Gui",
+   "Yunan Chen",
+   "Mohamed Magueramane"
+  ],
+  "advisees": [],
+  "venue": "Proceedings of the EAI International Conference on Pervasive Computing Technologies for Healthcare (PervasiveHealth 2018)",
+  "details": "New York, NY, USA, 45–54",
+  "doi": null,
+  "award": null
+ },
+ {
+  "id": "C11",
+  "type": "conference",
+  "year": 2018,
+  "short": "CHI 2018",
+  "title": "Multidimensional Risk Communication: Public Discourse on Risks during an Emerging Epidemic",
+  "authors": [
+   "Xinning Gui",
+   "Yubo Kou",
+   "Kathleen Pine",
+   "Elisa Ladaw",
+   "Harold Kim",
+   "Eli Suzuki-Gill",
+   "Yunan Chen"
+  ],
+  "advisees": [],
+  "venue": "Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (CHI 2018)",
+  "details": "Montréal, Canada, Paper No. 214, 1–14",
+  "doi": null,
+  "award": null
+ },
+ {
+  "id": "C10",
+  "type": "conference",
+  "year": 2018,
+  "short": "CHI 2018",
+  "title": "Playing with Streakiness in Online Games: How Players Perceive and React to Winning and Losing Streaks in League of Legends",
+  "authors": [
+   "Yubo Kou",
+   "Yao Li",
+   "Xinning Gui",
+   "Eli Suzuki-Gill"
+  ],
+  "advisees": [],
+  "venue": "Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (CHI 2018)",
+  "details": "Montréal, Canada, Paper No. 578, 1–14",
+  "doi": null,
+  "award": null
+ },
+ {
+  "id": "J6",
+  "type": "journal",
+  "year": 2017,
+  "short": "CSCW 2017",
+  "title": "Investigating Support Seeking from Peers for Pregnancy in Online Health Communities",
+  "authors": [
+   "Xinning Gui",
+   "Yu Chen",
+   "Yubo Kou",
+   "Kathleen Pine",
+   "Yunan Chen"
+  ],
+  "advisees": [],
+  "venue": "Proceedings of the ACM on Human-Computer Interaction",
+  "details": "(CSCW 2017), 1, CSCW, 1–19",
+  "doi": null,
+  "award": null
+ },
+ {
+  "id": "J5",
+  "type": "journal",
+  "year": 2017,
+  "short": "CSCW 2017",
+  "title": "Conspiracy Talk on Social Media: Collective Sensemaking during a Public Health Crisis",
+  "authors": [
+   "Yubo Kou",
+   "Xinning Gui",
+   "Yunan Chen",
+   "Kathleen Pine"
+  ],
+  "advisees": [],
+  "venue": "Proceedings of the ACM on Human-Computer Interaction",
+  "details": "(CSCW 2017), 1, CSCW, 1–21",
+  "doi": null,
+  "award": null
+ },
+ {
+  "id": "J4",
+  "type": "journal",
+  "year": 2017,
+  "short": "CSCW 2017",
+  "title": "Managing Disruptive Behavior through Non-Hierarchical Governance: Crowdsourcing in League of Legends and Weibo",
+  "authors": [
+   "Yubo Kou",
+   "Xinning Gui",
+   "Shaozeng Zhang",
+   "Bonnie Nardi"
+  ],
+  "advisees": [],
+  "venue": "Proceedings of the ACM on Human-Computer Interaction",
+  "details": "(CSCW 2017), 1, CSCW, 1–17",
+  "doi": null,
+  "award": null
+ },
+ {
+  "id": "J3",
+  "type": "journal",
+  "year": 2017,
+  "short": "CSCW Journal 2017",
+  "title": "One Social Movement, Two Social Media Sites: A Comparative Study of Public Discourses",
+  "authors": [
+   "Yubo Kou",
+   "Yong Ming Kow",
+   "Xinning Gui",
+   "Waikuen Cheng"
+  ],
+  "advisees": [],
+  "venue": "Computer Supported Cooperative Work",
+  "details": "26(4–6), 807–836",
+  "doi": null,
+  "award": null
+ },
+ {
+  "id": "C9",
+  "type": "conference",
+  "year": 2017,
+  "short": "AMIA 2017",
+  "title": "Understanding the Patterns of Health Information Dissemination on Social Media during the Zika Outbreak",
+  "authors": [
+   "Xinning Gui",
+   "Yue Wang",
+   "Yubo Kou",
+   "Tera Leigh Reynolds",
+   "Yunan Chen",
+   "Qiaozhu Mei",
+   "Kai Zheng"
+  ],
+  "advisees": [],
+  "venue": "Proceedings of the American Medical Informatics Association Annual Symposium (AMIA 2017)",
+  "details": "Washington, DC, USA, 820–829",
+  "doi": null,
+  "award": null
+ },
+ {
+  "id": "C8",
+  "type": "conference",
+  "year": 2017,
+  "short": "INTERACT 2017",
+  "title": "Special Digital Monies: The Design of Alipay and WeChat Wallet for Mobile Payment Practices in China",
+  "authors": [
+   "Yong Ming Kow",
+   "Xinning Gui",
+   "Waikuen Cheng"
+  ],
+  "advisees": [],
+  "venue": "Proceedings of the IFIP Conference on Human-Computer Interaction (INTERACT 2017)",
+  "details": "Mumbai, India, 136–155",
+  "doi": null,
+  "award": null
+ },
+ {
+  "id": "C7",
+  "type": "conference",
+  "year": 2017,
+  "short": "CHI 2017",
+  "title": "Managing Uncertainty: Using Social Media for Risk Assessment during a Public Health Crisis",
+  "authors": [
+   "Xinning Gui",
+   "Yubo Kou",
+   "Katie Pine",
+   "Yunan Chen"
+  ],
+  "advisees": [],
+  "venue": "Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (CHI 2017)",
+  "details": "Denver, CO, USA, 4520–4533. Honorable Mention Award",
+  "doi": null,
+  "award": "Best Paper Honorable Mention"
+ },
+ {
+  "id": "C6",
+  "type": "conference",
+  "year": 2017,
+  "short": "CHI 2017",
+  "title": "When Fitness Meets Social Networks: Investigating Fitness Tracking and Social Practices on WeRun",
+  "authors": [
+   "Xinning Gui",
+   "Yu Chen",
+   "Clara Caldeira",
+   "Dan Xiao",
+   "Yunan Chen"
+  ],
+  "advisees": [],
+  "venue": "Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (CHI 2017)",
+  "details": "Denver, CO, USA, 1647–1659",
+  "doi": null,
+  "award": null
+ },
+ {
+  "id": "C5",
+  "type": "conference",
+  "year": 2017,
+  "short": "HICSS 2017",
+  "title": "Resisting the Censorship Infrastructure in China",
+  "authors": [
+   "Yubo Kou",
+   "Yong Ming Kow",
+   "Xinning Gui"
+  ],
+  "advisees": [],
+  "venue": "Proceedings of the Hawaii International Conference on System Sciences (HICSS 2017)",
+  "details": "Hawaii, USA, 2332–2340",
+  "doi": null,
+  "award": null
+ },
+ {
+  "id": "C4",
+  "type": "conference",
+  "year": 2017,
+  "short": "HICSS 2017",
+  "title": "When Code Governs Community",
+  "authors": [
+   "Yubo Kou",
+   "Xinning Gui"
+  ],
+  "advisees": [],
+  "venue": "Proceedings of the Hawaii International Conference on System Sciences (HICSS 2017)",
+  "details": "Hawaii, USA, 2056–2064",
+  "doi": null,
+  "award": null
+ },
+ {
+  "id": "P4",
+  "type": "poster",
+  "year": 2017,
+  "short": "CSCW 2017 Companion",
+  "title": "The Rise and Fall of Moral Labor in an Online Game Community",
+  "authors": [
+   "Yubo Kou",
+   "Xinning Gui"
+  ],
+  "advisees": [],
+  "venue": "ACM Conference on Computer-Supported Cooperative Work and Social Computing (CSCW 2017) Companion",
+  "details": "Portland, OR, USA",
+  "doi": null,
+  "award": null
+ },
+ {
+  "id": "P3",
+  "type": "workshop",
+  "year": 2017,
+  "short": "WISH 2017",
+  "title": "Investigating Support Seeking from Peers for Pregnancy in Online Health Communities",
+  "authors": [
+   "Xinning Gui",
+   "Yu Chen",
+   "Yubo Kou",
+   "Kathleen Pine",
+   "Yunan Chen"
+  ],
+  "advisees": [],
+  "venue": "AMIA Annual Symposium Workshop on Interactive Systems in Healthcare (WISH 2017)",
+  "details": "Washington, DC, USA",
+  "doi": null,
+  "award": null
+ },
+ {
+  "id": "P1",
+  "type": "doctoral-colloquium",
+  "year": 2017,
+  "short": "CSCW 2017 Doctoral Colloquium",
+  "title": "Understanding New Parents’ Navigation Practices in Healthcare",
+  "authors": [
+   "Xinning Gui"
+  ],
+  "advisees": [],
+  "venue": "ACM Conference on Computer-Supported Cooperative Work and Social Computing (CSCW 2017) Doctoral Colloquium",
+  "details": "Portland, OR, USA",
+  "doi": null,
+  "award": null
+ },
+ {
+  "id": "J2",
+  "type": "journal",
+  "year": 2016,
+  "short": "First Monday 2016",
+  "title": "Use of Information and Communication Technology among Street Drifters in Los Angeles",
+  "authors": [
+   "Xinning Gui",
+   "Julien Forbat",
+   "Bonnie Nardi",
+   "Dan Stokols"
+  ],
+  "advisees": [],
+  "venue": "First Monday",
+  "details": "21, 9",
+  "doi": null,
+  "award": null
+ },
+ {
+  "id": "C3",
+  "type": "conference",
+  "year": 2016,
+  "short": "CHI PLAY 2016",
+  "title": "Ranking Practices and Distinction in League of Legends",
+  "authors": [
+   "Yubo Kou",
+   "Xinning Gui",
+   "Yong Ming Kow"
+  ],
+  "advisees": [],
+  "venue": "Proceedings of the Annual Symposium on Computer-Human Interaction in Play (CHI PLAY 2016)",
+  "details": "Austin, TX, USA, 4–9",
+  "doi": null,
+  "award": null
+ },
+ {
+  "id": "J1",
+  "type": "journal",
+  "year": 2015,
+  "short": "First Monday 2015",
+  "title": "Foster the “Mores,” Counter the “Limits”",
+  "authors": [
+   "Xinning Gui",
+   "Bonnie Nardi"
+  ],
+  "advisees": [],
+  "venue": "First Monday",
+  "details": "20, 8",
+  "doi": null,
+  "award": null
+ },
+ {
+  "id": "C2",
+  "type": "conference",
+  "year": 2015,
+  "short": "EnviroInfo & ICT4S 2015",
+  "title": "Sustainability Begins in the Street: A Story of Transition Town Totnes",
+  "authors": [
+   "Xinning Gui",
+   "Bonnie Nardi"
+  ],
+  "advisees": [],
+  "venue": "Proceedings of EnviroInfo 2015 and ICT4S 2015",
+  "details": "Copenhagen, Denmark, 361–370",
+  "doi": null,
+  "award": null
+ },
+ {
+  "id": "P2",
+  "type": "poster",
+  "year": 2015,
+  "short": "EnviroInfo & ICT4S 2015",
+  "title": "Civic Capacity and Sustainability in a Chinese City",
+  "authors": [
+   "Xinning Gui",
+   "Bonnie Nardi"
+  ],
+  "advisees": [],
+  "venue": "International Conference on Informatics for Environmental Protection (EnviroInfo 2015) / International Conference on Information and Communication Technologies for Sustainability (ICT4S 2015)",
+  "details": "Copenhagen, Denmark",
+  "doi": null,
+  "award": null
+ },
+ {
+  "id": "C1",
+  "type": "conference",
+  "year": 2014,
+  "short": "CHI PLAY 2014",
+  "title": "Playing with Strangers: Understanding Temporary Teams in League of Legends",
+  "authors": [
+   "Yubo Kou",
+   "Xinning Gui"
+  ],
+  "advisees": [],
+  "venue": "Proceedings of the Annual Symposium on Computer-Human Interaction in Play (CHI PLAY 2014)",
+  "details": "Toronto, Canada, 161–169",
+  "doi": null,
+  "award": null
+ }
+]

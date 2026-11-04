@@ -12,6 +12,14 @@ const threadOf: Record<string, string> = {
   "baby-monitor": "privacy",
   "live-stream-slots": "youth",
 };
+// Split the cat photos into two columns of similar height (in page order).
+const catColumns: (typeof site.cats)[] = [[], []];
+const colHeight = [0, 0];
+for (const cat of site.cats) {
+  const i = colHeight[0] <= colHeight[1] ? 0 : 1;
+  catColumns[i].push(cat);
+  colHeight[i] += cat.h / cat.w;
+}
 const featured = site.featuredPublications.map((f) => ({ ...byId(f.id), art: f.art, thread: threadOf[f.art] ?? "ai" }));
 ---
 
@@ -108,11 +116,15 @@ const featured = site.featuredPublications.map((f) => ({ ...byId(f.id), art: f.a
       <h2 id="personal-h">Personal life</h2>
       {site.personal.map((para) => <p>{para}</p>)}
     </div>
-    <ul class="cat-gallery" aria-label="Photos of Teemo and Melon">
-      {site.cats.map((cat) => (
-        <li><figure><img src={cat.src} alt={cat.alt} width={cat.w} height={cat.h} loading="lazy" decoding="async" /><figcaption>{cat.caption}</figcaption></figure></li>
+    <div class="cat-gallery" role="group" aria-label="Photos of Teemo and Melon">
+      {catColumns.map((col) => (
+        <ul class="cat-col">
+          {col.map((cat) => (
+            <li><figure><img src={cat.src} alt={cat.alt} width={cat.w} height={cat.h} loading="lazy" decoding="async" /><figcaption>{cat.caption}</figcaption></figure></li>
+          ))}
+        </ul>
       ))}
-    </ul>
+    </div>
   </section>
 
   <script is:inline>

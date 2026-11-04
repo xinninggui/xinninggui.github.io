@@ -126,8 +126,8 @@ h1, h2, h3 { margin: 0; }
 .personal { display: grid; grid-template-columns: minmax(0, 5fr) minmax(0, 6fr); gap: 48px; align-items: start; }
 .personal-text h2 { font-weight: 800; font-size: 40px; letter-spacing: -0.03em; margin-bottom: 20px; }
 .personal-text p { margin: 0 0 16px; color: var(--muted); font-size: 17px; line-height: 1.65; }
-.cat-gallery { list-style: none; margin: 0; padding: 0; columns: 2 220px; column-gap: 16px; }
-.cat-gallery li { break-inside: avoid; margin-bottom: 16px; }
+.cat-gallery { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 220px), 1fr)); gap: 16px; align-items: start; }
+.cat-col { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 16px; }
 .cat-gallery figure { margin: 0; }
 .cat-gallery img { display: block; width: 100%; height: auto; border-radius: 16px; }
 .cat-gallery figcaption { margin-top: 6px; font-size: 13px; color: var(--soft); }

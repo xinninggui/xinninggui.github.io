@@ -1,5 +1,6 @@
 ---
 import Base from "../layouts/Base.astro";
+import site from "../data/site.json";
 import { allPublications, doiUrl, isFullPaper, typeLabels } from "../lib/pubs";
 
 const years = [...new Set(allPublications.map((p) => p.year))].sort((a, b) => b - a);
@@ -8,6 +9,7 @@ const years = [...new Set(allPublications.map((p) => p.year))].sort((a, b) => b 
 <Base title="Publications" current="publications" description="Publications by Xinning Gui: journal articles, conference papers, posters, and workshop papers.">
   <div class="page-head">
     <h1>Publications</h1>
+    <p class="page-links"><a class="text-link" href={site.links.scholar}>Google Scholar <span aria-hidden="true">↗</span></a></p>
   </div>
 
   <form class="filters" id="filters" role="search" aria-label="Filter publications">

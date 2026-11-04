@@ -39,7 +39,8 @@ const home = current === "home" ? "" : "/";
     <div class="wrap">
       <header class="site-header" id="top">
         <a class="brand" href="/">{site.name}</a>
-        <nav aria-label="Main">
+        <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="main-nav">Menu</button>
+        <nav aria-label="Main" id="main-nav">
           <ul>
             <li><a href={`${home}#research`}>Research</a></li>
             <li><a href="/publications/" aria-current={current === "publications" ? "page" : undefined}>Publications</a></li>
@@ -73,6 +74,12 @@ const home = current === "home" ? "" : "/";
         const update = () => header.classList.toggle("scrolled", window.scrollY > 8);
         update();
         window.addEventListener("scroll", update, { passive: true });
+        // Phones: the menu folds into one button so the sticky header stays one line.
+        const toggle = header.querySelector(".menu-toggle");
+        const setOpen = (open) => { toggle.setAttribute("aria-expanded", String(open)); header.classList.toggle("menu-open", open); };
+        toggle.addEventListener("click", () => setOpen(toggle.getAttribute("aria-expanded") !== "true"));
+        header.querySelectorAll("nav a").forEach((a) => a.addEventListener("click", () => setOpen(false)));
+        document.addEventListener("keydown", (e) => { if (e.key === "Escape" && header.classList.contains("menu-open")) { setOpen(false); toggle.focus(); } });
       })();
     </script>
   </body>

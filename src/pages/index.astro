@@ -70,13 +70,19 @@ const featured = site.featuredPublications.map((f) => ({ ...byId(f.id), art: f.a
     <ul class="student-grid">
       {site.students.map((s) => (
         <li class="student">
-          {s.photo ? <img src={s.photo} alt="" width="600" height="750" loading="lazy" decoding="async" /> : <span class="student-initials" aria-hidden="true">{s.name.split(" ").filter((w) => /^[A-Z]/.test(w) && !w.startsWith("(")).map((w) => w[0]).slice(0, 1).join("")}{s.name.split(" ").pop()?.[0]}</span>}
+          <img src={s.photo} alt="" width="600" height="750" loading="lazy" decoding="async" />
           <h3>{s.url ? <a class="inline" href={s.url}>{s.name}</a> : s.name}</h3>
-          <p class="meta">{s.status} · {s.status.startsWith("Ph.D. 20") ? `advised ${s.since}–${s.status.slice(6)}` : `since ${s.since}`}</p>
+          <p class="meta">{s.status} · since {s.since}</p>
           <p class="focus">{s.focus}</p>
         </li>
       ))}
     </ul>
+    <div class="alumni">
+      <h3>Alumni</h3>
+      <ul>
+        {site.alumni.map((a) => <li><b>{a.name}</b>, {a.degree} (advised {a.years}). {a.note}.</li>)}
+      </ul>
+    </div>
   </section>
 
   <section class="section" id="teaching" aria-labelledby="teaching-h">

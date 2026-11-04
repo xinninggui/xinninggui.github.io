@@ -105,13 +105,16 @@ h1, h2, h3 { margin: 0; }
 .head-note a.inline { border-bottom: 2px solid currentColor; }
 .student-grid { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 240px), 1fr)); gap: 28px 20px; }
 .student { display: flex; flex-direction: column; gap: 6px; }
-.student img, .student-initials { display: block; width: 100%; height: auto; aspect-ratio: 4 / 5; object-fit: cover; object-position: center 25%; border-radius: 20px; margin-bottom: 10px; }
-.student-initials { display: flex; align-items: center; justify-content: center; background: var(--pink-panel); color: var(--label-red); font-weight: 800; font-size: 44px; letter-spacing: -0.02em; }
+.student img { display: block; width: 100%; height: auto; aspect-ratio: 4 / 5; object-fit: cover; object-position: center 25%; border-radius: 20px; margin-bottom: 10px; }
 .student h3 { font-weight: 800; font-size: 19px; line-height: 1.25; }
 .student h3 a.inline { border-bottom: 2px solid currentColor; display: inline; }
 .student .meta { margin: 0; font-size: 14px; color: var(--soft); }
 .student .focus { margin: 4px 0 0; font-size: 15px; line-height: 1.5; color: var(--muted); }
 .teaching-card { max-width: 640px; }
+.alumni { margin-top: 36px; }
+.alumni h3 { font-weight: 800; font-size: 21px; margin-bottom: 10px; }
+.alumni ul { list-style: none; margin: 0; padding: 0; font-size: 16px; color: var(--muted); }
+.alumni b { color: var(--ink); font-weight: 700; }
 
 /* Personal life */
 .personal { display: grid; grid-template-columns: minmax(0, 5fr) minmax(0, 6fr); gap: 48px; align-items: start; }

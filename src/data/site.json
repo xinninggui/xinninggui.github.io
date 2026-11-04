@@ -86,14 +86,6 @@
       "url": "https://yunhan-liu.yzl6421.workers.dev/",
       "photo": "/images/students/yunhan-liu.jpg",
       "focus": "Gambling and simulated gambling risks in young people’s digital environments."
-    },
-    {
-      "name": "Yue You",
-      "status": "Ph.D. 2024",
-      "since": "2019",
-      "url": "",
-      "photo": "",
-      "focus": "Dissertation: Evaluating and Designing Symptom Checkers: A User-Centered Approach."
     }
   ],
   "teaching": [
@@ -167,6 +159,14 @@
       "h": 1000,
       "alt": "Teemo lying on a fluffy white rug under a Christmas tree",
       "caption": "Teemo"
+    }
+  ],
+  "alumni": [
+    {
+      "name": "Yue You",
+      "degree": "Ph.D., 2024",
+      "years": "2019–2024",
+      "note": "Dissertation: Evaluating and Designing Symptom Checkers: A User-Centered Approach"
     }
   ]
 }

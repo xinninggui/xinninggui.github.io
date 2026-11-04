@@ -46,8 +46,8 @@
   ],
   "students": [
     { "name": "Qiurong Song", "status": "Ph.D. candidate", "url": "https://qiurongsong.github.io/" },
-    { "name": "Rie Helene (Lindy) Hernandez", "status": "Ph.D. candidate", "url": "" },
-    { "name": "Yunhan Liu", "status": "Ph.D. candidate", "url": "" },
+    { "name": "Rie Helene (Lindy) Hernandez", "status": "Ph.D. candidate", "url": "https://www.lindyhernandez.com/" },
+    { "name": "Yunhan Liu", "status": "Ph.D. candidate", "url": "https://yunhan-liu.yzl6421.workers.dev/" },
     { "name": "Yue You", "status": "Ph.D. 2024", "url": "" }
   ],
   "teaching": [

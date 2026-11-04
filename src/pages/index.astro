@@ -53,13 +53,32 @@ const featured = site.featuredPublications.map((f) => ({ ...byId(f.id), art: f.a
               {thread.papers.map((id) => {
                 const p = byId(id);
                 const url = doiUrl(p);
-                const title = p.title.split(/: (?=[A-Z“])/)[0];
+                const title = p.title.split(/: (?=[A-Z“])|(?<=\?) (?=[A-Z])/)[0];
                 return <li><span class="sel-venue">{p.short}</span>{url ? <a href={url}>{title}</a> : title}</li>;
               })}
             </ul>
           </div>
         </article>
       ))}
+    </div>
+    <div class="other-projects">
+      <h3>Other projects with students and collaborators</h3>
+      <ul>
+        {site.otherProjects.map((op) => (
+          <li>
+            <h4>{op.title}</h4>
+            <p>{op.text}</p>
+            <ul class="selected">
+              {op.papers.map((id) => {
+                const p = byId(id);
+                const url = doiUrl(p);
+                const title = p.title.split(/: (?=[A-Z“])|(?<=\?) (?=[A-Z])/)[0];
+                return <li><span class="sel-venue">{p.short}</span>{url ? <a href={url}>{title}</a> : title}</li>;
+              })}
+            </ul>
+          </li>
+        ))}
+      </ul>
     </div>
   </section>
 

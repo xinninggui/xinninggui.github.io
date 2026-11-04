@@ -75,3 +75,4 @@
 }
 @media (max-width: 720px) { .clay-cat { right: 16px; top: -64px; width: 56px; height: 64px; } .enso-z { right: 26px; top: 0; } }
 .clay-cat:focus-visible { outline: 2px dashed var(--soft); outline-offset: 4px; border-radius: 8px; }
+.other-projects > h3 { font-family: "Shippori Mincho", Georgia, serif; font-size: 24px; letter-spacing: 0.01em; }

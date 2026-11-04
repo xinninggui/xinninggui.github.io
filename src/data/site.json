@@ -209,5 +209,52 @@
       "years": "2019–2024",
       "note": "Dissertation: Evaluating and Designing Symptom Checkers: A User-Centered Approach"
     }
-  ]
+  ],
+  "service": {
+    "organizing": [
+      [
+        "Posters Co-Chair",
+        "CSCW 2026"
+      ],
+      [
+        "Late-Breaking Work Co-Chair",
+        "CHI 2025"
+      ],
+      [
+        "Posters Co-Chair",
+        "GROUP 2025"
+      ],
+      [
+        "Program Committee Co-Chair, Human Factors Track",
+        "IEEE ICHI 2024"
+      ],
+      [
+        "Publications Co-Chair",
+        "DIS 2023"
+      ],
+      [
+        "Senior Program Committee",
+        "CSCW 2026"
+      ],
+      [
+        "Associate Chair",
+        "CHI and CSCW (regularly)"
+      ]
+    ],
+    "editorial": [
+      [
+        "Associate Editor",
+        "Proceedings of the ACM on Human-Computer Interaction (CSCW)"
+      ],
+      [
+        "Associate Editor",
+        "Journal of Healthcare Informatics Research"
+      ],
+      [
+        "Guest Editor (past)",
+        "IEEE Transactions on Computational Social Systems"
+      ]
+    ],
+    "review": "Proposal reviewer and panelist for the National Science Foundation, the Austrian Science Fund, Mitacs, and CHANSE."
+  }
 }

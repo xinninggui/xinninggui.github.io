@@ -257,3 +257,11 @@ html:not(.js) .chips { display: none; }
 .other-projects > ul > li > p.selected-label { margin: 0 0 8px; font-size: 13px; color: var(--soft); }
 .prospective { margin: -12px 0 28px; font-size: 15px; color: var(--muted); }
 .prospective a.inline { border-bottom: 1.5px solid currentColor; color: var(--ink); }
+
+/* Selected service */
+.service-cols { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 340px), 1fr)); gap: 32px 56px; }
+.service-cols h3 { font-size: 17px; font-weight: 600; padding-bottom: 12px; border-bottom: 1px solid var(--line); margin-bottom: 6px; }
+.service-cols ul { list-style: none; margin: 0; padding: 0; }
+.service-cols li { display: grid; grid-template-columns: minmax(0, 1fr); padding: 10px 0; border-bottom: 1px solid var(--line); font-size: 15px; line-height: 1.45; }
+.svc-venue { font-size: 13px; font-weight: 600; color: var(--soft); letter-spacing: 0.02em; }
+.svc-note { margin: 16px 0 0; font-size: 15px; line-height: 1.6; color: var(--muted); }

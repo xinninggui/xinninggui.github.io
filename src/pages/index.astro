@@ -125,6 +125,21 @@ const featured = site.featuredPublications.map((f) => ({ ...byId(f.id), art: f.a
     </div>
   </section>
 
+  <section class="section" id="service" aria-labelledby="service-h">
+    <div class="section-head"><h2 id="service-h">Selected service</h2></div>
+    <div class="service-cols">
+      <div>
+        <h3>Conference organizing</h3>
+        <ul>{site.service.organizing.map(([role, venue]) => <li><span class="svc-venue">{venue}</span>{role}</li>)}</ul>
+      </div>
+      <div>
+        <h3>Editorial</h3>
+        <ul>{site.service.editorial.map(([role, venue]) => <li><span class="svc-venue">{venue}</span>{role}</li>)}</ul>
+        <p class="svc-note">{site.service.review}</p>
+      </div>
+    </div>
+  </section>
+
   <section class="section personal" id="personal" aria-labelledby="personal-h">
     <div class="personal-text">
       <h2 id="personal-h">Personal life</h2>

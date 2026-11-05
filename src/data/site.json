@@ -65,29 +65,32 @@
   "otherProjects": [
     {
       "title": "Everyday privacy beyond health",
-      "text": "How live streamers handle bystanders’ privacy, how co-owners negotiate shared photos, and what privacy controls conversational LLM platforms give users.",
+      "text": "How people understand and manage privacy in everyday social and AI technologies, including privacy they share with, or that affects, other people, and how platform design and privacy controls can better support them.",
       "papers": [
+        "C47",
         "J25",
         "J20",
-        "C47"
+        "J9"
       ]
     },
     {
       "title": "Personal informatics and self-tracking",
-      "text": "With Lindy Hernandez and collaborators: how gig workers track themselves to stay accountable, and the unintended consequences of personal informatics systems.",
+      "text": "With Lindy Hernandez and collaborators: how people track, quantify, and make sense of data about themselves in everyday life, work, and play, and what these practices mean for wellbeing, accountability, and design.",
       "papers": [
         "C30",
-        "J35",
-        "C40"
+        "C19",
+        "J7",
+        "C6"
       ]
     },
     {
       "title": "Games, moderation, and online communities",
-      "text": "With Yubo Kou and our students: esports governance, how users experience content moderation, and gendered toxicity in competitive gaming.",
+      "text": "With Yubo Kou and our students: how people play, create, and interact in games and online communities, and how rules, moderation, and platform governance shape their experiences.",
       "papers": [
-        "J21",
-        "J26",
-        "J33"
+        "J33",
+        "C18",
+        "J15",
+        "J4"
       ]
     }
   ],
